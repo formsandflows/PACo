@@ -5,7 +5,7 @@ This canvas component is meant to be used for a panel.
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_Buttons | Table | This property contains the buttons to show on the bottom of the panel. | *See the documention on panel buttons below.* |
 | cmp_Commands | Record | This property contains the command to show in the top of the panel. | *See the documention on panel commands below.* |
 | cmp_ElevationColor | Text | This property contains the color to use in the elevation of the panel. | #0078d4 |
