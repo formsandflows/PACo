@@ -7,7 +7,7 @@ The search box can be used to filter the items shown in the details list.
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_ElevationColor | Text | This property contains the color to use in the elevation of the search box. | #0078d4 |
 | cmp_HintText | Text | This property is used to set the hint text to show. | Search |
 | cmp_Reset | Boolean | This property is used to reset the search box | true |
@@ -16,7 +16,7 @@ The search box can be used to filter the items shown in the details list.
 ## **Output properties**
 
 | Property | Type | Description |
-| - | - | - |
+| :--- | :--- | :--- |
 | cmp_Text | Text | This property contains the text typed into the search box. |
 
 ## **Behavior properties**
