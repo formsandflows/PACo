@@ -44,6 +44,6 @@ There are no output properties.
 ## **Behavior properties**
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | cmp_OnCommandSelect | This property is related to the OnSelect property of all panel commands. It contains a required parameter (cmp_Param_Command) which contains the title of the command clicked on. |
 | cmp_OnSelect | This property is related to the OnSelect property of all panel buttons. |
