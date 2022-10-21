@@ -7,7 +7,7 @@ When using variables for the input properties, one dialog component can be used 
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_Buttons | Table | This property determines which buttons to show. | *See the documention below.* |
 | cmp_ElevationColor | Text | This property contains the color to use in the elevation of the dialog. | #0078d4 |
 | cmp_Message | Text | This property contains the message of the dialog. | The data will be reloaded. |
@@ -27,5 +27,5 @@ There are no output properties.
 ## **Behavior properties**
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | cmp_OnSelect | This property is related to the OnSelect property of the buttons. It contains a required parameter (cmp_Param_Button) which contains the title of the button clicked on. |
