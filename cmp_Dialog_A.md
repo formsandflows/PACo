@@ -28,4 +28,4 @@ There are no output properties.
 
 | Property | Description |
 | - | - |
-| cmp_OnSelect | This property is related to the OnSelect property of the buttons. It contains a parameter (cmp_Param_Button) which contains the title of the button clicked on. |
+| cmp_OnSelect | This property is related to the OnSelect property of the buttons. It contains a required parameter (cmp_Param_Button) which contains the title of the button clicked on. |
