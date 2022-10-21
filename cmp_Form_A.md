@@ -24,4 +24,4 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the OnSelect property of all form buttons. It contains two required parameters (cmp_Param_Button and cmp_Param_Fields) which contains the title of the button clicked on and - in case of the "Ok" button - a JSON object containing all field ID's and their values. |
+| cmp_OnSelect | This property is related to the OnSelect property of all form buttons. It contains a required parameter (cmp_Param_Button) which contains the title of the button clicked. It also contains an optional parameter (cmp_Param_Fields) which contains - in case of the "Ok" button - a JSON object containing all field ID's and their values. |
