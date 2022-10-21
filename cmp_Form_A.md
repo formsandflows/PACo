@@ -5,7 +5,7 @@ This canvas component is meant to be used for a form.
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_Buttons | Table | This property contains the buttons to show on the form. | *See the documention on form buttons below.* |
 | cmp_ElevationColor | Text | This property contains the color to use in the elevation of the form. | #0078d4 |
 | cmp_FormDefinition | Text | This property contains the form definition. | *See the documention on form definition below.* |
@@ -23,5 +23,5 @@ There are no output properties.
 ## **Behavior properties**
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | cmp_OnSelect | This property is related to the OnSelect property of all form buttons. It contains two required parameters (cmp_Param_Button and cmp_Param_Fields) which contains the title of the button clicked on and - in case of the "Ok" button - a JSON object containing all field ID's and their values. |
