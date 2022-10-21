@@ -5,7 +5,7 @@ This canvas component is meant to be used for a header.
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_Back | Boolean | This property determines if the back icon is shown. | true |
 | cmp_ElevationColor | Text | This property contains the color to use in the elevation of the header. | #0078d4 |
 | cmp_Help | Boolean | This property determines if the help icon is shown. | true |
@@ -30,7 +30,7 @@ There are no output properties.
 ## **Behavior properties**
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | cmp_OnBackSelect | This property is related to the OnSelect property of the back icon. |
 | cmp_OnHelpSelect | This property is related to the OnSelect property of the help icon. |
 | cmp_OnSettingsSelect | This property is related to the OnSelect property of the settings icon. |
