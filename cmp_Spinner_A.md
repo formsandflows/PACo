@@ -5,7 +5,7 @@ This canvas component is meant to be used for a spinner.
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_Theme | Record | This property contains the theme to use for the spinner. | *See the documention on themes.* |
 | cmp_Title | Text | This property contains the spinner text. | Loading... |
 
