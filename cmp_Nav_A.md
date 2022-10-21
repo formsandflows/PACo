@@ -7,7 +7,7 @@ A navigation menu navigates between screen.
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_ElevationColor | Text | This property contains the color to use in the elevation of the navigation menu. | #0078d4 |
 | cmp_Nav | Table | This property contains the menu items. | *See the documention on menu items below.* |
 | cmp_Theme | Record | This property contains the theme to use for the navigation menu. | *See the documention on themes.* |
@@ -16,7 +16,7 @@ A navigation menu navigates between screen.
 A menu item has the following properties:
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | ID | The unique number of the menu item used in the behavior property "cmp_OnSelect" |
 | Title | The title of the menu item |
 | Screen | The screen control to navigate to |
@@ -38,5 +38,5 @@ There are no output properties.
 ## **Behavior properties**
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | cmp_OnSelect | This property is related to the OnSelect property of a menu item (the control "lbl_Nav_A_Gall"). It contains a required parameter (cmp_Param_NavID) which contains the ID of the menu item clicked on. |
