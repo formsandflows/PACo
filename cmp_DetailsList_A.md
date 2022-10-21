@@ -5,7 +5,7 @@ This canvas component is meant to be used for a details list.
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_DetailsList | Table | This property contains the details list items. | *See the documention on details list items below.* |
 | cmp_ElevationColor | Text | This property contains the color to use in the elevation of the details list. | #0078d4 |
 | cmp_Header | Record | This property contains the details list header | *See the documention on details list header below.* |
@@ -25,7 +25,7 @@ There are no output properties.
 ## **Behavior properties**
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | cmp_OnCheck | This property is related to the OnCheck property of the checkbox in the gallery (cb_DetailsList_A_Gall). It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item (record). |
 | cmp_OnCheckAll | This property is related to the OnCheck property of the checkbox in the header (cb_DetailsList_A_Header). |
 | cmp_OnHeaderSelect | This property is related to the OnSelect property of all header icons. It contains a required parameter (cmp_Param_Column) which contains the name of the column clicked on. |
