@@ -5,7 +5,7 @@ This canvas component is meant to be used for a command bar.
 ## **Input properties**
 
 | Property | Type | Description | Example |
-| - | - | - | - |
+| :--- | :--- | :--- | :--- |
 | cmp_Commands | Record | This property contains the command bar items. | *See the documention on command bar items below.* |
 | cmp_ElevationColor | Text | This property contains the color to use in the elevation of the command bar. | #0078d4 |
 | cmp_SelectedItems | Text | This property contains an indicator if 0, 1 or more than 1 items are selected in the details list component. | *See the documention on selected items below.* |
@@ -18,7 +18,7 @@ There is also a maximum of 8 command bar items (though you can add more yourself
 A command bar item has the following properties:
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | Icon | The icon to use. |
 | SelectedItems | When to show the command bar item. *See the documention on selected items below.* |
 | Title | The title of the related label control. |
@@ -46,5 +46,5 @@ There are no output properties.
 ## **Behavior properties**
 
 | Property | Description |
-| - | - |
+| :--- | :--- |
 | cmp_OnSelect | This property is related to the OnSelect property of all icons. It contains a required parameter (cmp_Param_Command) which contains the title of the command clicked on. |
