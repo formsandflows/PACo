@@ -12,7 +12,8 @@ A navigation menu navigates between screen.
 | cmp_Nav | Table | This property contains the menu items. | *See the documention on menu items below.* |
 | cmp_Theme | Record | This property contains the theme to use for the navigation menu. | *See the documention on themes.* |
 
-### menu items
+### Menu items
+
 A menu item has the following properties:
 
 | Property | Description |
