@@ -9,45 +9,45 @@ Each canvas component belongs to a category and has a separate documention file.
 
 **CommandBar**
 
-- cmp_CommandBar_A
+- [cmp_CommandBar_A](./cmp_CommandBar_A.md)
 
 **DetailsList**
 
-- cmp_DetailsList_A
+- [cmp_DetailsList_A](./cmp_DetailsList_A.md)
 
 **Dialog**
 
-- cmp_Dialog_A
+- [cmp_Dialog_A](./cmp_Dialog_A.md)
 
 **Form**
 
-- cmp_Form_A
+- [cmp_Form_A](./cmp_Form_A.md)
 
 **Header**
 
-- cmp_Header_A
+- [cmp_Header_A](./cmp_Header_A.md)
 
 **Nav**
 
-- cmp_Nav_A
+- [cmp_Nav_A](./cmp_Nav_A.md)
 
 **Other**
 
-- cmp_Elevation_A
-- cmp_Settings_A
+- [cmp_Elevation_A](./cmp_Elevation_A.md)
+- [cmp_Settings_A](./cmp_Settings_A.md)
 
 **Panel**
 
-- cmp_Panel_A
+- [cmp_Panel_A](./cmp_Panel_A.md)
 
 **SearchBox**
 
-- cmp_SearchBox_A
+- [cmp_SearchBox_A](./cmp_SearchBox_A.md)
 
 **Spinner**
 
-- cmp_Spinner_A
+- [cmp_Spinner_A](./cmp_Spinner_A.md)
 
 **Tile**
 
-- cmp_Tile_A
+- [cmp_Tile_A](./cmp_Tile_A.md)
