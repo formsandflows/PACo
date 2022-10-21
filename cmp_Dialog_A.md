@@ -1,4 +1,4 @@
-This canvas component shows a dialog.
+This canvas component is meant to be used for a dialog.
 
 ![image](https://user-images.githubusercontent.com/35654198/197049801-26e700d7-70c2-4742-b8f2-993083c4ab5c.png)
 
