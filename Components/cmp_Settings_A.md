@@ -1,3 +1,5 @@
+# cmp_Settings_A
+
 This canvas component is meant to be used for a settings menu.
 
 ![image](https://user-images.githubusercontent.com/35654198/197237104-e6406f0c-81e6-4c46-824f-31b873505c1d.png)
