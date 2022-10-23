@@ -44,6 +44,7 @@ The are 4 field types available:
 
 - ComboBoxSingle
 - DatePicker
+  - No theming support.
 - DropDown
 - TextInput
 
