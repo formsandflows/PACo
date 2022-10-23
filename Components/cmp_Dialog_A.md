@@ -16,7 +16,7 @@ When using variables for the input properties, one dialog component can be used 
 | cmp_Title | Text | This property contains the title of the dialog. | Reload |
 
 ### Buttons
-A dialog can show 1 or 2 buttons depending on its need. A button can be configured with a title and a type. The example below is used in the screenshot shown above.
+A dialog can show 1 or 2 buttons depending on its need. A button can be configured with a title and a type (Primary or secondary). The example below is used in the screenshot shown above.
 
 `Table({Title:"Ok", Type:"Primary"}, {Title:"Cancel", Type:"Secondary"})`
 
