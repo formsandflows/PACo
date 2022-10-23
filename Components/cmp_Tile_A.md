@@ -1,3 +1,5 @@
+# cmp_Tile_A
+
 This canvas component is meant to be used for a tile.
 
 ![image](https://user-images.githubusercontent.com/35654198/197226718-18812181-ae23-4c74-bc19-caba59da7593.png)
