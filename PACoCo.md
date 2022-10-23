@@ -4,7 +4,7 @@ PACoCo is the companion canvas app for PACo. Where PACo only contains canvas com
 
 ![PACo_Template](https://user-images.githubusercontent.com/35654198/197381788-22ae1153-3599-4836-a67c-3d9c28566f79.png)
 
-The backlog of PACo is [here](https://www.formsandflows.nl/pacoco-backlog/).
+The backlog of PACoCo is [here](https://www.formsandflows.nl/pacoco-backlog/).
 
 ## Data
 PACoCo contains a collection of 50000 items which were imported using “Import from Excel”. Each item represents a sales record. This data, and more 100% copyright free test data, is offered [here](https://excelbianalytics.com/wp/downloads-18-sample-csv-files-data-sets-for-testing-sales/).
