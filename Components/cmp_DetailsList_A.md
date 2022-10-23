@@ -1,3 +1,5 @@
+# cmp_Details_A
+
 This canvas component is meant to be used for a details list.
 
 ![PACo_DetailsList](https://user-images.githubusercontent.com/35654198/197223074-306fa0fb-965e-43f3-8f03-c0aedc500a55.png)
