@@ -13,6 +13,8 @@ To be able to use PACo, two experimental features must be enabled:
 
 Please also look at the [Power Platform Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview) if you are interested in creating functional and good-looking apps (model-driven and canvas) in less time. The creator kit includes many code components and a few canvas components. It is required to have an environment with a database and to be able to use code components.
 
+The installation of PACo and PACoCo is described [here](./Installation.md).
+
 The backlog of PACo is [here](https://www.formsandflows.nl/paco-backlog/).
 
 # Components
