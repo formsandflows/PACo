@@ -29,7 +29,6 @@ Example:
 
 A record is used to define the command bar. Because command bar items will have a different width, using a gallery for the commands was not possible. This component contains up to 8 command slots. How many to actually use is configured in the record. When a command slot shoud not be used:
 
-- The property "icon#" must be set to "Signal".
 - The property "Title#" must be set to an empty string ("").
 - The property "Width#" must be set to 0.
 - The property "SelectedItems#" must be set to "##".
