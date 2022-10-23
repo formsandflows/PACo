@@ -42,6 +42,14 @@ This section gives a high-level overview of the functionalities of PACoCo:
 - The setting "Theme" navaigates a user to the theme screen from where a theme (Default, Dark, High-contract or Fluent UI) can be selected.
 - The header of the theme screen contains a back icon to navigate back to the home screen.
 
+## Responsiveness
+
+PACoCo is a responsive app with the following setup:
+
+- The minimum width of a screen is 1024. When the screen width is less, a horizontal scrollbar is shown.
+- There is no maximum width for a screen. The app has a maximum width of 1800 though. This means that when a screen width is larger than 1800, the app width is 1800 and shown horizontal centered.
+- The minum height of a screen is 640. When the screen height is less, a vertical scrollbar (and therefor also a horizontal scrollbar) is shown .
+
 ## Screens
 There are three special screens in PACoCo which need some extra explanation:
 - Color Screen
