@@ -28,7 +28,7 @@ A form has two modes:
 - Edit
 - New
 
-A form can be defined using a fixed setup. [This](./Form%20definition) file contains the form definition used in the companion canvas app [PACoCo](.\\PACoCo.md).
+A form can be defined using a fixed setup. [This](./Form%20definition) file contains the form definition used in the companion canvas app [PACoCo](./../PACoCo.md).
 
 The following properties must be configured per field:
 
