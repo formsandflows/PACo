@@ -66,7 +66,7 @@ This screen is only visible in edit mode and it contains a block per palette slo
 ![image](https://user-images.githubusercontent.com/35654198/197279296-d19ede43-3529-4df5-a7a8-476d3aa59e30.png)
 
 ### Redirect screen
-The [navigation](./Components/cmp_Nav_A.md) has the following setup:
+The navigation has the following setup:
 
 1. Each navigation item (menu item) is related to a dedicated screen.
 2. When a navigation item is clicked on, the current screen is configured in the global variable "glb_RedirectScreen".
