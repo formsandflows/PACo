@@ -1,4 +1,4 @@
-The installation of PACo and PACoCo is very simple and explained below
+The installation of PACo and PACoCo is very simple and explained below.
 
 ## PACo
 
