@@ -1,3 +1,5 @@
+# cmp_SearchBox_A
+
 This canvas component is meant to be used for a search box.
 
 ![PACo_SearchBox](https://user-images.githubusercontent.com/35654198/197222952-adf0cb05-25cc-4084-8d4a-9496a88ee0d0.png)
