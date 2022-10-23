@@ -15,7 +15,7 @@ PACoCo uses only a portion of this data though and well data that complies to:
 
 ## Functionalities
 
-This section gives a high-level overview of the functionalities of PACoCo:
+This section gives a high-level overview of the functionalities in the companion canvas app PACoCo:
 
 - When a user starts PACoCo, the code in the button "btn_Start" is executed. It contains code that needs to be run only once per app start.
 - Then, the user is navigated to the screen "Home Screen".
