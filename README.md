@@ -1,7 +1,7 @@
 # PACo
 PACo is a Power Apps canvas app containing many canvas components to create functional and good-looking canvas apps in less time.
 
-The screenshot below is made from the companion canvas app [PACoCo](.\PACoCo.md) which is created with PACo.
+The screenshot below is made from the companion canvas app [PACoCo](./PACoCo.md) which is created with PACo.
 
 ![image](https://user-images.githubusercontent.com/35654198/197044949-69133307-5f19-4e43-bf2c-261859bce69e.png)
 
