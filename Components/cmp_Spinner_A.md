@@ -1,3 +1,5 @@
+# cmp_Spinner_A
+
 This canvas component is meant to be used for a spinner.
 
 ![PACo_Spinner](https://user-images.githubusercontent.com/35654198/197222361-d3bd87a1-45fb-41a0-b455-a2c56e6c3fe1.png)
