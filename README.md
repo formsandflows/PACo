@@ -1,11 +1,17 @@
 # PACo
 PACo is a Power Apps canvas app containing many canvas components to create functional and good-looking canvas apps in less time.
 
-The screenshot below is made from the companion canvas app PACoCo which is created with PACo.
+The screenshot below is made from the companion canvas app [PACoCo](.\PACoCo.md) which is created with PACo.
 
 ![image](https://user-images.githubusercontent.com/35654198/197044949-69133307-5f19-4e43-bf2c-261859bce69e.png)
 
-Each canvas component belongs to a category and has a separate documention file. The documentation is always based on the most recent final version of that canvas component.
+The backlog of PACo is [here](https://www.formsandflows.nl/paco-backlog/).
+
+# Components
+
+Each canvas component belongs to a category and has its own documentation file. The documentation is always based on the most recent final version of that canvas component.
+
+The canvas components have been made with being used in responsive canvas apps in mind.
 
 **CommandBar**
 
@@ -51,3 +57,10 @@ Each canvas component belongs to a category and has a separate documention file.
 **Tile**
 
 - [cmp_Tile_A](./cmp_Tile_A.md)
+
+# Feature requests
+
+At the moment, feature requests are not acted upon. This most probably will change in the near future.
+
+# Bugs
+In case you find a bug: Please submit the bug as an issue. The version of PACo/PACoCo used must be included when submitting an issue. Also be as descriptive as possible. Thank you!
