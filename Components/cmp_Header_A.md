@@ -1,3 +1,5 @@
+# cmp_Header_A
+
 This canvas component is meant to be used for a header.
 
 ![PACo_Header](https://user-images.githubusercontent.com/35654198/197222197-cffad482-52b7-483d-9d43-6bdc93954b28.png)
