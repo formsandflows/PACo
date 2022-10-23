@@ -1,3 +1,5 @@
+# cmp_Panel_A
+
 This canvas component is meant to be used for a panel.
 
 ![PACo_Panel](https://user-images.githubusercontent.com/35654198/197223171-3e9f5821-5623-4991-9a1c-169d4cc5bc3b.png)
