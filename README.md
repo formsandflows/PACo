@@ -13,7 +13,7 @@ To be able to use PACo, two experimental features must be enabled:
 - ParseJSON function and untyped objects (In preview since 2022-09-12)
   - This feature is not needed when the form canvas component is not used.
 
-Please also look at the [Power Platform Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview) if you are interested in creating functional and good-looking apps (model-driven and canvas) in less time. The creator kit includes many code components and a few canvas components. It requires an environment with a database and to be able to use code components.
+Please also look at the [Power Platform Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview) if you are interested in creating functional and good-looking apps (model-driven and canvas) in less time. The creator kit has many really nice code- and canvas components. It requires an environment with a database and to be able to use code components.
 
 The installation of PACo and PACoCo is described [here](./Installation.md).
 
