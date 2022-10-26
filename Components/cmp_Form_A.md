@@ -3,7 +3,7 @@
 This canvas component is:
 
 - meant to be used for a form.
-- still in a early stage. Not many field types are supported. That is why, for now, creating your own forms - with the elevation canvas component if needed - is the prefererd way to implement forms.
+- still in a early stage. Not many field types are supported and I experience also some quirks. That is why, for now, creating your own forms - with the elevation canvas component if needed - is the prefererd way to implement forms.
 
 ![PACo_Form](https://user-images.githubusercontent.com/35654198/197223488-dc2e487e-de05-4a2b-9e3c-cbf3c2c560e5.png)
 
