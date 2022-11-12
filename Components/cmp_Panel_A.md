@@ -31,7 +31,7 @@ A gallery is used to show data in the panel.
 
 Example:
 
-`Table({Label:"Label 1", Text:"Hello world!"}, {Label:"Label 2", Text:"Hello world!"})`
+`Table({Label:"Label 1", Text:"Hello world!"}, {Label:"Label 2", Text:"Hello world!", TextHeight: 120})`
 
 ### Panel commands
 
