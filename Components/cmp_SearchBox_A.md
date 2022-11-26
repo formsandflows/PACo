@@ -10,10 +10,11 @@ The search box can be used to filter the items shown in the details list compone
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_ElevationColor | Text | This property contains the color to use in the elevation of the search box. | #0078d4 |
 | cmp_HintText | Text | This property is used to set the hint text to show. | Search |
 | cmp_Reset | Boolean | This property is used to reset the search box | true |
 | cmp_Theme | Record | This property contains the theme to use for the command bar. | *See the documention on theming.* |
+| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 
 ## **Output properties**
 
