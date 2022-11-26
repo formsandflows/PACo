@@ -12,11 +12,12 @@ This canvas component is:
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
 | cmp_Buttons | Table | This property contains the buttons to show on the form. | *See the documention on form buttons below.* |
-| cmp_ElevationColor | Text | This property contains the color to use in the elevation of the form. | #0078d4 |
 | cmp_FormDefinition | Text | This property contains the form definition. | *See the documention on form definition below.* |
 | cmp_Mode | Text | This property determines if a new record must be added or an existing one edited. | New |
 | cmp_ResetControls | Boolean | This property is used to reset the form controls | true |
 | cmp_Theme | Record | This property contains the theme to use for the form. | *See the documention on theming.* |
+| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 
 ### form buttons
 
