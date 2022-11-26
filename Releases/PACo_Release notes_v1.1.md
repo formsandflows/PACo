@@ -1,4 +1,4 @@
-This document contains the PACo release notes of version 1.1.
+This page contains the PACo release notes of version 1.1.
 
 | # | Type | Component | Description |
 | :--- | :--- | :--- | :--- |
