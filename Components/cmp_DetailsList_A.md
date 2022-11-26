@@ -27,6 +27,8 @@ A header column has the following properties:
 | Title | The title of the related label control. |
 | Width | The width of the related label control. |
 
+Example:
+
 `{Title1:"Item type", Width1:240, Sortable1:true, Title2:"Order date", Width2:140, Sortable2:true, ...}`
 
 The width of a header can thus be configured but is fixed when using the app. It is possible to define the header outside the canvas app so it can be changed without chanign the canvas app. This is a recommended approach.
