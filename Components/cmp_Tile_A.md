@@ -8,10 +8,11 @@ This canvas component is meant to be used for a tile.
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_ElevationColor | Text | This property contains the color to use in the elevation of the panel. | #0078d4 |
 | cmp_Theme | Record | This property contains the theme to use for the panel. | *See the documention on theming.* |
 | cmp_Title | Text | This property contains the text shown in the upper section of the tile. | All |
 | Value | Number | This property contains the number to show in the lower section of the tile. | 100 |
+| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 
 ## **Output properties**
 
