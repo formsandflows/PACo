@@ -17,6 +17,8 @@ Please also look at the [Power Platform Creator Kit](https://learn.microsoft.com
 
 The installation of PACo and PACoCo is described [here](./Documentation/Installation.md).
 
+How to update PACo canvas components in your canvas apps is described [here](./Documentation/How%20to%20update%20PACo%20canvas%20components.md).
+
 How to add the PACo canvas components to your canvas app for this first time is described [here](./Documentation/How%20to%20add%20PACo%20canvas%20components%20to%20your%20canvas%20app%20for%20the%20first%20time.md).
 
 The backlog of PACo is [here](https://www.formsandflows.nl/paco-backlog/).
