@@ -1,3 +1,5 @@
+**2022-11-26: Version 1.1 of PACo and its companion PACoCo has been released!**
+
 # PACo
 PACo is a Power Apps canvas app containing many canvas components to create functional and good-looking canvas apps in less time. Do more in less time was one of the drivers for this project. No premium Power Apps license is needed to use PACo.
 
