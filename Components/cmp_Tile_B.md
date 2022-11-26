@@ -1,4 +1,4 @@
-# cmp_Tile_A
+# cmp_Tile_B
 
 This canvas component is meant to be used for a tile.
 
