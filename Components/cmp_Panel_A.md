@@ -12,9 +12,10 @@ A panel is shown when an item in the details list component is clicked on (This 
 | :--- | :--- | :--- | :--- |
 | cmp_Buttons | Table | This property contains the buttons to show on the bottom of the panel. | *See the documention on panel buttons below.* |
 | cmp_Commands | Record | This property contains the command to show in the top of the panel. | *See the documention on panel commands below.* |
-| cmp_ElevationColor | Text | This property contains the color to use in the elevation of the panel. | #0078d4 |
 | cmp_Record | Table | This property contains the data to show in the panel. | *See the documention on panel data below.* |
 | cmp_Theme | Record | This property contains the theme to use for the panel. | *See the documention on theming.* |
+| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 | cmp_Width | Number | This property contains the width of the panel. | 400 |
 
 ### Panel buttons
