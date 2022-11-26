@@ -8,9 +8,10 @@ This canvas component is meant to be used for a settings menu.
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_ElevationColor | Text | This property contains the color to use in the elevation of the settings menu. | #0078d4 |
 | cmp_Menu | Table | This property contains the menu items. | *See the documention on menu items below.* |
 | cmp_Theme | Record | This property contains the theme to use for the settings menu. | *See the documention on theming.* |
+| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 | cmp_Width | Number | This property contains the width of the settings menu. | 400 |
 
 ### Menu items
