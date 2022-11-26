@@ -3,7 +3,7 @@ PACo is a Power Apps canvas app containing many canvas components to create func
 
 The canvas components contain several settings – dependent on the canvas component – to adjust them to your own needs. Because it are canvas components, you can even make changes to the canvas components with your existing Power Apps knowledge.
 
-The screenshot below is made from the companion canvas app [PACoCo](./PACoCo.md) which is created with PACo canvas components.
+The screenshot below is made from the companion canvas app [PACoCo](./Documentation/PACoCo.md) which is created with PACo canvas components.
 
 ![image](https://user-images.githubusercontent.com/35654198/197044949-69133307-5f19-4e43-bf2c-261859bce69e.png)
 
@@ -15,9 +15,9 @@ To be able to use PACo canvas components, two experimental features must be enab
 
 Please also look at the [Power Platform Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview) if you are interested in creating functional and good-looking apps (model-driven and canvas) in less time. The creator kit has many really nice code- and canvas components. It requires an environment with a database and to be able to use code components.
 
-The installation of PACo and PACoCo is described [here](./Installation.md).
+The installation of PACo and PACoCo is described [here](./Documentation/Installation.md).
 
-How to add the PACo canvas components to your canvas app for this first time is described [here](./How%20to%20add%20PACo%20canvas%20components%20to%20your%20canvas%20app%20for%20the%20first%20time.md).
+How to add the PACo canvas components to your canvas app for this first time is described [here](./Documentation/How%20to%20add%20PACo%20canvas%20components%20to%20your%20canvas%20app%20for%20the%20first%20time.md).
 
 The backlog of PACo is [here](https://www.formsandflows.nl/paco-backlog/).
 
