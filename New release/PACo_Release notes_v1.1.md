@@ -1,0 +1,1 @@
+This document contains the release notes of version 1.1.
