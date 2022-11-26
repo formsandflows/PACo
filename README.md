@@ -1,13 +1,13 @@
 # PACo
 PACo is a Power Apps canvas app containing many canvas components to create functional and good-looking canvas apps in less time. Do more in less time was one of the drivers for this project. No premium Power Apps license is needed to use PACo.
 
-The canvas components contain several settings – dependent on the canvas component – to adjust them to your own needs. Because it are canvas components, you can even make changes with your existing Power Apps knowledge.
+The canvas components contain several settings – dependent on the canvas component – to adjust them to your own needs. Because it are canvas components, you can even make changes to the canvas components with your existing Power Apps knowledge.
 
-The screenshot below is made from the companion canvas app [PACoCo](./PACoCo.md) which is created with PACo.
+The screenshot below is made from the companion canvas app [PACoCo](./PACoCo.md) which is created with PACo canvas components.
 
 ![image](https://user-images.githubusercontent.com/35654198/197044949-69133307-5f19-4e43-bf2c-261859bce69e.png)
 
-To be able to use PACo, two experimental features must be enabled:
+To be able to use PACo canvas components, two experimental features must be enabled:
 
 - Enhanced component properties (In preview since 2021-02-18)
 - ParseJSON function and untyped objects (In preview since 2022-09-12)
@@ -21,11 +21,11 @@ How to add the PACo canvas components to your canvas app for this first time is 
 
 The backlog of PACo is [here](https://www.formsandflows.nl/paco-backlog/).
 
-I very much appreciate it if you sent me a message how you use PACo. [This](https://www.formsandflows.nl/using-paco/) form can be used for that. Thank you!
+I very much appreciate it if you sent me a message how you use PACo canvas components. [This](https://www.formsandflows.nl/using-paco/) form can be used for that. Thank you!
 
 # Components
 
-Each canvas component belongs to a category and has its own documentation file. The documentation is always based on the most recent final version of that canvas component.
+Each PACo canvas component belongs to a category and has its own documentation file. The documentation is always based on the most recent final version of that canvas component.
 
 The canvas components have been made with being used in responsive canvas apps in mind.
 
