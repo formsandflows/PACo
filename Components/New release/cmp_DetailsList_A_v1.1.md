@@ -77,4 +77,4 @@ There are no output properties.
 | cmp_OnHeaderSelect | This property is related to the property "OnSelect" of all header icons. It contains a required parameter (cmp_Param_Column) which contains the name of the column clicked on. |
 | cmp_OnSelect | This property is related to the property "OnSelect" of all items (or more detailed: all label controls in the gallery used to show the items). It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item (record). |
 | cmp_OnUncheck | This property is related to the property "OnUncheck" of the checkbox of an item. It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item (record). |
-| cmp_OnUncheckAll | This property is related to the property "OnCheck" of the checkbox in the header. |
+| cmp_OnUncheckAll | This property is related to the property "OnUncheck" of the checkbox in the header. |
