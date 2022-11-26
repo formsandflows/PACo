@@ -10,9 +10,10 @@ A navigation menu navigates between screens.
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_ElevationColor | Text | This property contains the color to use in the elevation of the navigation menu. | #0078d4 |
 | cmp_Nav | Table | This property contains the menu items. | *See the documention on menu items below.* |
 | cmp_Theme | Record | This property contains the theme to use for the navigation menu. | *See the documention on theming.* |
+| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 
 ### Menu items
 A menu item has the following properties:
