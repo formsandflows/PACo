@@ -14,8 +14,8 @@ This canvas component is meant to be used for a details list.
 | cmp_SortingDirection | Text | This property is used to show the sorting icon on a header column | Ascending |
 | cmp_ResetCheckboxHeader | Boolean | This property is used to reset the checkbox in the header of the details list. | true |
 | cmp_Theme | Record | This property contains the theme to use for the details list. | *See the documention on theming.* |
-| cmp_Visualization | Text | This property contains the visualization. | Elevation |
-| cmp_VisualizationColor | Text | This property contains the color to use in the visualization of the command bar. | #0078d4 |
+| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 
 ### Details list header
 
