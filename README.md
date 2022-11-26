@@ -57,8 +57,9 @@ The canvas components have been made with being used in responsive canvas apps i
 
 **Other**
 
-- [cmp_Elevation_A](./Components/cmp_Elevation_A.md)
+- [cmp_Icon_A](./Components/cmp_Icon_A.md)
 - [cmp_Settings_A](./Components/cmp_Settings_A.md)
+- [cmp_Visualization_A](./Components/cmp_Visualization_A.md)
 
 **Panel**
 
@@ -75,6 +76,7 @@ The canvas components have been made with being used in responsive canvas apps i
 **Tile**
 
 - [cmp_Tile_A](./Components/cmp_Tile_A.md)
+- [cmp_Tile_B](./Components/cmp_Tile_B.md)
 
 # Feature requests
 
