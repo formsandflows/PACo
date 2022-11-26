@@ -22,3 +22,4 @@ This document contains the PACo release notes of version 1.1.
 | Bug | A bug. Something that needed to be fixed. |
 | Change | An internal change. No functional change. |
 | New feature | A new functionality. |
+| Update | An updated functionality. |
