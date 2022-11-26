@@ -1,4 +1,4 @@
-# cmp_Tile_A
+# cmp_Icon_A
 
 This canvas component is meant to be used for an icon.
 
