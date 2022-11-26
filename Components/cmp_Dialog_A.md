@@ -11,11 +11,13 @@ When using variables for the input properties, one dialog component can be used 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
 | cmp_Buttons | Table | This property determines which buttons to show. | *See the documention on buttons below.* |
-| cmp_ElevationColor | Text | This property contains the color to use in the elevation of the dialog. | #0078d4 |
 | cmp_Message | Text | This property contains the body text of the dialog. | The data will be reloaded. |
 | cmp_Percentage | Number | This property contains the percentage of the "border". | 20 |
 | cmp_Theme | Record | This property contains the theme to use for the dialog. | *See the documention on theming.* |
+| cmp_Transparency| Number | This property The "border" transparency. It must be a value between 0 and 1. | 0.2 |
 | cmp_Title | Text | This property contains the title of the dialog. | Reload |
+| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 
 ### Buttons
 A dialog can show 1 or 2 buttons depending on its need. A button can be configured with a title and a type (Primary or secondary). The example below is used in the screenshot shown above.
