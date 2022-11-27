@@ -32,4 +32,4 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the propertu "OnSelect" of the icon. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of the icon. |
