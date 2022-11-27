@@ -17,8 +17,10 @@ This canvas component is meant to be used for a custom functionality which needs
 With visualization, the visualization of a border is meant.
 
 A canvas has 3 possible visualizations:
-- Elevation (See screenshot above)
-- Line (BorderThickness: 1)
+- Elevation
+  - See screenshot above
+- Line
+  - BorderThickness: 1
 - None
 
 ## **Output properties**
