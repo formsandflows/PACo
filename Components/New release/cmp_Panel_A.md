@@ -20,27 +20,19 @@ A panel is shown when an item in the details list component is clicked on (This 
 
 ### Panel buttons
 
-The setup of the related property is such that more buttons can be shown. Only one button is supported (read: configured/tested)! A button can be configured with a title and a type (Primary or secondary).
+The setup of the related property is such that more buttons can be shown but only one button is supported (read: configured/tested)!
 
-Example:
-
-`Table({Title:"Ok", Type:"Primary"})`
-
-### Panel data
-A gallery is used to show data in the panel. A gallery item has the following properties:
+A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Label | The label text. |
-| LabelHeight | The height of the label. |
-| Text | The gallery item text. |
-| TextHeight | The height of the gallery item. |
+| Title | The title of the related label control. |
+| Type | Primary or secondary. |
+| Width | The width of the button. |
 
-The LabelHeight and TextHeight properties are not required. A value of 40 is used in case the properties are not defined.
+The example below is used in the screenshot shown above.
 
-Example:
-
-`Table({Label:"Label 1", Text:"Hello world!"}, {Label:"Label 2", Text:"Hello world!", TextHeight: 120})`
+`Table({Title:"Ok", Type:"Primary"})`
 
 ### Panel commands
 A panel command item has the following properties:
@@ -58,6 +50,22 @@ Example:
 `{Icon1:Icon.Edit, Title1:"Edit", Width1:48, Icon2:Icon.Trash, Title1:"Delete", Width1:64}`
 
 Setting the width to 0 makes sure that the related command is not shown.
+
+### Panel data
+A gallery is used to show data in the panel. A gallery item has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| Label | The label text. |
+| LabelHeight | The height of the label. |
+| Text | The gallery item text. |
+| TextHeight | The height of the gallery item. |
+
+The LabelHeight and TextHeight properties are not required. A value of 40 is used in case the properties are not defined.
+
+Example:
+
+`Table({Label:"Label 1", Text:"Hello world!"}, {Label:"Label 2", Text:"Hello world!", TextHeight: 120})`
 
 ## **Output properties**
 
