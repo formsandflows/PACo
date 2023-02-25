@@ -1,4 +1,4 @@
-# cmp_CommandBar_A
+# PACo_CommandBar_A
 
 This canvas component is meant to be used for a command bar.
 
