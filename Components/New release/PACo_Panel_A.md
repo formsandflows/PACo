@@ -4,14 +4,14 @@ This canvas component is meant to be used for a panel.
 
 ![PACo_Panel](https://user-images.githubusercontent.com/35654198/197223171-3e9f5821-5623-4991-9a1c-169d4cc5bc3b.png)
 
-A panel is shown when an item in the details list component is clicked on (This must be configured in the details list component!). More data can be shown than is shown in the details list component. A vertical scrollbar appear when there is more data to shown on the screeen.
+A panel is shown when an item in the details list component is clicked on (This must be configured in the details list component!). With a panel, addition item properties can be shown than is shown in the details list component. A vertical scrollbar appears when there is more data to show than fits on the screen.
 
 ## **Input properties**
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
 | cmp_Buttons | Table | This property contains the buttons to show on the bottom of the panel. | *See the documention on panel buttons below.* |
-| cmp_Commands | Record | This property contains the command to show in the top of the panel. | *See the documention on panel commands below.* |
+| cmp_Commands | Record | This property contains the panel command items to show in the top of the panel. | *See the documention on panel commands below.* |
 | cmp_Record | Table | This property contains the data to show in the panel. | *See the documention on panel data below.* |
 | cmp_Theme | Record | This property contains the theme to use for the panel. | *See the documention on theming.* |
 | cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
@@ -22,20 +22,20 @@ A panel is shown when an item in the details list component is clicked on (This 
 
 The setup of the related property is such that more buttons can be shown but only one button is supported (read: configured/tested)!
 
-A button has the following properties:
+The panel button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
 | Text | The text to display in the button. |
 | Title | The internal name of the button. This is needed to support multilingual canvas apps. |
-| Type | Primary or secondary. |
+| Type | Possible values: Primary or secondary. |
 | Width | The width of the button. |
 
 The example below is used in the screenshot shown above.
 
 `Table({Text:"Ok", Title:"Ok", Type:"Primary", Width:160})`
 
-### Panel commands
+### Panel command items
 A panel command item has the following properties:
 
 | Property | Description |
@@ -77,5 +77,5 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnCommandSelect | This property is related to the property "OnSelect" of all panel commands. It contains a required parameter (cmp_Param_Command) which contains the title of the command clicked on. |
-| cmp_OnSelect | This property is related to the property "OnSelect" of all panel buttons. |
+| cmp_OnCommandSelect | This property is related to the property "OnSelect" of all panel command items. It contains a required parameter (cmp_Param_Command) which contains the title of the command item clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of the panel button. |
