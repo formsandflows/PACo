@@ -1,4 +1,4 @@
-# cmp_DetailsList_A
+# PACo_DetailsList_A
 
 This canvas component is meant to be used for a details list.
 
