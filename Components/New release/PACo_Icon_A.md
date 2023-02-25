@@ -8,22 +8,22 @@ This canvas component is meant to be used for an icon.
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_Disabled | Boolean | This property determines if the icon is disabled. | false |
+| cmp_Disabled | Boolean | This property determines if the icon is disabled (The "OnSelect" is not active). | false |
 | cmp_Icon | Record | This property contains the icon to show. | *See the documention on the icon below.* |
-| cmp_Theme | Record | This property contains the theme to use for the panel. | *See the documention on theming.* |
+| cmp_Theme | Record | This property contains the theme to use for the icon. | *See the documention on theming.* |
 | cmp_Tooltip | Text | This property contains the tooltip. | "Filter" |
 | cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
 | cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 
 ### The icon
-To be able to change the icon, a component of type "Record" has to be used. The record has the following structure:
+To be able to set the icon dynamically (so to make this component a generic canvas component), a component of type "Record" had to be used. The record has the following structure:
 
 | Property | Description |
 | :--- | :--- |
 | Icon | The icon to show. |
 
 Example:
-{icon: Icon.Add}
+{Icon: Icon.Add}
 
 ## **Output properties**
 
