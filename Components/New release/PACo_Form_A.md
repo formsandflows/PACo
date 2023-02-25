@@ -3,7 +3,7 @@
 This canvas component is:
 
 - meant to be used for a form.
-- still in development. Not many field types are supported and I experience also some quirks. That is why, for now, creating your own forms - with the elevation canvas component if needed - is the prefererd way to implement forms.
+- still in development. Not many field types are supported and I experience also some quirks. That is why, for now, creating your own forms - with the visualization canvas component if needed - is the prefererd way to implement forms.
 
 ![PACo_Form](https://user-images.githubusercontent.com/35654198/197223488-dc2e487e-de05-4a2b-9e3c-cbf3c2c560e5.png)
 
@@ -14,7 +14,7 @@ This canvas component is:
 | cmp_Buttons | Table | This property contains the buttons to show on the form. | *See the documention on form buttons below.* |
 | cmp_FormDefinition | Text | This property contains the form definition. | *See the documention on form definition below.* |
 | cmp_Mode | Text | This property determines if a new record must be added or an existing one edited. | New |
-| cmp_ResetControls | Boolean | This property is used to reset the form controls | true |
+| cmp_ResetControls | Boolean | This property is used to reset the form controls. | true |
 | cmp_Theme | Record | This property contains the theme to use for the form. | *See the documention on theming.* |
 | cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
 | cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
@@ -27,7 +27,7 @@ A form has 2 buttons. A button has the following properties:
 | :--- | :--- |
 | Text | The text to display in the button. |
 | Title | The internal name of the button. This is needed to support multilingual canvas apps. |
-| Type | Primary or secondary. |
+| Type | Possible values: Primary or secondary. |
 | Width | The width of the button. |
 
 The example below is used in the screenshot shown above.
@@ -61,7 +61,7 @@ The are 4 field types available:
 - DropDown
 - TextInput
 
-More will be added due time.
+More field types will be added in the future.
 
 The choice values for field of type "ComboBoxSingle" or a "Dropdown" can added to the form definition. The form definition can be dynamically created meaning that for example the choice values can be dynamic and stored outside the canvas app.
 
