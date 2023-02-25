@@ -1,3 +1,11 @@
+## 2023-02-26
+
+| Canvas app | Version | Description |
+| :--- | :--- | :--- |
+| PACo | [1.2a](https://github.com/formsandflows/PACo/raw/main/Releases/PACo%20v1_2a.zip) | See [PACo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo_Release%20notes_v1.2a.md) |
+| PACoCo | [1.2a](https://github.com/formsandflows/PACo/raw/main/Releases/PACoCo%20v1_2a.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACoCo_Release%20notes_v1.2a.md) |
+
+
 ## 2022-11-26
 
 | Canvas app | Version | Description |
