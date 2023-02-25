@@ -21,7 +21,7 @@ This canvas component is:
 
 ### Form buttons
 
-A form shows 2 buttons. A button has the following properties:
+A form has 2 buttons. A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
