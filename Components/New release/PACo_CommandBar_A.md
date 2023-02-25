@@ -29,13 +29,15 @@ Example:
 
 `{Command1: {Icon:Icon.Add, SelectedItems:"#0#", Text:"New", Title:"New", Width:50}, Command2: {Icon:Icon.Edit, SelectedItems:"#1#", Text:"Edit", Title:"Edit", Width:48}, ...}`
 
-A record is used to define the command bar. Because command bar items will have a different width, using a gallery for the commands was not possible. This component contains up to 8 command slots. How many to actually use is configured in the record. When a command slot shoud not be used:
+A record is used to define the command bar. Because command bar items have different widths, using a gallery for the command bar items was not possible. This component contains up to 8 command bar item slots. How many to actually use is configured in the record. When a command bar item slot shoud not be used:
 
+- The property "Icon" must be set a an icon.
+- The property "SelectedItems" must be set to "##".
+- The property "Text" must be set to an empty string ("").
 - The property "Title" must be set to an empty string ("").
 - The property "Width" must be set to 0.
-- The property "SelectedItems" must be set to "##".
 
-, for the related command.
+, for the related command bar item.
 
 ### Selected items
 A command bar item can be shown when there are 0, 1 and more than 1 items are selected in the details list component.
@@ -54,7 +56,7 @@ Example: A command bar item which has "#1#2#" set for its property "SelectedItem
 
 #### Property "cmp_SelectedItems" of the component
 
-This property determine if 0, 1 or more than 1 items are selected in the details list component.
+This property determines if 0, 1 or more than 1 items are selected in the details list component.
 
 - #0# > Command bar items with "#0#" in their property "SelectedItems" are shown.
 - #1# > Command bar items with "#1#" in their property "SelectedItems" are shown.
