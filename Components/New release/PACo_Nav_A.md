@@ -22,7 +22,7 @@ A menu item has the following properties:
 | :--- | :--- |
 | ID | The unique number of the menu item used in the behavior property "cmp_OnSelect". |
 | Order | The order of the menu item in the navigation menu. |
-| Screen | The screen object to navigate to. This property is not used in this component but in the app using the component.  |
+| Screen | The screen object to navigate to. |
 | Text | The text to display. |
 
 Example:
