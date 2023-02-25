@@ -24,11 +24,10 @@ A menu item has the following properties:
 | Order | The order of the menu item in the settings menu. |
 | Screen | The screen control to navigate to. This property is not used in this component but in the app using the component. |
 | Text | The text to display. |
-| Title | The title of the menu item. |
 
 Example:
 
-`Table({ID:1, Title:"Setting 1", Screen:App.ActiveScreen, Order:10}, {ID:2, Title:"Setting 2", Screen:App.ActiveScreen, Order:20})`
+`Table({ID:1, Order:10, Screen:'Theme Screen', Text:"Theme"}, {ID:2, Order:20, Screen:'Language Screen', Text:"Language"})`
 
 ## **Output properties**
 
