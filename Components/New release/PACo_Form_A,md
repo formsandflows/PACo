@@ -1,9 +1,9 @@
-# cmp_Form_A
+# PACo_Form_A
 
 This canvas component is:
 
 - meant to be used for a form.
-- still in a early stage. Not many field types are supported and I experience also some quirks. That is why, for now, creating your own forms - with the elevation canvas component if needed - is the prefererd way to implement forms.
+- still in development. Not many field types are supported and I experience also some quirks. That is why, for now, creating your own forms - with the elevation canvas component if needed - is the prefererd way to implement forms.
 
 ![PACo_Form](https://user-images.githubusercontent.com/35654198/197223488-dc2e487e-de05-4a2b-9e3c-cbf3c2c560e5.png)
 
@@ -21,19 +21,18 @@ This canvas component is:
 
 ### Form buttons
 
-A form shows 2 buttons.
-
-A button has the following properties:
+A form shows 2 buttons. A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Title | The title of the related label control. |
+| Text | The text to display in the button. |
+| Title | The internal name of the button. This is needed to support multilingual canvas apps. |
 | Type | Primary or secondary. |
 | Width | The width of the button. |
 
 The example below is used in the screenshot shown above.
 
-`Table({Title:"Ok", Type:"Primary"}, {Title:"Cancel", Type:"Secondary"})`
+Table({Text:"Ok", Title:"Ok", Type:"Primary", Width:160}, {Text:"Cancel", Title:"Cancel", Type:"Secondary", Width:160})
 
 ### Form definition
 
