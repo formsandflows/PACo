@@ -19,10 +19,10 @@ A command bar item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Icon | The icon to use. |
+| Icon | The icon to show. |
 | SelectedItems | When to show the command bar item. *See the documention on selected items below.* |
 | Text | The text to display in the related label control. |
-| Title | The internal name of the command. This is needed to support multilingual canvas apps. |
+| Title | The internal name of the command bar item. This is needed to support multilingual canvas apps. |
 | Width | The width of the related label control. |
 
 Example:
