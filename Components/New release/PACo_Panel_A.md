@@ -1,4 +1,4 @@
-# cmp_Panel_A
+# PACo_Panel_A
 
 This canvas component is meant to be used for a panel.
 
@@ -26,30 +26,32 @@ A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Title | The title of the related label control. |
+| Text | The text to display in the button. |
+| Title | The internal name of the button. This is needed to support multilingual canvas apps. |
 | Type | Primary or secondary. |
 | Width | The width of the button. |
 
 The example below is used in the screenshot shown above.
 
-`Table({Title:"Ok", Type:"Primary"})`
+`Table({Text:"Ok", Title:"Ok", Type:"Primary", Width:160})`
 
 ### Panel commands
 A panel command item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Icon | The icon to use. |
-| Title | The title of the related label control. |
+| Icon | The icon to show. |
+| Text | The text to display in the related label control. |
+| Title | The internal name of the panel command item. This is needed to support multilingual canvas apps. |
 | Width | The width of the related label control. |
 
 A maximum of 2 commands are supported (read: configured/tested)!
 
 Example:
 
-`{Icon1:Icon.Edit, Title1:"Edit", Width1:48, Icon2:Icon.Trash, Title1:"Delete", Width1:64}`
+`{Command1: {Icon:Icon.Edit, Text:"Edit", Title:"Edit", Width:48}, Command2: {Icon:Icon.Trash, Text:"Delete", Title:"Delete", Width:64}}`
 
-Setting the width to 0 makes sure that the related command is not shown.
+Setting the width to 0 makes sure that the related panel command item is not shown.
 
 ### Panel data
 A gallery is used to show data in the panel. A gallery item has the following properties:
