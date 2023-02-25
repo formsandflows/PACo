@@ -73,6 +73,8 @@ The collection to display the items has 2 additional required properties:
 | RecordID | The unique ID of the item. This property is of type "Text".  |
 | Selected | This property must be set when checking/unchecking an item. This property is of type "Boolean". |
 
+**!! Attention: All 20 columns must be defined.**
+
 ## **Output properties**
 
 There are no output properties.
