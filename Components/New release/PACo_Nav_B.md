@@ -1,8 +1,8 @@
 # PACo_Nav_B
 
-This canvas component is meant to be used for a navigation menu.
+This canvas component is meant to be used for a navigation menu. This component divers from "PACo_Nav_A" in that it can contain also an image.
 
-![PACo_Nav](https://user-images.githubusercontent.com/35654198/197222505-7e7f42d7-9014-4471-a93a-c37c3f97a3e4.png)
+![image](https://user-images.githubusercontent.com/35654198/221382229-486948e9-c297-4a26-8f87-4bc9d4a92610.png)
 
 A navigation menu navigates between screens.
 
@@ -20,11 +20,11 @@ A menu item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| HasIcon | USe to show the image or not. |
+| HasIcon | Used to show the image or not. |
 | ID | The unique number of the menu item used in the behavior property "cmp_OnSelect". |
 | Image | The image to show. |
 | Order | The order of the menu item in the navigation menu. |
-| Screen | The screen object to navigate to. This property is not used in this component but in the app using the component.  |
+| Screen | The screen object to navigate to. |
 | Text | The text to display. |
 
 ## **Output properties**
