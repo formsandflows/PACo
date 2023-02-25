@@ -22,12 +22,12 @@ A menu item has the following properties:
 | :--- | :--- |
 | ID | The unique number of the menu item used in the behavior property "cmp_OnSelect". |
 | Order | The order of the menu item in the settings menu. |
-| Screen | The screen control to navigate to. This property is not used in this component but in the app using the component. |
+| Screen | The screen control to navigate to. |
 | Text | The text to display. |
 
 Example:
 
-`Table({ID:1, Order:10, Screen:'Theme Screen', Text:"Theme"}, {ID:2, Order:20, Screen:'Language Screen', Text:"Language"})`
+`Table({ID:1, Order:10, Screen:'Theme Screen', Text:"Themes"}, {ID:2, Order:20, Screen:'Language Screen', Text:"Languages"})`
 
 ## **Output properties**
 
