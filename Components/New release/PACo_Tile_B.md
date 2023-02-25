@@ -12,8 +12,8 @@ This canvas component is meant to be used for a tile.
 | cmp_Clickable | Boolean | This property determines if the tile is clickable. | false |
 | cmp_FontSize | Number | This property contains the size of the font. | 12 |
 | cmp_Height | Number | This property contains the height of the tile. | 60 |
-| cmp_Text | Text | This property contains the text shown in the upper section of the tile. | All |
-| cmp_Theme | Record | This property contains the theme to use for the panel. | *See the documention on theming.* |
+| cmp_Text | Text | This property contains the text shown in the tile. | All |
+| cmp_Theme | Record | This property contains the theme to use for the tile. | *See the documention on theming.* |
 | cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
 | cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 | cmp_Width | Number | This property contains the width of the tile. | 200 |
