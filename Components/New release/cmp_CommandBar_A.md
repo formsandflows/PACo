@@ -27,7 +27,7 @@ A command bar item has the following properties:
 
 Example:
 
-`{Command1: {Icon:Icon.Add, SelectedItems1:"#0#", Text:"New", Title:"New", Width:50}, Command2: {Icon:Icon.Edit, SelectedItems:"#1#", Text:"Edit", Title:"Edit", Width:48}, ...}`
+`{Command1: {Icon:Icon.Add, SelectedItems:"#0#", Text:"New", Title:"New", Width:50}, Command2: {Icon:Icon.Edit, SelectedItems:"#1#", Text:"Edit", Title:"Edit", Width:48}, ...}`
 
 A record is used to define the command bar. Because command bar items will have a different width, using a gallery for the commands was not possible. This component contains up to 8 command slots. How many to actually use is configured in the record. When a command slot shoud not be used:
 
