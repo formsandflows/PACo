@@ -1,4 +1,4 @@
-# cmp_Dialog_A
+# PACo_Dialog_A
 
 This canvas component is meant to be used for a dialog.
 
@@ -20,19 +20,20 @@ When using variables for the input properties, one dialog component can be used 
 | cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
 
 ### Buttons
-A dialog can show 1 or 2 buttons depending on its need. If only one button is needed, only one table item must be added. One button will have centered alignment.
+A dialog can show 1 or 2 buttons depending on its need. If only one button is needed, only one table item must be added. One button will have centered alignment. Two buttons will have a right alignment.
 
 A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Title | The title of the related label control. |
+| Text | The text to display in the button. |
+| Title | The internal name of the button. This is needed to support multilingual canvas apps. |
 | Type | Primary or secondary. |
 | Width | The width of the button. |
 
 The example below is used in the screenshot shown above.
 
-`Table({Title:"Ok", Type:"Primary"}, {Title:"Cancel", Type:"Secondary"})`
+`Table({Text:"Ok", Title:"Ok", Type:"Primary", Width:160}, {Text:"Cancel", Title:"Cancel", Type:"Secondary", Width:160})`
 
 ## **Output properties**
 
