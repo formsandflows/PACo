@@ -63,7 +63,7 @@ The are 4 field types available:
 
 More field types will be added in the future.
 
-The choice values for field of type "ComboBoxSingle" or a "Dropdown" can added to the form definition. The form definition can be dynamically created meaning that for example the choice values can be dynamic and stored outside the canvas app.
+The choice values for fields of type "ComboBoxSingle" or "DropDown" can be added to the form definition. The form definition can be dynamically created meaning that for example the choice values can be dynamic and stored outside the canvas app.
 
 ## **Output properties**
 
