@@ -2,7 +2,7 @@
 
 PACoCo is the companion canvas app for PACo. Where PACo only contains canvas components, PACoCo is a canvas app using these canvas components. PACoCo can be regarded as a reference canvas app meaning people can use it to investigate in detail how the components can be used.
 
-![image](https://user-images.githubusercontent.com/35654198/221399515-3444a066-a285-426a-9fb2-cd6bee609fba.png)
+![image](https://user-images.githubusercontent.com/35654198/221429398-1455d033-138f-4c82-8e1b-c6d13585f8b5.png)
 
 The backlog of PACoCo is [here](https://www.formsandflows.nl/pacoco-backlog/).
 
