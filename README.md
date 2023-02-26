@@ -1,4 +1,4 @@
-**2022-11-26: Version 1.1 of PACo and its companion PACoCo has been released! The release notes can be found [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes.md).**
+**2023-02-26: Version 1.2a of PACo and its companion PACoCo has been released! The release notes can be found [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes.md).**
 
 # PACo
 PACo is a Power Apps canvas app containing many canvas components to create functional and good-looking canvas apps in less time. Do more in less time was one of the drivers for this project. No premium Power Apps license is needed to use PACo.
@@ -7,7 +7,7 @@ The canvas components contain several settings – dependent on the canvas compo
 
 The screenshot below is made from the companion canvas app [PACoCo](./Documentation/PACoCo.md) which is created with PACo canvas components.
 
-![image](https://user-images.githubusercontent.com/35654198/204082990-ac175f4d-8667-4dff-80cf-9838b18332fe.png)
+![image](https://user-images.githubusercontent.com/35654198/221399515-3444a066-a285-426a-9fb2-cd6bee609fba.png)
 
 To be able to use PACo canvas components, two experimental features must be enabled:
 
@@ -40,6 +40,7 @@ The canvas components have been made with being used in responsive canvas apps i
 **DetailsList**
 
 - [cmp_DetailsList_A](./Components/cmp_DetailsList_A.md)
+- [cmp_DetailsList_B](./Components/cmp_DetailsList_B.md)
 
 **Dialog**
 
@@ -56,6 +57,7 @@ The canvas components have been made with being used in responsive canvas apps i
 **Nav**
 
 - [cmp_Nav_A](./Components/cmp_Nav_A.md)
+- [cmp_Nav_B](./Components/cmp_Nav_B.md)
 
 **Other**
 
