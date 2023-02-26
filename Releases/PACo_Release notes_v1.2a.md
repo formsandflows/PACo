@@ -4,7 +4,7 @@ This page contains the PACo release notes of version 1.2a. Version 1.2 was an in
 | :--- | :--- | :--- | :--- |
 | 6 | Update | *Many* | Accessibility improvements |
 | 15 | Bug | cmp_DetailsList_A | Sorting on last 6 columns |
-| 16 | New feature | cmp_DetailsList_A | Extend to 20 columns |
+| 16 | Update | cmp_DetailsList_A | Extend to 20 columns |
 | 17 | New feature | cmp_DetailsList_B | New canvas component (based on cmp_DetailsList_A but with only 10 columns) |
 | 18 | New feature | cmp_DetailsList_A | 4 new configuration properties |
 | 21 | Change | *Many* | Removed unused stuff |
