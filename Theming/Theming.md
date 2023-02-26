@@ -12,7 +12,7 @@ All four themes have their own file in this repository.
 
 PACo does not use all palette slots.
 
-The companion canvas app [PACoCo](.//PACoCo.md) contains a screen (Color Screen) which is only visible in edit mode containing a blobk for each palette slot of the current active theme. Example from theme "Default":
+The companion canvas app [PACoCo](.//PACoCo.md) contains a screen (Color Screen) which is only visible in edit mode containing a block for each palette slot of the current active theme. Example from theme "Default":
 
 ![image](https://user-images.githubusercontent.com/35654198/197279296-d19ede43-3529-4df5-a7a8-476d3aa59e30.png)
 
