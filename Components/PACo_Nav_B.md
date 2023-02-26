@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a navigation menu. This component divers from "PACo_Nav_A" in that it can contain also an image.
 
-![image](https://user-images.githubusercontent.com/35654198/221382229-486948e9-c297-4a26-8f87-4bc9d4a92610.png)
+![PACo_Nav_B](https://user-images.githubusercontent.com/35654198/221430546-5e73cac4-4d59-4c27-9a1b-e7fd9792d8a2.png)
 
 A navigation menu navigates between screens.
 
