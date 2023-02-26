@@ -35,52 +35,52 @@ The canvas components have been made with being used in responsive canvas apps i
 
 **CommandBar**
 
-- [cmp_CommandBar_A](./Components/cmp_CommandBar_A.md)
+- [PACo_CommandBar_A](./Components/PACo_CommandBar_A.md)
 
 **DetailsList**
 
-- [cmp_DetailsList_A](./Components/cmp_DetailsList_A.md)
-- [cmp_DetailsList_B](./Components/cmp_DetailsList_B.md)
+- [PACo_DetailsList_A](./Components/PACo_DetailsList_A.md)
+- [PACo_DetailsList_B](./Components/PACo_DetailsList_B.md)
 
 **Dialog**
 
-- [cmp_Dialog_A](./Components/cmp_Dialog_A.md)
+- [PACo_Dialog_A](./Components/PACo_Dialog_A.md)
 
 **Form**
 
-- [cmp_Form_A](./Components/cmp_Form_A.md)
+- [PACo_Form_A](./Components/PACo_Form_A.md)
 
 **Header**
 
-- [cmp_Header_A](./Components/cmp_Header_A.md)
+- [PACo_Header_A](./Components/PACo_Header_A.md)
 
 **Nav**
 
-- [cmp_Nav_A](./Components/cmp_Nav_A.md)
-- [cmp_Nav_B](./Components/cmp_Nav_B.md)
+- [PACo_Nav_A](./Components/PACo_Nav_A.md)
+- [PACo_Nav_B](./Components/PACo_Nav_B.md)
 
 **Other**
 
-- [cmp_Icon_A](./Components/cmp_Icon_A.md)
-- [cmp_Settings_A](./Components/cmp_Settings_A.md)
-- [cmp_Visualization_A](./Components/cmp_Visualization_A.md)
+- [PACo_Icon_A](./Components/PACo_Icon_A.md)
+- [PACo_Settings_A](./Components/PACo_Settings_A.md)
+- [PACo_Visualization_A](./Components/PACo_Visualization_A.md)
 
 **Panel**
 
-- [cmp_Panel_A](./Components/cmp_Panel_A.md)
+- [PACo_Panel_A](./Components/PACo_Panel_A.md)
 
 **SearchBox**
 
-- [cmp_SearchBox_A](./Components/cmp_SearchBox_A.md)
+- [PACo_SearchBox_A](./Components/PACo_SearchBox_A.md)
 
 **Spinner**
 
-- [cmp_Spinner_A](./Components/cmp_Spinner_A.md)
+- [PACo_Spinner_A](./Components/PACo_Spinner_A.md)
 
 **Tile**
 
-- [cmp_Tile_A](./Components/cmp_Tile_A.md)
-- [cmp_Tile_B](./Components/cmp_Tile_B.md)
+- [PACo_Tile_A](./Components/PACo_Tile_A.md)
+- [PACo_Tile_B](./Components/PACo_Tile_B.md)
 
 # Feature requests
 
