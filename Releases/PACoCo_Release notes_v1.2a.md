@@ -17,8 +17,8 @@ This page contains the PACoCo release notes of version 1.1.
 | 23 | Update | Only home screen contains help and settings menu icons |
 
 PACoCo v1.2a contains the following bugs:
-- First screen: No divider is shown between items.
-- Second sreen: The divider has an incorrect width.
+- First screen: No item divider is shown.
+- Second sreen: The item divider has an incorrect width.
 
 **Working on it!**
 
