@@ -1,4 +1,4 @@
-This page contains the PACoCo release notes of version 1.1.
+This page contains the PACoCo release notes of version 1.2a.
 
 | # | Type | Description |
 | :--- | :--- | :--- |
