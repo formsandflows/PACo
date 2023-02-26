@@ -12,7 +12,7 @@ This page contains the PACo release notes of version 1.2a. Version 1.2 was an in
 | 23 | New feature | cmp_Nav_B | New canvas component |
 | 24 | Change | *Many* | Put properties in alphabetical order |
 | 25 | Change | *Many* | Change format from simple to a record for certain component properties |
-| 26 | Change | cmp_DetailsList_A | use the term "column" instead of "field" |
+| 26 | Change | cmp_DetailsList_A | Use the term "column" instead of "field" |
 | 27 | Change | cmp_DetailsList_A | Align property names with control property names |
 | 28 | New feature | *Many* | Multilingual support |
 
