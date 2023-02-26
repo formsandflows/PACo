@@ -2,14 +2,14 @@
 
 PACoCo is the companion canvas app for PACo. Where PACo only contains canvas components, PACoCo is a canvas app using these canvas components. PACoCo can be regarded as a reference canvas app meaning people can use it to investigate in detail how the components can be used.
 
-![PACo_Template](https://user-images.githubusercontent.com/35654198/197381788-22ae1153-3599-4836-a67c-3d9c28566f79.png)
+![image](https://user-images.githubusercontent.com/35654198/221399515-3444a066-a285-426a-9fb2-cd6bee609fba.png)
 
 The backlog of PACoCo is [here](https://www.formsandflows.nl/pacoco-backlog/).
 
 ## Data
-PACoCo contains a collection of 50000 items which were imported using “Import from Excel”. Each item represents a sales record. This data, and more 100% copyright free test data, is offered [here](https://excelbianalytics.com/wp/downloads-18-sample-csv-files-data-sets-for-testing-sales/).
+PACoCo contains a collection of items which were imported using “Import from Excel”. Each item represents a sales record. This data, and more 100% copyright free test data, is offered [here](https://excelbianalytics.com/wp/downloads-18-sample-csv-files-data-sets-for-testing-sales/).
 
-PACoCo uses only a portion of this data though and well data that complies to:
+PACoCo uses only a portion of a 50.000 sales record set and well data that complies to:
 - Region = Europe
 - Country = The Netherlands
 
@@ -18,31 +18,37 @@ PACoCo uses only a portion of this data though and well data that complies to:
 This section gives a high-level overview of the functionalities in the companion canvas app PACoCo:
 
 - When a user starts PACoCo, the code in the button "btn_Start" is executed. It contains code that needs to be run only once per app start.
-- Then, the user is navigated to the screen "Home Screen".
-- The image shown above is how the home screen looks like.
-- When a user clicks on a navigation item, (s)he is navigated to the related screen. Only the home screen has implemented many components though.
+- Then, the user is navigated to the screen "Home Screen". The global variable "glb_Redirect" - which is defined in App.OnStart - is used for this.
+- The home screen is a screen without any data. This way, the canvas app is opened fast and the user can decide her-/himself which navigation menu item to go to.
+- The image shown above is a screenshot of the second screen.
+- When a user clicks on a navigation item, (s)he is navigated to the related screen.
+- The first screen and the second screen differ in the following points:
+  - The first screen uses navigation component PACo_Nav_A (as the home screen does) and the second screen uses navigation component PACo_Nav_B.
+  - The second screen uses the component "PACo_DetailsList_A" where the first screen does not use a component for the details list. This is done for testing performance. The details list is by far the most complex component. The first screen has a slightly better performance when using larger data sets.
+    - The first screen contains a few extra hidden buttons to simulate the behavior properties of the componetn "PACo_DetailsList_A".
+  - The second screen has a "Select all" checkbox in the header. The first screen not.
 - The items in the command bar depend on the amount of selected items (0, 1 or more than 1).
   - New > Add a new item
   - Edit > Edit the selected item
-  - Delete > Delete the selected item(s). A dialog box is shown first.
-  - Reload > Data is reloaded as if the app had just started. A dialog box is shown first.
-- The checkbox in the header can be used to select/unselect all shown items. Items not shown because of a filter are not selected/unselected.
-- The first four header column can be clicked on to set its sorting.
-  - A user can click the header again to change to sorting (Ascending, Descending, None).
+  - Delete > Delete the selected item. A dialog box is shown first.
+  - Reload > The screen is reloaded. A dialog box is shown first.
+    - A redirection screen is used to accomplish this.
+- Header columns have been configured for sorting.
+  - A user can click the header again to change the sorting (Ascending, Descending).
   - You can configure which column can be used for sorting.
   - Only one column can be used for sorting.
 - The width of a header column is fixed but can be configured.
 - When the total width of the columns is more wide than the available space, a horizontal scrollbar is shown.
-- The items shown in the details list can be filtered with the seach box. Only the first column is used for filtering.
+- The items shown in the details list can be filtered with the seach box. The column used for filtering is shown in the hint text.
   - Multiple columns can be used for filtering if needed.
 - When an item is clicked on, a panel is shown containing all properties to show.
   - The panel has an edit and delete command which is related to the same commands in the command bar.
-- The header contains a help icon which has no active code behind it.
-- The header contains a settings icon to show a settings menu.
-- The settings menu has one item: Theme
-  - A settings menu can have multiple items.
-- The setting "Theme" navaigates a user to the theme screen from where a theme (Default, Dark, High-contract or Fluent UI) can be selected.
-- The header of the theme screen contains a back icon to navigate back to the home screen.
+- The header in the home screen contains a help icon which open the webpage: https://github.com/formsandflows/PACo/
+- The header in the home screen contains a settings icon to show the settings menu.
+- The settings menu has two items: Themes and Languages
+- The setting "Themes" navigates a user to the themes screen from where a theme can be selected: Default, Dark, High-contract or Fluent UI
+- The setting "Languages" navigates a user to the languages screen from where a language can be selectd: English, Dutch
+- The header of the themes and languages screen contains a back icon to navigate back to the home screen.
 
 ## Responsiveness
 
@@ -54,7 +60,9 @@ PACoCo is a responsive app with the following setup:
 
 ## Screens
 There are three special screens in PACoCo which need some extra explanation:
+
 - Color Screen
+- Controls Screen
 - Redirect Screen
 - Start Screen
 
@@ -65,6 +73,11 @@ This screen is only visible in edit mode and it contains a block per palette slo
 
 ![image](https://user-images.githubusercontent.com/35654198/197279296-d19ede43-3529-4df5-a7a8-476d3aa59e30.png)
 
+### Controls screen
+This screen is only visible in edit mode and contains default controls which are configured to work with the theming setup of PACo. These controls can for instance be used on a custom form.
+
+![image](https://user-images.githubusercontent.com/35654198/221400482-070f70c6-a6a9-47c7-8631-20003594cf88.png)
+
 ### Redirect screen
 The navigation has the following setup:
 
@@ -74,7 +87,7 @@ The navigation has the following setup:
 4. The property "Onvisible" of the redirect screen has one line of code which selects the button "btn_Redirect".
 5. The property "OnSelect" of the button "btn_Redirect" has code to redirect the logged in user to the screen set in the global variable "glb_RedirectScreen".
 
-With this setup, the property "OnVisible" of the clicked on navigation item is run again. You can implement you own setup on how to deal with the navigation of course.
+With this setup, the code in the property "OnVisible" is run again of the navigation item which was clicked on. You can implement your own setup on how to deal with the navigation of course.
 
 The following blog post gives more input: [Run your screen’s "OnVisible" code again with a redirect screen](https://www.formsandflows.nl/2022/08/27/run-your-screens-onvisible-code-again-with-a-redirect-screen/)
 
@@ -82,10 +95,10 @@ To be able to change the code in the property "OnSelect" of the button "btn_Redi
 
 `Set(glb_Redirect, true)`
 
-When setting this global variable to false and then running App.OnStart, the user is not navigated back to the screen in the global variable "glb_RedirectScreen" and the code in button "btn_Start" can be changed to your liking.
+When setting this global variable to false and then running App.OnStart, the user is not redirected back to the screen in the global variable "glb_RedirectScreen" and the code in button "btn_Start" can be changed to your liking.
 
 ### Start screen
-The start screen is the screen started when the app is started. The property "Onvisible" of the start screen has one line of code which selects the button "btn_Start". The property "OnSelect" of the button "btn_Start" has code which needs to be run only once. At the end of the code, the user is navigated to the home screen.
+The start screen is the first screen used when the app is started. The property "Onvisible" of the start screen has one line of code which selects the button "btn_Start". The property "OnSelect" of the button "btn_Start" has code which needs to be run only once. At the end of the code, the user is navigated to the home screen.
 
 With this setup, the user starting the app sees a spinner as soon as possible.
 
