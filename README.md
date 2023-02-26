@@ -7,7 +7,7 @@ The canvas components contain several settings – dependent on the canvas compo
 
 The screenshot below is made from the companion canvas app [PACoCo](./Documentation/PACoCo.md) which is created with PACo canvas components.
 
-![image](https://user-images.githubusercontent.com/35654198/221399515-3444a066-a285-426a-9fb2-cd6bee609fba.png)
+![image](https://user-images.githubusercontent.com/35654198/221429398-1455d033-138f-4c82-8e1b-c6d13585f8b5.png)
 
 To be able to use PACo canvas components, two experimental features must be enabled:
 
