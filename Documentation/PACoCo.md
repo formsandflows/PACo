@@ -25,7 +25,7 @@ This section gives a high-level overview of the functionalities in the companion
 - The first screen and the second screen differ in the following points:
   - The first screen uses navigation component PACo_Nav_A (as the home screen does) and the second screen uses navigation component PACo_Nav_B.
   - The second screen uses the component "PACo_DetailsList_A" where the first screen does not use a component for the details list. This is done for testing performance. The details list is by far the most complex component. The first screen has a slightly better performance when using larger data sets.
-    - The first screen contains a few extra hidden buttons to simulate the behavior properties of the componetn "PACo_DetailsList_A".
+    - The first screen contains a few extra hidden buttons to simulate the behavior properties of the component "PACo_DetailsList_A".
   - The second screen has a "Select all" checkbox in the header. The first screen not.
 - The items in the command bar depend on the amount of selected items (0, 1 or more than 1).
   - New > Add a new item
