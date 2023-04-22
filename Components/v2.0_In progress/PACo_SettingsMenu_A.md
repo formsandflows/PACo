@@ -1,8 +1,8 @@
-# PACo_Settings_A
+# PACo_SettingsMenu_A
 
 This canvas component is meant to be used for a settings menu.
 
-![image](https://user-images.githubusercontent.com/35654198/197237104-e6406f0c-81e6-4c46-824f-31b873505c1d.png)
+[[ IMAGE ]]
 
 ## **Input properties**
 
@@ -20,14 +20,11 @@ A menu item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Disabled | If the menu item is disabled or not. |
 | ID | The unique number of the menu item used in the behavior property "cmp_OnSelect". |
 | Order | The order of the menu item in the settings menu. |
 | Screen | The screen control to navigate to. |
 | Text | The text to display. |
-
-Example:
-
-`Table({ID:1, Order:10, Screen:'Theme Screen', Text:"Themes"}, {ID:2, Order:20, Screen:'Language Screen', Text:"Languages"})`
 
 ## **Output properties**
 
@@ -37,4 +34,4 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of a menu item. It contains a required parameter (cmp_Param_SettingsID) which contains the ID of the menu item clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of the icon control used to display a menu item. It contains a required parameter (cmp_Param_SettingsID) which contains the ID of the menu item clicked on. |
