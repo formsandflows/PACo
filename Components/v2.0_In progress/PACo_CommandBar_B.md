@@ -1,8 +1,18 @@
-# PACo_CommandBar_A
+# PACo_CommandBar_B
 
 This canvas component is meant to be used for a command bar.
 
-![PACo_CommandBar](https://user-images.githubusercontent.com/35654198/197222781-1416d2e2-b950-4623-a125-fe4e526c3211.png)
+A command item consists of 4 controls:
+* An image control to show the icon.
+* A html control to determine the width of the label control.
+* A label control to show the text.
+* An icon which is used as an overlay. It spans the whole command item and its OnSelect property is related to the behavior property "cmp_OnSelect".
+
+The menu conists of 2 controls:
+* A label control containing the three dots.
+* An icon which is used as an overlay. It spans the whole command item and its OnSelect property is related to the behavior property "cmp_OnSelect".
+
+The menu is another component to show dependent on the output property "cmp_MenuPropertyVisible".
 
 ## **Input properties**
 
@@ -19,23 +29,17 @@ A command bar item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Icon | The icon to show. |
+| ID | An unique ID (number) of the item. |
+| Image | A svg definition to be used as an icon. |
 | SelectedItems | When to show the command bar item. *See the documention on selected items below.* |
 | Text | The text to display in the related label control. |
 | Title | The internal name of the command bar item. This is needed to support multilingual canvas apps. |
-| Width | The width of the related label control. |
-
-Example:
-
-`{Command1: {Icon:Icon.Add, SelectedItems:"#0#", Text:"New", Title:"New", Width:50}, Command2: {Icon:Icon.Edit, SelectedItems:"#1#", Text:"Edit", Title:"Edit", Width:48}, ...}`
 
 A record is used to define the command bar. Because command bar items have different widths, using a gallery for the command bar items was not possible. This component contains up to 8 command bar item slots. How many to actually use is configured in the record. When a command bar item slot shoud not be used:
 
-- The property "Icon" must be set a an icon.
 - The property "SelectedItems" must be set to "##".
 - The property "Text" must be set to an empty string ("").
 - The property "Title" must be set to an empty string ("").
-- The property "Width" must be set to 0.
 
 , for the related command bar item.
 
@@ -52,7 +56,7 @@ This property is used to determine when the command bar item must be shown.
 - #1# > The command bar item is shown when 1 item is selected.
 - #2# > The command bar item is shown when more than 1 item is selected.
 
-Example: A command bar item which has "#1#2#" set for its property "SelectedItems" is shown when 1 or more than 1 item is selected in the details list component.
+Above are example of single situations. The property "SelectedItems" of a command bar item can also be used for multiple situations. Example: A command bar item which has "#0#1#2#" set for its property "SelectedItems" is shown when 0, 1 or more than 1 item is selected in the details list component.
 
 #### Property "cmp_SelectedItems" of the component
 
@@ -64,10 +68,14 @@ This property determines if 0, 1 or more than 1 items are selected in the detail
 
 ## **Output properties**
 
-There are no output properties.
+| Property | Type | Description | Example |
+| :--- | :--- | :--- | :--- |
+| cmp_MenuPropertyX | Number | This property contains the X value for the menu.  | 720 |
+| cmp_MenuPropertyVisible | Boolean | This property determines if the menu should be shown or not. | true |
+| cmp_LastCommand | Number | This property contains the property last that command bar item that is still visible. | 5 |
 
 ## **Behavior properties**
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of all icons. It contains a required parameter (cmp_Param_Command) which contains the property "Title" of the command clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of several icon controls. It contains a required parameter (cmp_Param_Command) which contains the property "Title" of the command clicked on. |
