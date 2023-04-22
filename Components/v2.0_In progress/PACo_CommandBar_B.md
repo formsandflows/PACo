@@ -19,6 +19,7 @@ The menu is another component to show dependent on the output property "cmp_Menu
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
 | cmp_Commands | Record | This property contains the command bar items. Every command has its own record. | *See the documention on command bar items below.* |
+| cmp_ImagePadding | Number | This property contains the image padding to use. | 10 |
 | cmp_SelectedItems | Text | This property contains an indicator if 0, 1 or more than 1 items are selected in the details list component. | *See the documention on selected items below.* |
 | cmp_Theme | Record | This property contains the theme to use for the command bar. | *See the documention on theming.* |
 | cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
