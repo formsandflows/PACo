@@ -1,4 +1,4 @@
-# PACo_DetailsList_A
+# PACo_DetailsList_C
 
 This canvas component is meant to be used for a details list when the screen has a snall width.
 
