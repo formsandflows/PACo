@@ -20,12 +20,12 @@ The menu indicator conists of 2 controls:
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_Commands | Record | The command bar items | *See the documention on command bar items below.* |
-| cmp_ImagePadding | Number | The padding of the icons | 10 |
-| cmp_SelectedItems | Text | Indicator number of selected items (0, 1 or more than 1) in the details list component | *See the documention on selected items below.* |
-| cmp_Theme | Record | The theme to use | *See the documention on theming.* |
-| cmp_Visualization | Text | The visualization to use | *See the documention on the component cmp_Visualization_A.* |
-| cmp_VisualizationColor | Text | The color of the visualization | #0078d4 |
+| cmp_Commands | Record | The command bar items. | *See the documention on command bar items below.* |
+| cmp_ImagePadding | Number | The padding of the icons. | 10 |
+| cmp_SelectedItems | Text | Indicator number of selected items (0, 1 or more than 1) in the details list component. | *See the documention on selected items below.* |
+| cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
+| cmp_Visualization | Text | The visualization to use. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | The color of the visualization. | #0078d4 |
 
 ### Command bar items
 A command bar item has the following properties:
@@ -75,9 +75,9 @@ This property determines if 0, 1 or more than 1 items are selected in the detail
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_MenuPropertyX | Number | The X value for the command bar menu  | 720 |
-| cmp_MenuPropertyVisible | Boolean | To show the command abr menu or not | true |
-| cmp_LastCommand | Number | The last commadn bar item still visible | 5 |
+| cmp_MenuPropertyX | Number | The X value for the command bar menu.  | 720 |
+| cmp_MenuPropertyVisible | Boolean | To show the command abr menu or not. | true |
+| cmp_LastCommand | Number | The last command bar item still visible. | 5 |
 
 ## **Behavior properties**
 
