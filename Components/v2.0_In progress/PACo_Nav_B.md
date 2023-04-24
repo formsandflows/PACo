@@ -39,4 +39,4 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of a navigation menu item. It contains a required parameter (cmp_Param_NavID) which contains the ID of the navigation menu item clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of a navigation menu item (the related icon). It contains a required parameter (cmp_Param_NavID) which contains the ID of the navigation menu item clicked on. |
