@@ -24,4 +24,4 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of the icon (the image control). |
+| cmp_OnSelect | This property is related to the property "OnSelect" of the icon (the icon control). |
