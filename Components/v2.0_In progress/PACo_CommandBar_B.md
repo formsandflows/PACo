@@ -2,6 +2,8 @@
 
 This canvas component is meant to be used for a command bar.
 
+[[ IMAGE ]]
+
 A command bar item consists of 4 controls:
 * An image control to show the icon.
 * A html control to determine the width of the label control.
