@@ -1,4 +1,4 @@
-# PACo_ProgressIndicator_B.md
+# PACo_ProgressIndicator_B
 
 This canvas component is meant to be used for a progress indicator showing process steps of a process.
 
