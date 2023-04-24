@@ -2,28 +2,28 @@
 
 This canvas component is meant to be used for a command bar.
 
-A command item consists of 4 controls:
+A command bar item consists of 4 controls:
 * An image control to show the icon.
 * A html control to determine the width of the label control.
 * A label control to show the text.
-* An icon which is used as an overlay. It spans the whole command item and its OnSelect property is related to the behavior property "cmp_OnSelect".
+* An icon which is used as an overlay. It spans the whole command bar item and its OnSelect property is related to the behavior property "cmp_OnSelect".
 
-The menu conists of 2 controls:
-* A label control containing the three dots.
-* An icon which is used as an overlay. It spans the whole command item and its OnSelect property is related to the behavior property "cmp_OnSelect".
+This is a responsive component. A menu indicator (3 dots) is shown when there are command bar items which cannot be displayed another because the width of the command bar is to small. When the menu indicator is clicked on, a menu is shown. This menu is another component to show dependent on the output property "cmp_MenuPropertyVisible".
 
-The menu is another component to show dependent on the output property "cmp_MenuPropertyVisible".
+The menu indicator conists of 2 controls:
+* A label control containing the 3 dots.
+* An icon which is used as an overlay. It spans the whole command item and its OnSelect property is related to the behavior property "cmp_OnSelect".
 
 ## **Input properties**
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_Commands | Record | This property contains the command bar items. Every command has its own record. | *See the documention on command bar items below.* |
-| cmp_ImagePadding | Number | This property contains the image padding to use. | 10 |
-| cmp_SelectedItems | Text | This property contains an indicator if 0, 1 or more than 1 items are selected in the details list component. | *See the documention on selected items below.* |
-| cmp_Theme | Record | This property contains the theme to use for the command bar. | *See the documention on theming.* |
-| cmp_Visualization | Text | This property contains the visualization. | *See the documention on the component cmp_Visualization_A.* |
-| cmp_VisualizationColor | Text | This property contains the color to use in the visualization. | #0078d4 |
+| cmp_Commands | Record | The command bar items | *See the documention on command bar items below.* |
+| cmp_ImagePadding | Number | The padding of the icons | 10 |
+| cmp_SelectedItems | Text | Indicator number of selected items (0, 1 or more than 1) in the details list component | *See the documention on selected items below.* |
+| cmp_Theme | Record | The theme to use | *See the documention on theming.* |
+| cmp_Visualization | Text | The visualization to use | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | The color of the visualization | #0078d4 |
 
 ### Command bar items
 A command bar item has the following properties:
@@ -36,16 +36,18 @@ A command bar item has the following properties:
 | Text | The text to display in the related label control. |
 | Title | The internal name of the command bar item. This is needed to support multilingual canvas apps. |
 
-A record is used to define the command bar. Because command bar items have different widths, using a gallery for the command bar items was not possible. This component contains up to 8 command bar item slots. How many to actually use is configured in the record. When a command bar item slot shoud not be used:
+This component allows for up to 8 possible command bar items.
 
-- The property "SelectedItems" must be set to "##".
-- The property "Text" must be set to an empty string ("").
-- The property "Title" must be set to an empty string ("").
+When a command bar item shoud not be used:
+
+- set the property "SelectedItems" to "##".
+- set the property "Text" to an empty string ("").
+- set the property "Title" to an empty string ("").
 
 , for the related command bar item.
 
 ### Selected items
-A command bar item can be shown when there are 0, 1 and more than 1 items are selected in the details list component.
+A command bar item can be shown when 0, 1 and more than 1 items are selected in the details list component.
 
 To make this possible, a fixed setup must be followed for the property "SelectedItems" of a command bar item and of the property "cmp_Selecteditems" of the component.
 
@@ -53,9 +55,9 @@ To make this possible, a fixed setup must be followed for the property "Selected
 
 This property is used to determine when the command bar item must be shown.
 
-- #0# > The command bar item is shown when no items are selected.
-- #1# > The command bar item is shown when 1 item is selected.
-- #2# > The command bar item is shown when more than 1 item is selected.
+- #0# > The command bar item is shown when no items are selected in the details list component.
+- #1# > The command bar item is shown when 1 item is selected in the details list component.
+- #2# > The command bar item is shown when more than 1 item is selected in the details list component.
 
 Above are example of single situations. The property "SelectedItems" of a command bar item can also be used for multiple situations. Example: A command bar item which has "#0#1#2#" set for its property "SelectedItems" is shown when 0, 1 or more than 1 item is selected in the details list component.
 
@@ -71,12 +73,12 @@ This property determines if 0, 1 or more than 1 items are selected in the detail
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_MenuPropertyX | Number | This property contains the X value for the menu.  | 720 |
-| cmp_MenuPropertyVisible | Boolean | This property determines if the menu should be shown or not. | true |
-| cmp_LastCommand | Number | This property contains the property last that command bar item that is still visible. | 5 |
+| cmp_MenuPropertyX | Number | The X value for the command bar menu  | 720 |
+| cmp_MenuPropertyVisible | Boolean | To show the command abr menu or not | true |
+| cmp_LastCommand | Number | The last commadn bar item still visible | 5 |
 
 ## **Behavior properties**
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of several icon controls. It contains a required parameter (cmp_Param_Command) which contains the property "Title" of the command clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of several icon controls. It contains a required parameter (cmp_Param_Command) which contains the property "Title" of the command bar item clicked on. |
