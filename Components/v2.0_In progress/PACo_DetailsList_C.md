@@ -2,20 +2,28 @@
 
 This canvas component is meant to be used for a details list when the screen has a snall width.
 
+[[ IMAGE ]]
+
 Per item, up to 3 fields can be shown:
 * Title which is based on a label control.
 * Subtitle which is based on a label control.
 * HTML which is based on a html control.
 
-[[IMAGE]]
-
 ## **Input properties**
+
+| Property | Type | Description | Example |
+| :--- | :--- | :--- | :--- |
+| cmp_DetailsList | Table | The details list items. | *See the documention on details list items below.* |
+| cmp_ResetCheckbox | Boolean | To reset the checkbox of all items in the details list component. | true |
+| cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
+| cmp_Visualization | Text | The visualization to use. | *See the documention on the component cmp_Visualization_A.* |
+| cmp_VisualizationColor | Text | The color of the visualization. | #0078d4 |
 
 ### Details list items
 
 To have a more consistant naming, several properties contain the text "Column" which can be read a "Field".
 
-For each column, the following properties must be available:
+For each details list item, the following properties must be available:
 - Column1Color
 - Column1FontWeight
 - Column1Text
@@ -24,7 +32,9 @@ For each column, the following properties must be available:
 - Column2Text
 - Column3Text
 
-The collection to display the items has an additional required property:
+Only the use of a collection which contains the details list items is supported (read: configured/tested)! Dataverse tables, SharePoint lists, ... can thus not directly be connected to the property "cmp_DetailsList".
+
+The collection to display the details list items must have the additional required property:
 
 | Property | Description |
 | :--- | :--- |
@@ -38,5 +48,5 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnCheck | This property is related to the property "OnCheck" of the checkbox of an item. It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item. |
-| cmp_OnUncheck | This property is related to the property "OnUncheck" of the checkbox of an item. It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item. |
+| cmp_OnCheck | This property is related to the property "OnCheck" of the checkbox of a details list item. It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item (Record ID). |
+| cmp_OnUncheck | This property is related to the property "OnUncheck" of the checkbox of a details list item. It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item (Record). |
