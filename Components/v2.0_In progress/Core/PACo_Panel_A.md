@@ -10,18 +10,16 @@ A panel is shown when an item in the details list component is clicked on (This 
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_Button | Table | The button to show on the bottom of the panel. | *See the documention on panel button below.* |
+| cmp_Button | Record | The button to show on the bottom of the panel. | *See the documention on panel button below.* |
 | cmp_Commands | Record | The panel command bar items to show in the top of the panel. | *See the documention on panel command bar items below.* |
 | cmp_ImagePadding | Number | The padding of the icons. | 10 |
-| cmp_Record | Table | The data to show in the panel. | *See the documention on panel data below.* |
+| cmp_Records | Table | The data to show in the panel. | *See the documention on panel data below.* |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
 | cmp_Visualization | Text | The visualization to use. | *See the documention on the component cmp_Visualization_A.* |
 | cmp_VisualizationColor | Text | The color of the visualization. | #0078d4 |
 | cmp_Width | Number | The the width of the panel. | 400 |
 
 ### Panel button
-
-The setup of the related property is such that more buttons can be shown but only one button is supported (read: configured/tested)!
 
 The panel button has the following properties:
 
