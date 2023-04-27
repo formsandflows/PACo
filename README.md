@@ -1,4 +1,4 @@
-**2023-02-26: Version 1.2a of PACo and its companion PACoCo has been released! The release notes can be found [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes.md).**
+**2023-04-27: I am in the progress of finalizing version 2.0, the responsive release! It will be released in May 2023.**
 
 # PACo
 PACo is a Power Apps canvas app containing many canvas components to create functional and good-looking canvas apps in less time. Do more in less time was one of the drivers for this project. No premium Power Apps license is needed to use PACo.
