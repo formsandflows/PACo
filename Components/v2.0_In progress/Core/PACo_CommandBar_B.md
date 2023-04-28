@@ -8,13 +8,13 @@ A command bar item consists of 4 controls:
 * An image control to show the icon.
 * A html control to determine the width of the label control.
 * A label control to show the text.
-* An icon which is used as an overlay. It spans the whole command bar item and its OnSelect property is related to the behavior property "cmp_OnSelect".
+* A transparent icon which is used as an overlay. It spans the whole command bar item and its OnSelect property is related to the behavior property "cmp_OnSelect".
 
-This is a responsive component. A menu indicator (3 dots) is shown when there are command bar items which cannot be displayed another because the width of the command bar is to small. When the menu indicator is clicked on, a menu is shown. This menu is another component to show dependent on the output property "cmp_MenuPropertyVisible".
+This is a responsive component. A menu indicator (3 dots) is shown when there are command bar items to show but which cannot because the width of the command bar is to small. When the menu indicator is clicked on, a command bar menu is shown. This command bar menu is another canvas component (PACo_CommandBarMenu) which is also part of PACo-Core.
 
 The menu indicator conists of 2 controls:
 * A label control containing the 3 dots.
-* An icon which is used as an overlay. It spans the whole command item and its OnSelect property is related to the behavior property "cmp_OnSelect".
+* A transparent icon which is used as an overlay. It spans the whole menu indicator and its OnSelect property is related to the behavior property "cmp_OnSelect".
 
 ## **Input properties**
 
@@ -49,7 +49,7 @@ When a command bar item shoud not be used:
 , for the related command bar item.
 
 ### Selected items
-A command bar item can be shown when 0, 1 and more than 1 items are selected in the details list component.
+A command bar item can be shown for the situations when 0, 1 or more than 1 items are selected in the details list component which is also part of PACo-Core.
 
 To make this possible, a fixed setup must be followed for the property "SelectedItems" of a command bar item and of the property "cmp_Selecteditems" of the component.
 
@@ -61,7 +61,7 @@ This property is used to determine when the command bar item must be shown.
 - #1# > The command bar item is shown when 1 item is selected in the details list component.
 - #2# > The command bar item is shown when more than 1 item is selected in the details list component.
 
-Above are example of single situations. The property "SelectedItems" of a command bar item can also be used for multiple situations. Example: A command bar item which has "#0#1#2#" set for its property "SelectedItems" is shown when 0, 1 or more than 1 item is selected in the details list component.
+Above are example of single situations. The property "SelectedItems" of a command bar item can also be used for multiple situations. Example: A command bar item which has "#0#1#2#" set for its property "SelectedItems" is shown for the situations when 0, 1 or more than 1 item is selected in the details list component which is also part of PACo-Core.
 
 #### Property "cmp_SelectedItems" of the component
 
@@ -76,7 +76,6 @@ This property determines if 0, 1 or more than 1 items are selected in the detail
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
 | cmp_MenuPropertyX | Number | The X value for the command bar menu.  | 720 |
-| cmp_MenuPropertyVisible | Boolean | To show the command abr menu or not. | true |
 | cmp_LastCommand | Number | The last command bar item still visible. | 5 |
 
 ## **Behavior properties**
