@@ -32,7 +32,7 @@ A command bar item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| ID | An unique ID (number) of the item. |
+| ID | An unique ID (number) of the command bar item. |
 | Image | A svg definition to be used as an icon. |
 | SelectedItems | When to show the command bar item. *See the documention on selected items below.* |
 | Text | The text to display in the related label control. |
