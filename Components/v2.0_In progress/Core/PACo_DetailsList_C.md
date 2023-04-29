@@ -1,6 +1,6 @@
 # PACo_DetailsList_C
 
-This canvas component is meant to be used for a details list when the screen has a snall width.
+This canvas component is meant to be used for a details list when the screen has a small width.
 
 [[ IMAGE ]]
 
@@ -15,13 +15,14 @@ Per item, up to 3 fields can be shown:
 | :--- | :--- | :--- | :--- |
 | cmp_DetailsList | Table | The details list items. | *See the documention on details list items below.* |
 | cmp_ResetCheckbox | Boolean | To reset the checkbox of all items in the details list component. | true |
+| cmp_ShowCheckbox | Boolean | To show the checkbox at the details list items or not | true |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
 | cmp_Visualization | Text | The visualization to use. | *See the documention on the component cmp_Visualization_A.* |
 | cmp_VisualizationColor | Text | The color of the visualization. | #0078d4 |
 
 ### Details list items
 
-To have a more consistant naming, several properties contain the text "Column" which can be read a "Field".
+To have a more consistent naming with the other details list components in PACo-Core, several properties contain the text "Column" which can be read a "Field".
 
 For each details list item, the following properties must be available:
 - Column1Color
