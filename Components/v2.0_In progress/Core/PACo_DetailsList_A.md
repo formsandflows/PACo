@@ -12,6 +12,8 @@ This canvas component is meant to be used for a details list.
 | cmp_Header | Record | The details list header. Every header column has its own subrecord. | *See the documention on details list header below.* |
 | cmp_ResetCheckbox | Boolean | To reset the checkbox of all items in the details list component. | true |
 | cmp_ResetCheckboxHeader | Boolean | To reset the checkbox in the header. | true |
+| cmp_ShowCheckbox | Boolean | To show the checkbox at the details list items or not. | true |
+| cmp_ShowCheckboxHeader | Boolean | To show the checkbox in the header or not. | true |
 | cmp_SortingColumn | Text | The column to sort on. | Column1Text |
 | cmp_SortingDirection | Text | The sorting direction. | Ascending |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
