@@ -1,6 +1,6 @@
 # PACo_CommandBarMenu_A
 
-This canvas component is meant to be used for a menu for a command bar.
+This canvas component is meant to be used for a command bar menu.
 
 [[ IMAGE ]]
 
