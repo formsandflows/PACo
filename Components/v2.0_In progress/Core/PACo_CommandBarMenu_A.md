@@ -8,6 +8,7 @@ This canvas component is meant to be used for a command bar menu.
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
+| cmp_ImagePadding | Number | The padding of the icons. | 10 |
 | cmp_Menu | Table | The command bar menu items. | *See the documention on command bar menu items below.* |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
 | cmp_Visualization | Text | The visualization to use. | *See the documention on the component cmp_Visualization_A.* |
@@ -19,7 +20,7 @@ A command bar menu item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | ID | An unique ID (number) of the command bar menu item. |
-| SelectedItems | When to show the command bar item. *See the documention on the component "cmp_CommandBar_A".* |
+| Image| A svg definition to be used as an icon. |
 | Text | The text to display in the related label control. |
 | Title | The internal name of the command bar menu item. This is needed to support multilingual canvas apps. |
 
