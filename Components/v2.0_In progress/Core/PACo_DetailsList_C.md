@@ -15,7 +15,7 @@ Per item, up to 3 fields can be shown:
 | :--- | :--- | :--- | :--- |
 | cmp_DetailsList | Table | The details list items. | *See the documention on details list items below.* |
 | cmp_ResetCheckbox | Boolean | To reset the checkbox of all items in the details list component. | true |
-| cmp_ShowCheckbox | Boolean | To show the checkbox at the details list items or not | true |
+| cmp_ShowCheckbox | Boolean | To show the checkbox at the details list items or not. | true |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
 | cmp_Visualization | Text | The visualization to use. | *See the documention on the component cmp_Visualization_A.* |
 | cmp_VisualizationColor | Text | The color of the visualization. | #0078d4 |
