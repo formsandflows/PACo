@@ -18,7 +18,7 @@ This canvas component is meant to be used for a command bar item.
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
-| cmp_Width | Number | The width of the command bar item. |
+| cmp_Width | Number | The calculated width of the command bar item. |
 
 ## **Behavior properties**
 
