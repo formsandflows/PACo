@@ -34,4 +34,4 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of the icon control used to display a settings menu item. It contains a required parameter (cmp_Param_SettingsID) which contains the ID of the menu item clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of the icon control used to display a settings menu item. It contains a required parameter (cmp_Param_SettingsID) which contains the ID of the settings menu item clicked on. |
