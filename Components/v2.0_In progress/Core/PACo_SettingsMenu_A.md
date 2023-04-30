@@ -4,6 +4,8 @@ This canvas component is meant to be used for a settings menu.
 
 [[ IMAGE ]]
 
+A settings menu is activated using the setting menu icon in the header. Selecting a settings menu item navigates to another screen.
+
 ## **Input properties**
 
 | Property | Type | Description | Example |
@@ -21,8 +23,8 @@ A settings menu item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | Disabled | If the menu item is disabled or not. |
-| ID | The unique number of the menu item used in the behavior property "cmp_OnSelect". |
-| Order | The order of the menu item in the settings menu. |
+| ID | The unique number of the settings menu item used in the behavior property "cmp_OnSelect". |
+| Order | The order of the item in the settings menu. |
 | Screen | The screen control to navigate to. |
 | Text | The text to display. |
 
