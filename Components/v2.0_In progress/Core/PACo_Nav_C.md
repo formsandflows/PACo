@@ -1,29 +1,29 @@
 # PACo_Nav_C.md
 
-This canvas component is meant to be used for a navigation menu.
+This canvas component is meant to be used for a navigation.
 
 [[ IMAGE ]]
 
-A navigation menu navigates between screens. An icon is required.
+Clicking on a navigation item navigates to antoher screen. An icon is required.
 
 ## **Input properties**
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_Height | Number | The height of the navigation menu. | 100 |
-| cmp_Nav | Table | The navigation menu items. | *See the documention on navigation menu items below.* |
+| cmp_Height | Number | The height of the navigation. | 100 |
+| cmp_Nav | Table | The navigation items. | *See the documention on navigation menu items below.* |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
 
 ### Navigation menu items
-A navigation menu item has the following properties:
+A navigation item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Disabled | Used to disable the navigation menu item. |
-| ID | The unique number of the navigation menu item used in the behavior property "cmp_OnSelect". |
-| Image | A svg definition to be used as an icon for a non-selected navigation menu item. |
-| ImageSelected | A svg definition to be used as an icon for a selected navigation menu item. |
-| Order | The order of the item in the navigation menu. |
+| Disabled | Used to disable the navigation item. |
+| ID | The unique number of the navigation item used in the behavior property "cmp_OnSelect". |
+| Image | A svg definition to be used as an icon for a non-selected navigation item. |
+| ImageSelected | A svg definition to be used as an icon for a selected navigation item. |
+| Order | The order of the item in the navigation. |
 | Screen | The screen object to navigate to. |
 | Text | The text to display. |
 
@@ -35,4 +35,4 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of a navigation menu item (the related icon). It contains a required parameter (cmp_Param_NavID) which contains the ID of the navigation menu item clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of a navigation item (the related icon). It contains a required parameter (cmp_Param_NavID) which contains the ID of the navigation item clicked on. |
