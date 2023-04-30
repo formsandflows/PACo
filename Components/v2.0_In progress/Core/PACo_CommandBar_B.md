@@ -4,17 +4,7 @@ This canvas component is meant to be used for a command bar.
 
 [[ IMAGE ]]
 
-A command bar item consists of 4 controls:
-* An image control to show the icon.
-* A html control to determine the width of the label control.
-* A label control to show the text.
-* A transparent icon which is used as an overlay. It spans the whole command bar item and its OnSelect property is related to the behavior property "cmp_OnSelect".
-
-This is a responsive component. A menu indicator (3 dots) is shown when there are command bar items to show but which cannot because the width of the command bar is to small. When the menu indicator is clicked on, a command bar menu is shown. This command bar menu is another canvas component (PACo_CommandBarMenu) which is also part of PACo-Core.
-
-The menu indicator conists of 2 controls:
-* A label control containing the 3 dots.
-* A transparent icon which is used as an overlay. It spans the whole menu indicator and its OnSelect property is related to the behavior property "cmp_OnSelect".
+This is a responsive component. A menu indicator (3 dots) is shown when there are command bar items to show but which cannot been shown because the width of the command bar is to small. When the menu indicator is clicked on, a command bar menu is shown. This command bar menu is another canvas component (PACo_CommandBarMenu_A) which is also part of PACo-Core.
 
 ## **Input properties**
 
