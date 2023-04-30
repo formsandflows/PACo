@@ -4,13 +4,13 @@ This canvas component is meant to be used for a panel.
 
 [[ IMAGE ]]
 
-A panel is shown when an item in the details list component is clicked on (This must be configured in the details list component!). With a panel, addition item properties can be shown than are shown in the details list component. A vertical scrollbar appears when there is more data to show than fits on the screen.
+A panel is shown when an item in the details list component is clicked on. This must be configured in the details list component! With a panel, normally all data is shown meaning more item properties than the ones shown in the details list component. A vertical scrollbar appears when there is more data to show than fits on the screen.
 
 ## **Input properties**
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| cmp_Button | Record | The button to show on the bottom of the panel. | *See the documention on panel button below.* |
+| cmp_Button | Record | The button to show at the bottom of the panel. | *See the documention on panel button below.* |
 | cmp_Commands | Record | The panel command bar items to show in the top of the panel. | *See the documention on panel command bar items below.* |
 | cmp_ImagePadding | Number | The padding of the icons. | 10 |
 | cmp_Records | Table | The data to show in the panel. | *See the documention on panel data below.* |
@@ -42,7 +42,7 @@ A panel command bar item has the following properties:
 
 A maximum of 2 commands are supported (read: configured/tested)!
 
-When the property "Text" has no value, the related panel command bar item is not shopwn.
+When the property "Text" has no value, the related panel command bar item is not shown.
 
 ### Panel data
 A gallery is used to show data in the panel. Data consists of records. A record has the following properties:
