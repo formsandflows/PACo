@@ -26,7 +26,6 @@ A process step has the following properties:
 | Property | Description |
 | :--- | :--- |
 | ID | The unique number of the process step. Numbering must start at 1 and be sequential. |
-| Skip | If the process step must be skipped (inactive) or not. |
 | Title | The text to display. |
 
 ## **Output properties**
