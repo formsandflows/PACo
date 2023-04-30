@@ -22,7 +22,7 @@ The width of a button depends on a minimal width property, if an icon is added a
 | cmp_VisualizationColor | Text | The color of the visualization. | #0078d4 |
 
 ### Buttons
-A dialog can show 1 or 2 buttons depending on its need. A button can contain an icon (image). If only one button is needed, only one table item must be added. One button will have a centered alignment. Two buttons will have a right alignment.
+A dialog can show 0, 1 or 2 buttons depending on its need. A button can contain an icon (image). If only one button is needed, only one table item must be added. One button will have a centered alignment. Two buttons will have a right alignment. If 0 buttons should be shown, only one table item must be added where the properties "Text" and "Title" should be empty.
 
 A button has the following properties:
 
