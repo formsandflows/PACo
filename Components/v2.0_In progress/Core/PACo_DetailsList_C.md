@@ -50,4 +50,4 @@ There are no output properties.
 | Property | Description |
 | :--- | :--- |
 | cmp_OnCheck | This property is related to the property "OnCheck" of the checkbox of a details list item. It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item (Record ID). |
-| cmp_OnUncheck | This property is related to the property "OnUncheck" of the checkbox of a details list item. It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item (Record). |
+| cmp_OnUncheck | This property is related to the property "OnUncheck" of the checkbox of a details list item. It contains a required parameter (cmp_Param_RecordID) which contains the unique ID of the selected item (Record ID). |
