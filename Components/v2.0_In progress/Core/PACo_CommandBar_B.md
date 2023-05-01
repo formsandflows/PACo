@@ -26,7 +26,6 @@ A command bar item has the following properties:
 | Image | A svg definition to be used as an icon. |
 | SelectedItems | When to show the command bar item. *See the documention on selected items below.* |
 | Text | The text to display in the related label control. |
-| Title | The internal name of the command bar item. This is needed to support multilingual canvas apps. |
 
 This component allows for up to 8 possible command bar items.
 
@@ -72,4 +71,4 @@ This property determines if 0, 1 or more than 1 items are selected in the detail
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of several icon controls. It contains a required parameter (cmp_Param_CommandID) which contains the ID of the command bar menu item clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of several icon controls. It contains a required parameter (cmp_Param_CommandID) which contains the ID of the command bar menu item clicked on. menu indicator is clicked on, a 0 (zero) is returned. |
