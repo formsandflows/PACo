@@ -17,7 +17,6 @@ The width of a button depends on a minimal width property, if an icon is added a
 | cmp_Percentage | Number | The percentage of the total width for the "border". | 20 |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
 | cmp_Title | Text | The title of the dialog. | Reload |
-| cmp_Transparency| Number | The "border" transparency. It must be a value between 0 and 1. | 0.2 |
 | cmp_Visualization | Text | The visualization to use. | *See the documention on the component cmp_Visualization_A.* |
 | cmp_VisualizationColor | Text | The color of the visualization. | #0078d4 |
 
