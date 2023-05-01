@@ -72,4 +72,4 @@ This property determines if 0, 1 or more than 1 items are selected in the detail
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnSelect | This property is related to the property "OnSelect" of several icon controls. It contains a required parameter (cmp_Param_Command) which contains the property "Title" of the command bar item clicked on. |
+| cmp_OnSelect | This property is related to the property "OnSelect" of several icon controls. It contains a required parameter (cmp_Param_CommandID) which contains the ID of the command bar menu item clicked on. |
