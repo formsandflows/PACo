@@ -38,7 +38,6 @@ A panel command bar item has the following properties:
 | ID | An unique ID (number) of the command bar item. |
 | Image | A svg definition to be used as an icon. |
 | Text | The text to display in the related label control. |
-| Title | The internal name of the panel command bar item. This is needed to support multilingual canvas apps. |
 
 A maximum of 2 commands are supported (read: configured/tested)!
 
@@ -64,5 +63,5 @@ There are no output properties.
 
 | Property | Description |
 | :--- | :--- |
-| cmp_OnCommandSelect | This property is related to the property "OnSelect" of all panel command bar items. It contains a required parameter (cmp_Param_Command) which contains the title of the command item clicked on. |
+| cmp_OnCommandSelect | This property is related to the property "OnSelect" of all panel command bar items. It contains a required parameter (cmp_Param_CommandID) which contains the ID of the Panel command bar item clicked on. |
 | cmp_OnSelect | This property is related to the property "OnSelect" of the panel button. |
