@@ -71,12 +71,12 @@ The other screens are accessible when running the canvas app.
 ### Color screen
 This screen is only visible in edit mode and it contains a block per palette slot. See [Theming](./theming.md) for more information on palette slots. A block contains the name of the palette slot and its related color code. The color of the text is set to its color property. The actual values depend on the active theme. For example, theme "Default" will show:
 
-![image](https://user-images.githubusercontent.com/35654198/197279296-d19ede43-3529-4df5-a7a8-476d3aa59e30.png)
+![image](https://user-images.githubusercontent.com/35654198/235985325-25614c97-c027-492e-bd56-579446bb5730.png)
 
 ### Controls screen
 This screen is only visible in edit mode and contains default controls which are configured to work with the theming setup of PACo. These controls can for instance be used on a custom form.
 
-![image](https://user-images.githubusercontent.com/35654198/221400482-070f70c6-a6a9-47c7-8631-20003594cf88.png)
+![image](https://user-images.githubusercontent.com/35654198/235985418-04c6887b-88ee-470b-aadb-585f6cfe4da4.png)
 
 ### Redirect screen
 The navigation has the following setup:
