@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a search box.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235981615-a3eba4ed-f2b6-4cbc-be71-c3661f3cc59f.png)
 
 The search box can be used to filter the items shown in the details list component.
 
