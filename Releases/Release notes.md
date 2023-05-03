@@ -1,5 +1,12 @@
 Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Known%20issues.md) for known issues.
 
+## 2023-05-03
+
+| Canvas app | Version | Description |
+| :--- | :--- | :--- |
+| PACo | [2.0](https://github.com/formsandflows/PACo/raw/main/Releases/PACo%20v2_0.zip) | See [PACo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo_Release%20notes_v2.0.md) |
+| PACoCo | [2.0](https://github.com/formsandflows/PACo/raw/main/Releases/PACoCo%20v2_0.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACoCo_Release%20notes_v2.0.md) |
+
 ## 2023-02-26
 
 | Canvas app | Version | Description |
