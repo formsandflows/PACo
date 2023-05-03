@@ -37,18 +37,6 @@ I very much appreciate it if you sent me a message how you use PACo canvas compo
 
 Each PACo canvas component has a documentation page which can be found in the folder "Components".
 
-## PACo-Core
-
-| Canvas component | Description |
-| :--- | :--- |
-| ... | ... |
-
-## PACo-Extra
-
-| Canvas component | Description |
-| :--- | :--- |
-| ... | ... |
-
 # Feature requests
 
 From early June 2023, an option to submit feature requests is provided.
