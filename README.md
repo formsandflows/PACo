@@ -1,19 +1,25 @@
-**2023-04-27: I am in the progress of finalizing version 2.0, the responsive release! It will be released in May 2023.**
+**2023-05-03: Version 2.0 - The responsive version - has been released!**
 
 # PACo
-PACo is a Power Apps canvas app containing many canvas components to create functional and good-looking canvas apps in less time. Do more in less time was one of the drivers for this project. No premium Power Apps license is needed to use PACo.
+PACo consists of two Power Apps canvas apps containing many canvas components to create functional and good-looking canvas apps in less time:
+- PACo-Core
+  - The main canvas components.
+- PACo-Extra
+  - Additional canvas components which can also be used and useful without the core canvas components.
+
+Do more in less time was one of the drivers for this project. No premium Power Apps license is needed to use PACo.
 
 The canvas components contain several settings – dependent on the canvas component – to adjust them to your own needs. Because it are canvas components, you can even make changes to the canvas components with your existing Power Apps knowledge.
 
 The screenshot below is made from the companion canvas app [PACoCo](./Documentation/PACoCo.md) which is created with PACo canvas components.
 
-![image](https://user-images.githubusercontent.com/35654198/221429398-1455d033-138f-4c82-8e1b-c6d13585f8b5.png)
+![image](https://user-images.githubusercontent.com/35654198/235967420-88eef7b5-8769-4df0-98c9-a99d27d331e0.png)
 
 To be able to use PACo canvas components, two experimental features must be enabled:
 
 - Enhanced component properties (In preview since 2021-02-18)
 - ParseJSON function and untyped objects (In preview since 2022-09-12)
-  - This feature is not needed when the form canvas component is not used.
+  - This feature is not needed when the form canvas component is not used. The form canvas component is still under development. It is included but not documented.
 
 Please also look at the [Power Platform Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview) if you are interested in creating functional and good-looking apps (model-driven and canvas) in less time. The creator kit has many really nice code- and canvas components. It requires an environment with a database and to be able to use code components.
 
@@ -29,62 +35,23 @@ I very much appreciate it if you sent me a message how you use PACo canvas compo
 
 # Components
 
-Each PACo canvas component belongs to a category and has its own documentation file. The documentation is always based on the most recent final version of that canvas component.
+Each PACo canvas component has a documentation page which can be found in the folder "Components".
 
-The canvas components have been made with being used in responsive canvas apps in mind.
+## PACo-Core
 
-**CommandBar**
+| Canvas component | Description |
+| :--- | :--- |
+| ... | ... |
 
-- [PACo_CommandBar_A](./Components/PACo_CommandBar_A.md)
+## PACo-Extra
 
-**DetailsList**
-
-- [PACo_DetailsList_A](./Components/PACo_DetailsList_A.md)
-- [PACo_DetailsList_B](./Components/PACo_DetailsList_B.md)
-
-**Dialog**
-
-- [PACo_Dialog_A](./Components/PACo_Dialog_A.md)
-
-**Form**
-
-- [PACo_Form_A](./Components/PACo_Form_A.md)
-
-**Header**
-
-- [PACo_Header_A](./Components/PACo_Header_A.md)
-
-**Nav**
-
-- [PACo_Nav_A](./Components/PACo_Nav_A.md)
-- [PACo_Nav_B](./Components/PACo_Nav_B.md)
-
-**Other**
-
-- [PACo_Icon_A](./Components/PACo_Icon_A.md)
-- [PACo_Settings_A](./Components/PACo_Settings_A.md)
-- [PACo_Visualization_A](./Components/PACo_Visualization_A.md)
-
-**Panel**
-
-- [PACo_Panel_A](./Components/PACo_Panel_A.md)
-
-**SearchBox**
-
-- [PACo_SearchBox_A](./Components/PACo_SearchBox_A.md)
-
-**Spinner**
-
-- [PACo_Spinner_A](./Components/PACo_Spinner_A.md)
-
-**Tile**
-
-- [PACo_Tile_A](./Components/PACo_Tile_A.md)
-- [PACo_Tile_B](./Components/PACo_Tile_B.md)
+| Canvas component | Description |
+| :--- | :--- |
+| ... | ... |
 
 # Feature requests
 
-At the moment, feature requests are not acted upon. This most probably will change in the near future.
+From early June 2023, an option to submit feature requests is provided.
 
 # Bugs
 In case you find a bug: Please submit it as an issue. The version of PACo/PACoCo used must be included when submitting an issue. Also be as descriptive as possible. Thank you!
