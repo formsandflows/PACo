@@ -4,7 +4,7 @@ This canvas component is meant to be used for a command bar menu.
 
 ![image](https://user-images.githubusercontent.com/35654198/235977451-6a35b6da-012f-48ba-bbd5-719c261c28c3.png)
 
-This is a responsive component but usually a lot of width is needed for this canvas component. To still use this canvas component when the screen has a small width, you can place this canvas component in a responsive horizontal container to get a horizontal scroll bar. See the canvas component "PACo_DetailsList_B" for an example.
+This is a responsive canvas component but usually a lot of width is needed for this canvas component. To still use this canvas component when the screen has a small width, you can place this canvas component in a responsive horizontal container to get a horizontal scroll bar. See the canvas component "PACo_DetailsList_B" for an example.
 
 ## **Input properties**
 
