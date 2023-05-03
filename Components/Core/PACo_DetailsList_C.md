@@ -13,6 +13,7 @@ Per item, up to 3 fields can be shown:
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
+| cmp_BodyHeight | Number | The height of the body control. | 80 |
 | cmp_DetailsList | Table | The details list items. | *See the documention on details list items below.* |
 | cmp_ResetCheckbox | Boolean | To reset the checkbox of all items in the details list component. | true |
 | cmp_ShowCheckbox | Boolean | To show the checkbox at the details list items or not. | true |
@@ -24,14 +25,18 @@ Per item, up to 3 fields can be shown:
 
 To have a more consistent naming with the other details list components in PACo-Core, several properties contain the text "Column" which can be read a "Field".
 
+The properties have "Small" in their naming so 1 collection can be used to be used by this canvas component as well as a canvas component to used when the screen has more width. With this setup, the first 3 columns can differ instead of having to be the same.
+
 For each details list item, the following properties must be available:
-- Column1Color
-- Column1FontWeight
-- Column1Text
-- Column2Color
-- Column2FontWeight
-- Column2Text
-- Column3Text
+- Column1SmallColor
+- Column1SmallFontWeight
+- Column1SmallText
+- Column2SmallColor
+- Column2SmallFontWeight
+- Column2SmallText
+- Column3SmallText
+- SmallFill
+- SmallFillSelected
 
 Only the use of a collection which contains the details list items is supported (read: configured/tested)! Dataverse tables, SharePoint lists, ... can thus not directly be connected to the property "cmp_DetailsList".
 
@@ -40,6 +45,7 @@ The collection to display the details list items must have the additional requir
 | Property | Description |
 | :--- | :--- |
 | RecordID | The unique ID of the item. This property is of type "Text".  |
+| Selected | This property must be set when checking/unchecking a details list item. This property is of type "Boolean". |
 
 ## **Output properties**
 
