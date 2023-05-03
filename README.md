@@ -39,7 +39,7 @@ Each PACo canvas component has a documentation page which can be found in the fo
 
 # Feature requests
 
-From early June 2023, an option to submit feature requests is provided.
+From June 2023, an option to submit feature requests is provided.
 
 # Bugs
 In case you find a bug: Please submit it as an issue. The version of PACo/PACoCo used must be included when submitting an issue. Also be as descriptive as possible. Thank you!
