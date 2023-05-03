@@ -4,7 +4,7 @@ This canvas component is meant to be used for a command bar.
 
 ![image](https://user-images.githubusercontent.com/35654198/235978488-10113e29-f5ff-4fd5-8254-ac7ae55d49d8.png)
 
-This is a responsive component. A menu indicator (3 dots) is shown when there are command bar items to show but which cannot been shown because the width of the command bar is to small. When the menu indicator is clicked on, a command bar menu is shown. This command bar menu is another canvas component (PACo_CommandBarMenu_A) which is also part of PACo-Core.
+This is a responsive canvas component. A menu indicator (3 dots) is shown when there are command bar items to show but which cannot been shown because the width of the command bar is to small. When the menu indicator is clicked on, a command bar menu is shown. This command bar menu is another canvas component (PACo_CommandBarMenu_A) which is also part of PACo-Core.
 
 ## **Input properties**
 
