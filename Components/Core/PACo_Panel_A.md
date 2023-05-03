@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a panel.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235981450-7e4a2fd9-d4cc-436b-9847-ea35c39804a2.png)
 
 A panel is shown when an item in the details list component is clicked on. This must be configured in the details list component! With a panel, normally all data is shown meaning more item properties than the ones shown in the details list component. A vertical scrollbar appears when there is more data to show than fits on the screen.
 
