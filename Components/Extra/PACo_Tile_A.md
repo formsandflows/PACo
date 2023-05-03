@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a tile.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235983122-1b9fdc5d-9686-4859-82de-d9c967dcd95b.png)
 
 ## **Input properties**
 
