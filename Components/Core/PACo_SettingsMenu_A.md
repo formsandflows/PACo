@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a settings menu.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235982163-5c2ef64a-9f0f-4e69-8c3a-5003116f13f3.png)
 
 A settings menu is activated using the setting menu icon in the header. Selecting a settings menu item navigates to another screen.
 
