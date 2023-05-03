@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a spinner.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235982989-93ea7b0c-33b4-41eb-b52c-40bb8d3124ca.png)
 
 ## **Input properties**
 
