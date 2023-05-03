@@ -1,8 +1,10 @@
 # PACo_Nav_C.md
 
-This canvas component is meant to be used for a navigation.
+This canvas component is meant to be used for a horizontal navigation.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235981084-9e19c40d-74f4-4f1a-bdb0-fd2b93e4e88a.png)
+
+This is a responsive canvas component.
 
 Clicking on a navigation item navigates to antoher screen. An icon is required.
 
