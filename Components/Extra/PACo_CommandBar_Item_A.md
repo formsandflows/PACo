@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a command bar item.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235982444-ff55c19b-41fd-4bba-aa9f-5037f2296c2a.png)
 
 ## **Input properties**
 
