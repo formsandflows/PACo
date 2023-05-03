@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a button.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235982340-10a1d796-453c-45cd-9c4d-4aacc4de5723.png)
 
 ## **Input properties**
 
