@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a navigation.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235980799-970ab7a7-b4e5-4b4f-9270-fdead5e0ad97.png)
 
 Clicking on a navigation item navigates to antoher screen.
 
