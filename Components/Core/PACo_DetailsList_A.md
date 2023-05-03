@@ -2,7 +2,9 @@
 
 This canvas component is meant to be used for a details list.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235978809-ca5d0c95-df32-4ea2-b304-88520dbdd83f.png)
+
+This is a responsive canvas component. A horizontal scroll can appear when the width of the details list is more than fits on the screen.
 
 ## **Input properties**
 
