@@ -14,6 +14,7 @@ This version does not allow for process steps to be skipped.
 | cmp_ColorInactive | Text | The color used for a next stage. | #a19f9d |
 | cmp_CurrentStage | Number | The number of the current stage. Numbering starts at 1. | 4 |
 | cmp_Items | Table | The process steps. | *See the documention on process steps below.* |
+| cmp_TemplateSize | Number | The related property of the gallary used. | 120 |
 | cmp_TextColor | Text | The color of the text. | #000000 |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
 | cmp_Visualization | Text | The visualization to use. | *See the documention on the component cmp_Visualization_A.* |
