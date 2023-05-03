@@ -2,9 +2,9 @@
 
 This canvas component is meant to be used for a progress indicator showing process steps of a process.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235982840-520a3044-40f0-498e-aeca-4e6058162641.png)
 
-This version allow for process steps to be skipped. Skipped steps have a disabled full circle.
+This version allows for process steps to be skipped. Skipped steps have a disabled full circle.
 
 ## **Input properties**
 
