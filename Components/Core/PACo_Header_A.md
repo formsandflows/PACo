@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a header.
 
-![image](https://user-images.githubusercontent.com/35654198/235980443-494e8bc4-58d8-4bc5-b977-d6fde90822e7.png)
+![image](https://user-images.githubusercontent.com/35654198/235980652-ab1d1a83-c6f3-4f66-861f-3911ff817749.png)
 
 This is a responsive canvas control.
 
