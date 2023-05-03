@@ -2,7 +2,9 @@
 
 This canvas component is meant to be used for a header.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235980443-494e8bc4-58d8-4bc5-b977-d6fde90822e7.png)
+
+This is a responsive canvas control.
 
 The back and navigation menu icon share the same location and thus cannot be used simultaneously.
 
