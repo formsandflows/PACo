@@ -2,7 +2,9 @@
 
 This canvas component is meant to be used for a dialog.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235979899-d2168297-2283-498b-8148-0c03e1828836.png)
+
+This is a responsive canvas component.
 
 When using variables for the input properties, one dialog component can be used for multiple situations. This is implemented in the companion canvas app [PACoCo](./../PACoCo.md).
 
