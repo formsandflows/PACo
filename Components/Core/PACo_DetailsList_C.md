@@ -2,7 +2,7 @@
 
 This canvas component is meant to be used for a details list when the screen has a small width.
 
-[[ IMAGE ]]
+![image](https://user-images.githubusercontent.com/35654198/235979572-89783b98-c265-44c7-b2ef-e3f8158662b7.png)
 
 Per item, up to 3 fields can be shown:
 * Title which is based on a label control.
