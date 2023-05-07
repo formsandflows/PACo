@@ -2,13 +2,14 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Known%20is
 
 ## 2023-05-07
 
-The only difference between v2.0 and v2.1 is related to the html control showing the elevation visualization. An update was made to Power Apps resulting in the code not to work anymore as expected. The reason was an additional hash (#) in the logic which used to work but not anymore. The extra hash was actually wrong so the Power Apps update was not the reason. The release notes of v2.0 are used for v2.1.
+The only difference between v2.0 and v2.1 is related to the html control showing the elevation visualization. An update was made to Power Apps resulting in the code not to work anymore as expected. The reason was an additional hash (#) in the logic which used to work but not anymore. The extra hash was actually wrong so the Power Apps update was not the reason. The release notes of v2.0 are used for v2.1 (release notes of v1.0 for PACo Examples).
 
 | Canvas app | Version | Description |
 | :--- | :--- | :--- |
 | PACo-Core | [2.1](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Core%20v2_1.zip) | See [PACo-Core release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Core_Release%20notes_v2.0.md) |
 | PACo-Extra | [2.1](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Extra%20v2_1.zip) | See [PACo-Extra release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Extra_Release%20notes_v2.0.md) |
 | PACoCo | [2.1](https://github.com/formsandflows/PACo/raw/main/Releases/PACoCo%20v2_1.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACoCo_Release%20notes_v2.0.md) |
+| PACo Examples | [1.1](https://github.com/formsandflows/PACo/raw/main/Releases/PACo%20Examples%20v1_1.zip) | See [PACo Examples release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo_Examples_v1.0.md) |
 
 ## 2023-05-03
 
@@ -17,6 +18,7 @@ The only difference between v2.0 and v2.1 is related to the html control showing
 | PACo-Core | [2.0](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Core%20v2_0.zip) | See [PACo-Core release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Core_Release%20notes_v2.0.md) |
 | PACo-Extra | [2.0](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Extra%20v2_0.zip) | See [PACo-Extra release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Extra_Release%20notes_v2.0.md) |
 | PACoCo | [2.0](https://github.com/formsandflows/PACo/raw/main/Releases/PACoCo%20v2_0.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACoCo_Release%20notes_v2.0.md) |
+| PACo Examples | [1.0](https://github.com/formsandflows/PACo/raw/main/Releases/PACo%20Examples%20v1_0.zip) | See [PACo Examples release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo_Examples_v1.0.md) |
 
 ## 2023-02-26
 
