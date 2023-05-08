@@ -4,7 +4,7 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Known%20is
 
 The only difference between PACo canvas components v2.0 and v2.1 is related to html controls used to show an elevation visualization.
 
-An update was made to Power Apps resulting in the code in the property "HtmlText" of a html control used to show an elevation visualization to not work anymore. The code in v2.0 contained two hashes (#) before the color value after variable substitution instead of one. This used to work but now not anymore. Having two hashes was the sources of the issue and not the Power Apps update.
+An update was made to Power Apps resulting in the code in the property "HtmlText" of a html control used to show an elevation visualization to not work anymore. The code in v2.0 contained two hashes (#) before the color value after variable substitution instead of one. This used to work but now not anymore. Having two hashes was the source of the issue and not the Power Apps update.
 
 In all html controls used to show an elevation visualization, the hash is removed from the property "HtmlText". This way, nothing has to be changed in canvas apps using the canvas components.
 
