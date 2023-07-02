@@ -1,4 +1,4 @@
-**2023-05-03: Version 2.0 - The responsive version - has been released!**
+**2023-07-02: Version 2.2 has been released!**
 
 # PACo
 PACo consists of two Power Apps canvas apps containing many canvas components to create functional and good-looking canvas apps in less time:
@@ -7,7 +7,7 @@ PACo consists of two Power Apps canvas apps containing many canvas components to
 - PACo-Extra
   - Additional canvas components which can also be used and useful without the core canvas components.
 
-Do more in less time was one of the drivers for this project. No premium Power Apps license is needed to use PACo.
+Do more in less time was one of the main drivers for this project. No premium Power Apps license or Dataverse is needed to use PACo.
 
 The canvas components contain several settings – dependent on the canvas component – to adjust them to your own needs. Because it are canvas components, you can even make changes to the canvas components with your existing Power Apps knowledge.
 
@@ -15,11 +15,11 @@ The screenshot below is made from the companion canvas app [PACoCo](./Documentat
 
 ![image](https://user-images.githubusercontent.com/35654198/235967420-88eef7b5-8769-4df0-98c9-a99d27d331e0.png)
 
-To be able to use PACo canvas components, two experimental features must be enabled:
+PACo contains a fouth canvas app called [PACo Examples](./Documentation/PACo%20Examples.md). It contains a screen for every canvas component or set of related canvas components. This way, you can easily make changes to the properties of the canvas component properties to better understand them.
+
+To be able to use PACo canvas components, an experimental features must be enabled:
 
 - Enhanced component properties (In preview since 2021-02-18)
-- ParseJSON function and untyped objects (In preview since 2022-09-12)
-  - This feature is not needed when the form canvas component is not used. The form canvas component is still under development. It is included but not documented.
 
 Please also look at the [Power Platform Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview) if you are interested in creating functional and good-looking apps (model-driven and canvas) in less time. The creator kit has many really nice code- and canvas components. It requires an environment with a database and to be able to use code components.
 
@@ -39,7 +39,7 @@ Each PACo canvas component has a documentation page which can be found in the fo
 
 # Feature requests
 
-From June 2023, an option to submit feature requests is provided.
+From Juli 2023, an option to submit feature requests is provided.
 
 # Bugs
 In case you find a bug: Please submit it as an issue. The version of PACo/PACoCo used must be included when submitting an issue. Also be as descriptive as possible. Thank you!
