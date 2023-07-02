@@ -1,5 +1,7 @@
 # PACo_Tile_B
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a tile.
 
 ![image](https://user-images.githubusercontent.com/35654198/235983204-0bf827c7-0985-47b4-ab34-31d5e8166edd.png)
