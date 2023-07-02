@@ -1,5 +1,7 @@
 # PACo_Panel_A
 
+Related to version: 2.2
+
 This canvas component is meant to be used for a panel.
 
 ![image](https://user-images.githubusercontent.com/35654198/235981450-7e4a2fd9-d4cc-436b-9847-ea35c39804a2.png)
@@ -26,9 +28,9 @@ The panel button has the following properties:
 | Property | Description |
 | :--- | :--- |
 | Image | A svg definition to be used as an icon. An icon (image) is not required. |
+| ImagePadding | The padding of the icon. |
 | MinimalWidth | The minimal width of the button. |
 | Text | The text to display in the button. |
-| Title | The internal name of the button. This is needed to support multilingual canvas apps. |
 
 ### Panel command bar items
 A panel command bar item has the following properties:
