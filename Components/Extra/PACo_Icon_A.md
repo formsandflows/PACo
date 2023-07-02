@@ -1,5 +1,7 @@
 # PACo_Icon_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for an icon.
 
 ![image](https://user-images.githubusercontent.com/35654198/235982529-0462740c-eb45-43df-bdff-ae6ea18e2514.png)
