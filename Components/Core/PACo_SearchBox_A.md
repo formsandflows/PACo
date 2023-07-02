@@ -1,5 +1,7 @@
 # PACo_SearchBox_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a search box.
 
 ![image](https://user-images.githubusercontent.com/35654198/235981615-a3eba4ed-f2b6-4cbc-be71-c3661f3cc59f.png)
