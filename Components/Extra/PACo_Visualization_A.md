@@ -1,5 +1,7 @@
 # PACo_Visualization_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a custom functionality which needs a visualization.
 
 ![image](https://user-images.githubusercontent.com/35654198/235983311-adbd7a45-ebb0-4f9a-84a9-e2cbb49a9479.png)
