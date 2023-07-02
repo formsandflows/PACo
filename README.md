@@ -1,4 +1,4 @@
-**2023-07-02: Version 2.2 has been released!**
+**2023-07-02: [Version 2.2](./Releases/Release%20notes.md) has been released!**
 
 # PACo
 PACo consists of two Power Apps canvas apps containing many canvas components to create functional and good-looking canvas apps in less time:
