@@ -4,10 +4,10 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Known%20is
 
 | Canvas app | Version | Description |
 | :--- | :--- | :--- |
-| PACo-Core | [2.1](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Core%20v2_1.zip) | See [PACo-Core release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Core_Release%20notes_v2.0.md) |
-| PACo-Extra | [2.1](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Extra%20v2_1.zip) | See [PACo-Extra release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Extra_Release%20notes_v2.0.md) |
-| PACoCo | [2.1](https://github.com/formsandflows/PACo/raw/main/Releases/PACoCo%20v2_1.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACoCo_Release%20notes_v2.0.md) |
-| PACo Examples | [1.1](https://github.com/formsandflows/PACo/raw/main/Releases/PACo%20Examples%20v1_1.zip) | See [PACo Examples release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo%20Examples_Release%20notes_v1.0.md) |
+| PACo-Core | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Core%20v2_2.zip) | See [PACo-Core release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Core_Release%20notes_v2.2.md) |
+| PACo-Extra | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Extra%20v2_2.zip) | See [PACo-Extra release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Extra_Release%20notes_v2.2.md) |
+| PACoCo | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACoCo%20v2_2.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACoCo_Release%20notes_v2.2.md) |
+| PACo Examples | [1.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACo%20Examples%20v1_2.zip) | See [PACo Examples release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo%20Examples_Release%20notes_v1.2.md) |
 
 ## 2023-05-07
 
