@@ -1,5 +1,7 @@
 # PACo_Button_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a button.
 
 ![image](https://user-images.githubusercontent.com/35654198/235982340-10a1d796-453c-45cd-9c4d-4aacc4de5723.png)
@@ -8,14 +10,20 @@ This canvas component is meant to be used for a button.
 
 | Property | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
+| cmp_Button | Record | The button to show. | *See the documention on button below.* |
 | cmp_Disabled | Boolean | If the button is disabled or not. | false |
-| cmp_Image | Text | A svg definition to be used as an icon. |  |
-| cmp_ImagePadding | Number | The padding of the icon. | 10 |
-| cmp_MinimalWidth | Number | The minimal width of the button. | 100 |
-| cmp_Text | Text | The text to show. | "Button X" |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
-| cmp_Title | Text | The internal name of the button. This is needed to support multilingual canvas apps. | "ButtonX" |
-| cmp_Type | Text | The type of button (Primary, Secondary). | "Primary" |
+
+### Button
+A button has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| Image | A svg definition to be used as an icon. |
+| ImagePadding | The padding of the icon. |
+| MinimalWidth | The minimal width of the button. |
+| Text | The text to display in the button. |
+| Type | Possible values: Primary, Secondary. |
 
 ## **Output properties**
 
