@@ -1,5 +1,7 @@
 # PACo_Header_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a header.
 
 ![image](https://user-images.githubusercontent.com/35654198/235980652-ab1d1a83-c6f3-4f66-861f-3911ff817749.png)
