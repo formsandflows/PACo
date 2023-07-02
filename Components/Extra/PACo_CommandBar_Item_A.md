@@ -14,7 +14,6 @@ This canvas component is meant to be used for a command bar item.
 | cmp_ImagePadding | Number | The padding of the icon. | 10 |
 | cmp_Text | Text | The text to show. | "Command 1" |
 | cmp_Theme | Record | The theme to use. | *See the documention on theming.* |
-| cmp_Title | Text | The internal name of the command bar item. This is needed to support multilingual canvas apps. | "Command1" |
 
 ## **Output properties**
 
