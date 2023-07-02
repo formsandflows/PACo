@@ -1,5 +1,7 @@
 # PACo_SettingsMenu_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a settings menu.
 
 ![image](https://user-images.githubusercontent.com/35654198/235982163-5c2ef64a-9f0f-4e69-8c3a-5003116f13f3.png)
