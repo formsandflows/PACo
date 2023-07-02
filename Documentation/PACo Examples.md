@@ -1,1 +1,2 @@
-"PACo Examples" contains a screen for every canvas component or set of related canvas components. This way, you can easily make changes to the properties of the canvas component properties to better understand them.
+# PACo Examples
+PACo Examples contains a screen for every canvas component or set of related canvas components. This way, you can easily make changes to the properties of the canvas component properties to better understand them.
