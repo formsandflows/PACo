@@ -1,5 +1,7 @@
 # PACo_Nav_B
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a vertical navigation.
 
 ![image](https://user-images.githubusercontent.com/35654198/235980799-970ab7a7-b4e5-4b4f-9270-fdead5e0ad97.png)
