@@ -1,5 +1,7 @@
 # PACo_CommandBar_Item_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a command bar item.
 
 ![image](https://user-images.githubusercontent.com/35654198/235982444-ff55c19b-41fd-4bba-aa9f-5037f2296c2a.png)
