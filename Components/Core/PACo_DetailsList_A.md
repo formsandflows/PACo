@@ -1,5 +1,7 @@
 # PACo_DetailsList_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a details list.
 
 ![image](https://user-images.githubusercontent.com/35654198/235978809-ca5d0c95-df32-4ea2-b304-88520dbdd83f.png)
