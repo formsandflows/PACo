@@ -1,5 +1,7 @@
 # PACo_ProgressIndicator_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a progress indicator showing process steps of a process.
 
 ![image](https://user-images.githubusercontent.com/35654198/235982695-d096187d-845d-450e-a67e-ebf863688f5b.png)
