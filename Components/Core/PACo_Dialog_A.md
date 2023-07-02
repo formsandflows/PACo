@@ -1,5 +1,7 @@
 # PACo_Dialog_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a dialog.
 
 ![image](https://user-images.githubusercontent.com/35654198/235979899-d2168297-2283-498b-8148-0c03e1828836.png)
