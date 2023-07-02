@@ -1,6 +1,6 @@
 # PACo_Panel_A
 
-Related to version: 2.2
+This page is related to version: 2.2
 
 This canvas component is meant to be used for a panel.
 
