@@ -1,5 +1,7 @@
 # PACo_CommandBarMenu_A
 
+This page is related to version: 2.2
+
 This canvas component is meant to be used for a command bar menu.
 
 ![image](https://user-images.githubusercontent.com/35654198/235977451-6a35b6da-012f-48ba-bbd5-719c261c28c3.png)
