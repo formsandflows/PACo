@@ -1,6 +1,6 @@
 # PACoCo
 
-PACoCo is the companion canvas app for PACo. Where PACo only contains canvas components, PACoCo is a canvas app using these canvas components. PACoCo can be regarded as a reference canvas app meaning people can use it to investigate in detail how the components can be used.
+PACoCo is the companion canvas app to demonstrate how several PACo canvas components can be used together. PACoCo can be regarded as a reference canvas app meaning people can use it to investigate in more detail how the components can be used.
 
 ![image](https://user-images.githubusercontent.com/35654198/235985153-9a98897d-715f-46b8-8f3a-d28be2fdfaa4.png)
 
@@ -57,7 +57,7 @@ PACoCo is a responsive app with the following setup:
 - The minum height of a screen is 640. When the screen height is less, a vertical scrollbar (and therefor also a horizontal scrollbar) is shown .
 
 ## Screens
-There are three special screens in PACoCo which need some extra explanation:
+There are four special screens in PACoCo which need some extra explanation:
 
 - Color Screen
 - Controls Screen
