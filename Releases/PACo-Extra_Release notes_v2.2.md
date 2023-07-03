@@ -14,15 +14,12 @@ This page contains the PACo-Extra release notes of version 2.2.
 From version 2, each release has its own numbering for bugs, changes, new features and updates. No continuous numbering is used as was the case prior to version 2.
 
 ### #2 - Explanation
-
 As a consequence, a new property (*cmp_Button*) was added and several other properties were removed.
 
 ### #3, #5 - Explanation
-
 These components contain only one button/item. The property *OnSelect* will therefore always be related to that button/item. The property *cmp_Title* was therefore unnecessary. As a consequence, the property *OnSelect* also has no parameter anymore.
 
 ### #6, #7 - Explanation
-
 In multi-lingual scenarios, where the width of an object in a component - like the button in the panel component - could change, it was experienced that this change in width did not work consistent. The following changes were therefore made:
 * A textinput control was added in the component for every object for which its width could change. The control was hidden.
 * The default value of this textinput control was set to the text to display.
