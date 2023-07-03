@@ -5,6 +5,8 @@ PACo is a set of many canvas components to create functional and good-looking ca
 
 The PACo canvas components contain several settings – dependent on the component – to adjust them to your own needs. Because it are canvas components, you can even make changes to the PACo canvas components with your existing Power Apps knowledge.
 
+![image](https://user-images.githubusercontent.com/35654198/235967420-88eef7b5-8769-4df0-98c9-a99d27d331e0.png)
+
 4 canvas apps are included:
 - [PACo-Core](./Components/Core)
   - The main PACo canvas components.
@@ -12,11 +14,9 @@ The PACo canvas components contain several settings – dependent on the compone
   - Additional PACo canvas components which can also be used independently of the core PACo canvas components.
 - [PACoCo](./Documentation/PACoCo.md)
   - The companion canvas app to demonstrate how several PACo canvas components can be used together.
-  - The screenshot below is made from this companion canvas app.
+  - The screenshot above is made from this companion canvas app.
 - [PACo Examples](./Documentation/PACo%20Examples.md)
   - This canvas app contains a screen for every PACo canvas component or set of related PACo canvas components. This way, you can more easily experiment with the PACo canvas componets to better understand them.
-
-![image](https://user-images.githubusercontent.com/35654198/235967420-88eef7b5-8769-4df0-98c9-a99d27d331e0.png)
 
 To be able to use PACo canvas components, an experimental feature must be enabled:
 
