@@ -4,7 +4,7 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Known%20is
 
 Main changes:
 * A new canvas component has been added: [PACo_SelectList_A](./../Components/Extra/PACo_SelectList_A.md)
-* PACo canvas components with objects containing with a dynamic text width (due to multi-langual scenario's) were internally changed and must be used following a specific setup.
+* PACo canvas components with objects containing with a dynamic text width (due to multi-language scenario's) were internally changed and must be used following a specific setup.
 * The PACo canvas component [PACo_Button_A](./../Components/Extra/PACo_Button_A.md) has a diffrent setup.
 * The help svg icon in the PACo canvas component [PACo_Header_A](./../Components/Core/PACo_Header_A.md) is changed.
 
