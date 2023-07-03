@@ -2,6 +2,12 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Known%20is
 
 ## 2023-07-02
 
+Main changes:
+* A new canvas component has been added: [PACo_SelectList_A](./Components/Extra/PACo_SelectList_A.md)
+* PACo canvas components with objects containing with a dynamic text width (due to multi-langual scenario's) were internally changed and must be used following a specific setup.
+* The PACo canvas component [PACo_Button_A](./Components/Extra/PACo_Button_A.md) has a diffrent setup.
+* The help svg icon in the PACo canvas component [PACo_Header_A](./Components/Core/PACo_Header_A.md) is changed.
+
 | Canvas app | Version | Description |
 | :--- | :--- | :--- |
 | PACo-Core | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Core%20v2_2.zip) | See [PACo-Core release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Core_Release%20notes_v2.2.md) |
