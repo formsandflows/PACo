@@ -23,7 +23,7 @@ In multi-lingual scenarios, where the width of an object in a component - like t
 * "Raise OnReset when value changes" was selected for the property containing the text to display.
 * The property *OnReset* of the component was configured to reset the added textinput control.
 
-!! To make sure that the corerct width is used, the component properties containing the text to display must use variables. Before the components are shown, the variable must first be given an empty value and then the correct value. This triggers the OnReset of the component making sure the width is calculated properly.
+!! To make sure that the correct width is used, the component properties containing the text to display must use a variable. Before the components are shown, the variables must first be given an empty value and then the correct value. This triggers the OnReset of the components making sure the widths are calculated properly.
 
 ## Type description
 
