@@ -38,7 +38,7 @@ Each PACo canvas component has a documentation page which can be found in the fo
 
 # Feature requests
 
-From Juli 2023, an option to submit feature requests is provided.
+2020-10-05: This option is currently on hold. PACo will be a part in a bigger open source initiative.
 
 # Bugs
 In case you find a bug: Please submit it as an issue. The version of PACo/PACoCo used must be included when submitting an issue. Also be as descriptive as possible. Thank you!
