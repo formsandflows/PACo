@@ -15,19 +15,19 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Images | Data | Input | Table | Properties of the images. | See the documention on cmp_Images below. |
 | cmp_NavSelected |  Data | Input | Boolean | To show the correct image for the navigation. | |
 | cmp_OnBackSelect | Event | | Boolean | When the back image is clicked on. | |
-| cmp_OnHelpSelect |Event | |  Boolean | When the help image is clicked on. | |
+| cmp_OnHelpSelect | Event | |  Boolean | When the help image is clicked on. | |
 | cmp_OnNavSelect | Event | | Boolean | When the navigation image is clicked on. | |
 | cmp_OnSettingsMenuSelect | Event | | Boolean | When the settings menu image is clicked on. | |
-| cmp_SettingsMenuSelected |  Data | Input | Boolean | The show the correct icon for the settings menu. | |
-| cmp_ShowBack |  Data | Input | Boolean | To show the back image or not. | |
-| cmp_ShowHelp |  Data | Input | Boolean | To show the help image or not. | |
-| cmp_ShowNav |  Data | Input | Boolean | To show the navigation image or not. | |
-| cmp_ShowSettingsMenu |  Data | Input | Boolean | To show the settings menu image or not. | |
+| cmp_SettingsMenuSelected | Data | Input | Boolean | The show the correct icon for the settings menu. | |
+| cmp_ShowBack | Data | Input | Boolean | To show the back image or not. | |
+| cmp_ShowHelp | Data | Input | Boolean | To show the help image or not. | |
+| cmp_ShowNav | Data | Input | Boolean | To show the navigation image or not. | |
+| cmp_ShowSettingsMenu | Data | Input | Boolean | To show the settings menu image or not. | |
+| cmp_Text | Data | Input | Text | The text in the header. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
-| cmp_Theme |  Data | Input | Record | The themee. | See the documention on theming. |
-| cmp_Title |  Data | Input | Text | The text in the header. | |
-| cmp_Visualization |  Data | Input | Text | The visualization. | See the documention on the component cmp_Visualization_A. |
-| cmp_VisualizationColor |  Data | Input | Text | The color of the visualization. | |
+| cmp_Theme | Data | Input | Record | The themee. | See the documention on theming. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention on the component cmp_Visualization_A. |
+| cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Images
 This custom property is of data type "Table" and a record has the following properties:
