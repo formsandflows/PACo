@@ -6,6 +6,8 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235982529-0462740c-eb45-43df-bdff-ae6ea18e2514.png)
 
+You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
