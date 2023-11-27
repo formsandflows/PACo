@@ -19,7 +19,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Text | Data | Output | Text | Contains the text typed into the search box. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention on the component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of component cmp_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Images
