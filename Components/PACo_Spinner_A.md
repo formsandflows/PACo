@@ -13,4 +13,14 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Text | Data | Input | Text | The spinner text. | |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
+
+### cmp_TextStyling
+This custom property is of data type "Record" and has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| Font | The font. |
+| FontSize | The font size. |
+| FontWeight | The font weight. |
