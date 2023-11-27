@@ -1,6 +1,6 @@
 # PACo_Button_A
 
-!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on. !!
+!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
 
 This page is related to version: 3.0
 
