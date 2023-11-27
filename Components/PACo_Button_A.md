@@ -36,4 +36,4 @@ The actual width of the button is determined by several factors:
 - If an image must be shown as defined in the custom property "cmp_Button".
 - The image padding as defined in the custom property "cmp_Button".
 
-As a minimum, the image padding is always shown as space to the left and the right in the button.
+The image padding is always shown as space to the left and the right in the button.
