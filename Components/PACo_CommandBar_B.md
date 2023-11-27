@@ -31,6 +31,7 @@ A command bar item has the following properties:
 | :--- | :--- |
 | ID | An unique ID (number) of the command bar item. |
 | Image | A svg definition for the image. |
+| ImagePadding | The padding of the image. |
 | SelectedItems | When to show the command bar item. See the documention on cmp_SelectedItems below. |
 | Text | The text to display in the related label control. |
 
