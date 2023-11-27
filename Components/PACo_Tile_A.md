@@ -14,9 +14,9 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Text | Data | Input | Text | The text to shown in the upper section of the tile. | |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
-| cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
+| cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Value | Data | Input | Number | The number to show in the lower section of the tile. | |
-| cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention on the component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention on the component cmp_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_TextStyling
