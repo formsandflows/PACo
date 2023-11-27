@@ -13,6 +13,7 @@ This page is related to version: 3.0
 | cmp_Button | Data | Input | Record | Button properties. | *See the documention on cmp_Button below.* |
 | cmp_Disabled | Data | Input | Boolean | If the button is disabled or not. | |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on. | |
+| cmp_TextStyling | Data | Input | Record | Text properties. | *See the documention on cmp_TextStyling below.* |
 | cmp_Theme | Data | Input | Record | The theme to use. | *See the documention on theming.* |
 | cmp_Width | Data | Output | Number | The actual width of the button. | *See the documention on cmp_Width below.* |
 
@@ -28,6 +29,15 @@ This custom property is of data type record and has the following properties:
 | Type | The button type. Possible values are: Primary, Secondary. |
 
 This first button shown in the screenshot above is of type "Primary" and the second button of type "Secondary".
+
+### cmp_TextStyling
+This custom property is of data type record and has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| Font | The font. |
+| FontSize | The font size. |
+| FontWeight | The font weight. |
 
 ### cmp_Width
 The actual width of the button is determined by several factors:
