@@ -1,0 +1,16 @@
+# PACo_Spinner_A
+
+!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
+
+This page is related to version: 3.0
+
+![image](https://user-images.githubusercontent.com/35654198/235982989-93ea7b0c-33b4-41eb-b52c-40bb8d3124ca.png)
+
+You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+
+## Custom properties
+
+| Display name | Property type | Property definition | Data type | Description | Memo
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_Text | Data | Input | Text | The spinner text. | |
+| cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
