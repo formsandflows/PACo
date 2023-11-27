@@ -18,7 +18,7 @@ This page is related to version: 3.0
 | cmp_Width | Data | Output | Number | The actual width of the button. | See the documention on cmp_Width below. |
 
 ### cmp_Button
-This custom property is of data type record and has the following properties:
+This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
@@ -31,7 +31,7 @@ This custom property is of data type record and has the following properties:
 This first button shown in the screenshot above is of type "Primary" and the second button of type "Secondary".
 
 ### cmp_TextStyling
-This custom property is of data type record and has the following properties:
+This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
