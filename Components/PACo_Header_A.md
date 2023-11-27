@@ -34,7 +34,7 @@ This custom property is of data type "Table" and a record has the following prop
 
 | Property | Description |
 | :--- | :--- |
-| ID | An unique for the image. |
+| ID | An unique ID for the image. |
 | Image | A svg definition for the image. |
 | ImagePadding | The padding of the image. |
 
