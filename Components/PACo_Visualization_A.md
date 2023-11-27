@@ -12,8 +12,8 @@ Above, the two possible visualizations are shown: An "Elevation" and a "Line".
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention on cmp_Visualization below. |
+| cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention on cmp_Visualization below. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Vizualization
