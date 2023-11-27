@@ -22,7 +22,7 @@ This custom property is of data type record and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Image | A svg definition to be used as an image. Leave is empty if you do not want to show an image. |
+| Image | A svg definition to be used as an image. Leave it empty if you do not want to show an image. |
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width of the button. |
 | Text | The text to display in the button. |
