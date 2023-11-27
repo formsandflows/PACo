@@ -14,7 +14,7 @@ This page is related to version: 3.0
 | cmp_Disabled | Data | Input | Boolean | If the button is disabled or not. | |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on and not disabled. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
-| cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
+| cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Width | Data | Output | Number | The actual width of the button. | See the documention on cmp_Width below. |
 
 ### cmp_Button
