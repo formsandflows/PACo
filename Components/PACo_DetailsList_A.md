@@ -20,7 +20,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_OnCheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is unchecked. | |
 | cmp_OnHeaderSelect | Event | | Boolean | When a header column is clicked on. | |
 | cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | |
-| cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on ans the checkbox is checked. | |
+| cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is checked. | |
 | cmp_OnUncheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is checked. | |
 | cmp_ResetCheckbox | Data | Input | Boolean | To reset the checkbox of all details list items. | |
 | cmp_ResetCheckboxHeader | Data | Input | Boolean | To reset the checkbox in the header. | |
