@@ -50,7 +50,11 @@ This custom property is of data type "Table" and a record has the following prop
 
 | Property | Description |
 | :--- | :--- |
+| Align | The text alignment. |
+| ButtonHeight | The button height. |
 | ID | An unique ID for the title/message. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
+
+Not all properties are used by all controls.
