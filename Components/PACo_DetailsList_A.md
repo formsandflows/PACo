@@ -16,7 +16,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_DetailsList | Data | Input | Table | The details list items. | See the documention on cmp_DetailsList below. |
 | cmp_Header | Data | Input | Record | The details list header. | See the documention on cmp_Header below. |
-| cmp_OnCheck | Event | | Boolean | When the item checkbox is clicked on ans the checkbox is unchecked. | |
+| cmp_OnCheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is unchecked. | |
 | cmp_OnCheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is unchecked. | |
 | cmp_OnHeaderSelect | Event | | Boolean | When a header column is clicked on. | |
 | cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | |
