@@ -10,6 +10,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Add | Action | | Boolean | Add a log item to the collection. | See documentation on coll_Log below. |
+| cmp_HasImages | Date | Input | Boolean | If images are shown in the log or not. | |
 | cmp_Log | Date | Output | Table | The collection with log items | |
 | cmp_Reset | Action | | Boolean | Reset the collection with log items. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
