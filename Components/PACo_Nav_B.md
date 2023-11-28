@@ -19,7 +19,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention of component cmp_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
-### Navigation menu items
+### cmp_Nav
 A navigation item has the following properties:
 
 | Property | Description |
