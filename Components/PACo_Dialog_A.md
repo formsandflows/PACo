@@ -35,8 +35,8 @@ A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Image | A svg definition to be used as an icon. |
-| ImagePadding | The padding of the icon. |
+| Image | A svg definition for an image. |
+| ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width of the button. |
 | Text | The text to display in the button. |
 | Title | The internal name of the button. This is needed to support multilingual canvas apps. |
