@@ -50,6 +50,7 @@ This custom property is of data type "Table" and a record has the following prop
 | Property | Description |
 | :--- | :--- |
 | ButtonHeight | The button height. |
+| Height | The height of the related element. |
 | ID | An unique ID for the section. |
 | Font | The font. |
 | FontSize | The font size. |
