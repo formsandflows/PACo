@@ -22,7 +22,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | |
 | cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on ans the checkbox is checked. | |
 | cmp_OnUncheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is checked. | |
-| cmp_ResetCheckbox | Data | Input | Boolean | To reset the checkbox of all items in the details list. | |
+| cmp_ResetCheckbox | Data | Input | Boolean | To reset the checkbox of all details list items. | |
 | cmp_ResetCheckboxHeader | Data | Input | Boolean | To reset the checkbox in the header. | |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
 | cmp_ShowCheckboxHeader | Data | Input | Boolean | To show the checkbox in the header or not. | |
