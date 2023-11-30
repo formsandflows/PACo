@@ -13,10 +13,10 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Nav | Data | Input | Table | The navigation items. | See the documention on cmp_Nav below. |
-| cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | |
+| cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | See the documention on cmp_OnSelect below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention of component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention of canvas component cmp_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Nav
