@@ -14,10 +14,10 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Add | Action | | Boolean | Add a log item to the collection. | See documentation on cmp_Log below. |
 | cmp_HasImages | Data | Input | Boolean | If images are shown in the log or not. | |
 | cmp_Log | Data | Output | Table | The log items. | See documentation on cmp_Log below. |
-| cmp_Reset | Action | | Boolean | Reset the collection with log items. | |
+| cmp_Reset | Action | | Boolean | Reset the collection with log items. | See documentation on cmp_Log below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Update | Action | | Boolean | Update a log item in the collection. | |
+| cmp_Update | Action | | Boolean | Update a log item in the collection. | See documentation on cmp_Log below. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
@@ -32,6 +32,8 @@ A canvas component instance has a collection which is filled with log items usin
 | Text | The text. |
 
 The properies "Image", "ImagePadding" and "Text" can updated with the custom property "cmp_Update" using the ID of a log item.
+
+The collection with log items can be reset with the custom property "cmp_Reset".
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
