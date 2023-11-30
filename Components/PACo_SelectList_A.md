@@ -18,7 +18,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Button | Data | Input | Record | The button at the bottom of the panel. | See the documention on bcmp_Btton below. |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on. | |
-| cmp_OnSelectListItem | Event | | Boolean | When a select list item is clicked on. | |
+| cmp_OnSelectListItem | Event | | Boolean | When a select list item is clicked on. | See the documention on cmp_OnSelectListItem below. |
 | cmp_SelectList | Data | Input | Table | The select list items. | See the documention on cmp_SelectList below. |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
