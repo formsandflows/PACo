@@ -71,7 +71,7 @@ This custom property is of data type "Record" and has the following properties:
 | :--- | :--- |
 | BodyHeight | The height of the body. |
 | Font | The font. |
-| TextBlockHeight | The height of the title and of the subtitle. |
+| TextBlockHeight | The height of the text block of the title and of the subtitle. |
 
 All detail list items have the same height and is defined as 2 times the TextBlockHeight plus the Body Height.
 
