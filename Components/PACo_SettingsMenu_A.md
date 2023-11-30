@@ -18,7 +18,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Menu | Data | Input | Table | The settings menu items. | See the documention on cmp_Menu below. |
-| cmp_OnSelect | Event | | Boolean | When a settings menu item is clicked on. | |
+| cmp_OnSelect | Event | | Boolean | When a settings menu item is clicked on. | See the documention on cmp_OnSelect below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
