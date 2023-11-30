@@ -8,7 +8,7 @@ This page is related to version: 3.0
 
 This is a responsive canvas component. A horizontal scroll appears when the width of the details list is greater than the available width on the screen.
 
-When the canvas component instance is reset, the checkbox in the header and of detail list items are reset.
+When a canvas component instance is reset, the checkbox in the header and of detail list items are reset.
 
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
