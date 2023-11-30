@@ -6,13 +6,15 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235981084-9e19c40d-74f4-4f1a-bdb0-fd2b93e4e88a.png)
 
+This is a responsive canvas component. 
+
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | |
+| cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | See the documention on cmp_OnSelect below. |
 | cmp_Nav | Data | Input | Table | The navigation items. | See the documention on cmp_Nav below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
@@ -42,4 +44,4 @@ This custom property is of data type "Record" and has the following properties:
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
-| TextBlockHeight | The height of the navigation item
+| TextBlockHeight | The height of the navigation item. |
