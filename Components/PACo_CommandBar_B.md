@@ -8,6 +8,8 @@ This page is related to version: 3.0
 
 This is a responsive canvas component. A menu indicator (3 dots) is shown when there are command bar items to show which cannot be shown because the width of the command bar is to small. When the menu indicator is clicked on, a command bar menu is shown. This command bar menu is another canvas component (PACo_CommandBarMenu_A) which is also part of PACo.
 
+This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown in the command bar items is reset.
+
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
 ## Custom properties
