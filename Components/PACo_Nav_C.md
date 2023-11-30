@@ -26,7 +26,8 @@ A navigation item has the following properties:
 | :--- | :--- |
 | Disabled | Used to disable the navigation item. |
 | ID | The unique number of the navigation item used in the behavior property "cmp_OnSelect". |
-| Image | A svg definition for an image for a non-selected navigation item. |
+| Image | A svg definition for the image for a non-selected navigation item and when not disabled. |
+| ImageDisabled | A svg definition for the image for a non-selected navigation item and when disabled. |
 | ImagePadding | The padding of the image. |
 | ImageSelected | A svg definition for the image for a selected navigation item. |
 | Order | The order of the navigation item. |
