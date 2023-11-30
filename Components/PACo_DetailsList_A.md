@@ -101,4 +101,4 @@ This custom property is of data type "Record" and has the following properties:
 | Font | The font. |
 | FontSize | The font size. |
 | HeaderHeight | The height of the header. |
-| TextBlockHeight | The height of the detail list items. |
+| TextBlockHeight | The height of the text block. |
