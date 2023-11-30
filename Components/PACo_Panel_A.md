@@ -47,11 +47,11 @@ A panel command bar item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | ID | An unique ID (number) of the command bar item. |
-| Image | A svg definition to be used as an icon. |
+| Image | A svg definition for the image. |
 | ImagePadding | The padding of the images. |
-| Text | The text to display in the related label control. |
+| Text | The text. |
 
-A maximum of 2 commands is supported!
+A maximum of 2 command bar items is supported!
 
 When the property "Text" has no value, the related panel command bar item is not shown.
 
