@@ -6,7 +6,9 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235978809-ca5d0c95-df32-4ea2-b304-88520dbdd83f.png)
 
-This is a responsive canvas component. A horizontal scroll appears when the width of the details list is greater than the width of the screen.
+This is a responsive canvas component. A horizontal scroll appears when the width of the details list is greater than the available width on the screen.
+
+When the canvas component instance is reset, the checkbox in the header and of detail list items are reset.
 
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
@@ -16,14 +18,12 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_DetailsList | Data | Input | Table | The details list items. | See the documention on cmp_DetailsList below. |
 | cmp_Header | Data | Input | Record | The details list header. | See the documention on cmp_Header below. |
-| cmp_OnCheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is unchecked. | |
+| cmp_OnCheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is unchecked. | |
 | cmp_OnCheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is unchecked. | |
 | cmp_OnHeaderSelect | Event | | Boolean | When a header column is clicked on. | |
 | cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | |
-| cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is checked. | |
+| cmp_OnUncheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is checked. | |
 | cmp_OnUncheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is checked. | |
-| cmp_ResetCheckbox | Data | Input | Boolean | To reset the checkbox of all details list items. | |
-| cmp_ResetCheckboxHeader | Data | Input | Boolean | To reset the checkbox in the header. | |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
 | cmp_ShowCheckboxHeader | Data | Input | Boolean | To show the checkbox in the header or not. | |
 | cmp_SortingColumn | Data | Input | Text | The sorting column. | |
@@ -46,6 +46,7 @@ For each column, the following properties must be available:
 - Column#Text
 - Column#Tooltip
 - Column#VerticalAlign
+
 , where # is the number of the column. These properties relate to the control properties of the label control in the gallery used to show the data.
 
 Only the use of a collection which contains the details list items is supported! Dataverse tables, SharePoint lists, ... can thus not directly be connected to the custom property "cmp_DetailsList".
@@ -65,14 +66,14 @@ Every header column has its own subrecord. A header column has the following pro
 | Property | Description |
 | :--- | :--- |
 | Sortable | This determines if the related header column can be used for sorting. |
-| Text | The text to show in the related label control. |
+| Text | The text in the related label control. |
 | Width | The width of the related label control. |
 
 The width of a header can thus be configured but is fixed when using the app. It is possible to define the header outside the canvas app so it can be changed without changing the canvas app. This is a recommended approach.
 
-If the total width of all columns together is larger than the width of this details list canvas component, a horizontal scrollbar is shown.
+If the total width of all columns together is larger than the width of a details list canvas component instance, a horizontal scrollbar is shown.
 
-This canvas component is configured to have a maximum of 20 columns. When a column shoud not be used:
+This canvas component is configured to have a maximum of 20 columns. When a column should not be used:
 - set the property "Text" to an empty string ("").
 - set the property "Width" to 0.
 
