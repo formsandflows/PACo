@@ -17,10 +17,9 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_CurrentStage | Data | Input | Number | The number of the current stage. Numbering starts at 1. | |
 | cmp_Items | Data | Input | Table | The process steps. | See the documention on cmp_Items below. |
 | cmp_TemplateSize | Data | Input | Number | The related property of the gallery used. | |
-| cmp_TextColor | Data | Input | Text | The color of the text. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Items
@@ -36,6 +35,7 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
