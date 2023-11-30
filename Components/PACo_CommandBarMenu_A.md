@@ -25,9 +25,9 @@ A command bar menu item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | ID | An unique ID (number) of the command bar menu item. |
-| Image| A svg definition to be used as an icon. |
+| Image| A svg definition for the image. |
 | ImagePadding | The padding of the image. |
-| Text | The text to display. |
+| Text | The text. |
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command bar menu item clicked on.
