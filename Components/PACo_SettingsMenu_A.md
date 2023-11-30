@@ -47,4 +47,4 @@ This custom property is of data type "Record" and has the following properties:
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
-| TextBlockHeight | The height of the settings menu items. |
+| TextBlockHeight | The height of the text block. |
