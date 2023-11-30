@@ -14,7 +14,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Image | Data | Input | Text | A svg definition for the image. | |
 | cmp_SpinnerSize | Data | Input | Number | The size of the spinner. | |
-| cmp_Text | Data | Input | Text | The spinner text. | |
+| cmp_Text | Data | Input | Text | The text. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 
