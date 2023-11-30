@@ -8,6 +8,8 @@ This page is related to version: 3.0
 
 This is a responsive canvas component. The width of the canvas component instance must be configured as: `Self.cmp_Width`
 
+This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown is reset.
+
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
 ## Custom properties
