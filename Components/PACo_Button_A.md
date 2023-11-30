@@ -30,8 +30,8 @@ This custom property is of data type "Record" and has the following properties:
 | :--- | :--- |
 | Image | A svg definition for the image. Leave it empty if you do not want to show an image. |
 | ImagePadding | The padding of the image. |
-| MinimalWidth | The minimal width of the button. |
-| Text | The text in the button. |
+| MinimalWidth | The minimal width. |
+| Text | The text. |
 | Type | The button type. Possible values are: Primary, Secondary. |
 
 This first button shown in the screenshot above is of type "Primary" and the second button of type "Secondary".
