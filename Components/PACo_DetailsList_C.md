@@ -8,7 +8,7 @@ This page is related to version: 3.0
 
 This is a responsive canvas component.
 
-Per item, up to 3 fields can be shown:
+Per details list item, up to 3 fields can be shown:
 * Title which is based on a label control.
 * Subtitle which is based on a label control.
 * Body which is based on a html control.
@@ -55,7 +55,7 @@ The collection which contains the details list items must have the additional re
 
 | Property | Description |
 | :--- | :--- |
-| RecordID | The unique ID of the item. This property is of type "Text".  |
+| RecordID | The unique ID of the details list item. This property is of type "Text".  |
 | Selected | This property must be set when checking/unchecking a details list item. This property is of type "Boolean". |
 
 ### cmp_OnCheck
@@ -73,7 +73,7 @@ This custom property is of data type "Record" and has the following properties:
 | Font | The font. |
 | TextBlockHeight | The height of the title and of the subtitle. |
 
-All records have the same height and is defined as 2 times the TextBlockHeight plus the Body Height.
+All detail list items have the same height and is defined as 2 times the TextBlockHeight plus the Body Height.
 
 | Situation | Description |
 | :--- | :--- |
