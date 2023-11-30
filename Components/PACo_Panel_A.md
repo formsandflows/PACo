@@ -6,7 +6,11 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235981450-7e4a2fd9-d4cc-436b-9847-ea35c39804a2.png)
 
-A panel is shown when an item in the details list is clicked on. This must be configured in the details list component! With a panel, normally all data is shown meaning more item properties than the ones shown in the details list. A vertical scrollbar appears when there is more data to show than fits on the screen.
+This is a responsive canvas component.
+
+A panel is shown when an item in the details list is clicked on. This must be configured in the details list! With a panel, normally all data is shown meaning more item properties than the ones shown in the details list. A vertical scrollbar appears when there is more data to show than fits on the screen.
+
+This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown in the command bar items and the button is reset.
 
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
@@ -31,10 +35,11 @@ The panel button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Height | The height. |
 | Image | A svg definition for an image. An image is not required. |
 | ImagePadding | The padding of the image. |
-| MinimalWidth | The minimal width of the button. |
-| Text | The text to display in the button. |
+| MinimalWidth | The minimal width. |
+| Text | The text. |
 
 ### cmp_Commands
 A panel command bar item has the following properties:
@@ -49,6 +54,8 @@ A panel command bar item has the following properties:
 A maximum of 2 commands is supported!
 
 When the property "Text" has no value, the related panel command bar item is not shown.
+
+This custom property also has a property "Height" which is used to set the height of the command bar. This must include the whitespace at the top and bottom of 10 each.
 
 ### cmp_Records
 A gallery is used to show data in the panel. Data consists of records. A record has the following properties:
@@ -70,10 +77,7 @@ This custom property is of data type "Table" and a record has the following prop
 
 | Property | Description |
 | :--- | :--- |
-| ButtonHeight | The button height. |
 | ID | An unique ID for the section. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
-
-Not all properties are used by all controls.
