@@ -20,7 +20,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Button | Data | Input | Record | The button at the bottom of the panel. | See the documention on cmp_Button below. |
 | cmp_Commands | Data | Input | Record | The panel command bar items at the top of the panel. | See the documention on cmp_Commands below. |
-| cmp_OnCommandSelect | Event | | Boolean | When a command bar item is clicked on. | |
+| cmp_OnCommandSelect | Event | | Boolean | When a command bar item is clicked on. | See the documention on cmp_OnCommandSelect below. |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on. |
 | cmp_Records | Data | Input | Table | The data in the panel. | See the documention on cmp_Records below. |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
@@ -57,6 +57,9 @@ When the property "Text" has no value, the related panel command bar item is not
 
 This custom property also has a property "Height" which is used to set the height of the command bar. This must include the whitespace at the top and bottom of 10 each.
 
+### cmp_OnCommandSelect
+This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the Panel command bar item clicked on.
+
 ### cmp_Records
 A gallery is used to show data in the panel. Data consists of records. A record has the following properties:
 
@@ -68,9 +71,6 @@ A gallery is used to show data in the panel. Data consists of records. A record 
 | TextHeight | The height of the gallery item. |
 
 The LabelHeight and TextHeight properties are not required. A value of 40 is used in case the properties are not defined.
-
-### cmp_OnCommandSelect
-This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the Panel command bar item clicked on.
 
 ### cmp_TextStyling
 This custom property is of data type "Table" and a record has the following properties:
