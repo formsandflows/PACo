@@ -6,6 +6,8 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235982444-ff55c19b-41fd-4bba-aa9f-5037f2296c2a.png)
 
+This is a responsive canvas component.
+
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
 ## Custom properties
@@ -13,7 +15,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Image | Data | Input | Text | A svg definition for the image. | |
-| cmp_ImagePadding | Data | Input | Number | The padding of the icon. | |
+| cmp_ImagePadding | Data | Input | Number | The padding of the image. | |
 | cmp_OnSelect | Event | | Boolean | When the command bar item is clicked on. | |
 | cmp_Text | Data | Input | Text | The text. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
