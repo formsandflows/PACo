@@ -18,11 +18,11 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_DetailsList | Data | Input | Table | The details list items. | See the documention on cmp_DetailsList below. |
 | cmp_Header | Data | Input | Record | The details list header. | See the documention on cmp_Header below. |
-| cmp_OnCheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is unchecked. | |
+| cmp_OnCheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is unchecked. | See the documention on cmp_OnCheck below. |
 | cmp_OnCheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is unchecked. | |
-| cmp_OnHeaderSelect | Event | | Boolean | When a header column is clicked on. | |
-| cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | |
-| cmp_OnUncheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is checked. | |
+| cmp_OnHeaderSelect | Event | | Boolean | When a header column is clicked on. | See the documention on cmp_OnHeaderSelect below. |
+| cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | See the documention on cmp_OnSelect below. |
+| cmp_OnUncheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is checked. | See the documention on cmp_OnUncheck below. |
 | cmp_OnUncheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is checked. | |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
 | cmp_ShowCheckboxHeader | Data | Input | Boolean | To show the checkbox in the header or not. | |
