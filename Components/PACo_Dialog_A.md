@@ -43,7 +43,7 @@ A button has the following properties:
 | MinimalWidth | The minimal width. |
 | Text | The text. |
 | Title | The internal name. This is needed to support multilingual canvas apps. |
-| Type | Possible values: Primary, Secondary. |
+| Type | The button type. Possible values are: Primary, Secondary. |
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_Button" which contains the title of the button clicked on.
