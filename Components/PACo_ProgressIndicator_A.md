@@ -6,6 +6,8 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235982695-d096187d-845d-450e-a67e-ebf863688f5b.png)
 
+This is a responsive canvas component.
+
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
 ## Custom properties
