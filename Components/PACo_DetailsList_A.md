@@ -51,7 +51,7 @@ For each column, the following properties must be available:
 
 Only the use of a collection which contains the details list items is supported! Dataverse tables, SharePoint lists, ... can thus not directly be connected to the custom property "cmp_DetailsList".
 
-The collection to display the details list items must have 2 additional required properties:
+The collection which contains the details list items must have 2 additional required properties:
 
 | Property | Description |
 | :--- | :--- |
