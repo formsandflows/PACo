@@ -6,7 +6,7 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235982444-ff55c19b-41fd-4bba-aa9f-5037f2296c2a.png)
 
-This is a responsive canvas component. The width of the canvas component instance must be configured as: Self.cmp_Width
+This is a responsive canvas component. The width of the canvas component instance must be configured as: `Self.cmp_Width`
 
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
