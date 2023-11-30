@@ -37,15 +37,15 @@ The button has the following properties:
 | MinimalWidth | The minimal width. |
 | Text | The text. |
 
+### cmp_OnSelectListSelect
+This custom property contains a required parameter called "cmp_Param_Value" which contains the value of the select list item clicked on.
+
 ### cmp_SelectList
 A gallery is used to show data for the select list. Data consists of records. A record has the following properties:
 
 | Property | Description |
 | :--- | :--- |
 | Value | The value to show. |
-
-### cmp_OnSelectListSelect
-This custom property contains a required parameter called "cmp_Param_Value" which contains the value of the select list item clicked on.
 
 ### cmp_TextStyling
 This custom property is of data type "Table" and a record has the following properties:
