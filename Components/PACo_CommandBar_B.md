@@ -33,7 +33,7 @@ A command bar item has the following properties:
 | Image | A svg definition for the image. |
 | ImagePadding | The padding of the image. |
 | SelectedItems | When to show the command bar item. See the documention on cmp_SelectedItems below. |
-| Text | The text in the command bar item. |
+| Text | The text. |
 
 This component allows for up to 8 possible command bar items.
 
