@@ -22,8 +22,8 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_DetailsList | Data | Input | Table | The details list items. | See the documention on cmp_DetailsList below. |
-| cmp_OnCheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is unchecked. | |
-| cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is checked. | |
+| cmp_OnCheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is unchecked. | See the documention on cmp_OnCheck below. |
+| cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is checked. | See the documention on cmp_OnUncheck below. |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
