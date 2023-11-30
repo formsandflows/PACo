@@ -4,23 +4,25 @@
 
 This page is related to version: 3.0
 
+This is a responsive canvas component. 
+
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
 ## Custom properties
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Add | Action | | Boolean | Add a log item to the collection. | See documentation on coll_Log below. |
-| cmp_HasImages | Date | Input | Boolean | If images are shown in the log or not. | |
-| cmp_Log | Date | Output | Table | The collection with log items | |
+| cmp_HasImages | Data | Input | Boolean | If images are shown in the log or not. | |
+| cmp_Log | Data | Output | Table | The log items. | |
 | cmp_Reset | Action | | Boolean | Reset the collection with log items. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Update | Action | | Boolean | Update a log item in the collection. | |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Log
-This collection is filled with values using the custom property "cmp_Add" and has the following properties
+A canvas component instance has a collection which is filled with values using the custom property "cmp_Add" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
@@ -34,8 +36,8 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Align | The text alignment. |
+| Align | The vertical alignment. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
-| TextBlockHeight | The height of the command bar menu items. |
+| TextBlockHeight | The height of the log items. |
