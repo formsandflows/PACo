@@ -66,9 +66,9 @@ A gallery is used to show data in the panel. Data consists of records. A record 
 | Property | Description |
 | :--- | :--- |
 | Label | The label text. |
-| LabelHeight | The height of the label. |
+| LabelHeight | The height of the text block of a label. |
 | Text | The gallery item text. |
-| TextHeight | The height of the gallery item. |
+| TextHeight | The height of the text block of a gallery item. |
 
 The LabelHeight and TextHeight properties are not required. A value of 40 is used in case the properties are not defined.
 
