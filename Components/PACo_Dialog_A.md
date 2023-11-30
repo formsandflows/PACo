@@ -12,6 +12,8 @@ When using variables for the input properties, one dialog component can be used 
 
 The width of a button depends on a minimal width property, if an icon is added and the length of the text to show.
 
+This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown in the button is reset.
+
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
 ## Custom properties
@@ -29,17 +31,18 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Buttons
-A dialog can show 0, 1 or 2 buttons depending on its need. A button can contain an icon (image). If only one button is needed, only one table item must be added. One button will have a centered alignment. Two buttons will have a right alignment. If 0 buttons should be shown, only one table item must be added where the properties "Text" and "Title" should be empty.
+A dialog can show 0, 1 or 2 buttons depending on its need. A button can contain an image. If only one button is needed, only one table item must be added. One button will have a centered alignment. Two buttons will have a right alignment. If 0 buttons should be shown, only one table item must be added where the properties "Text" and "Title" should be empty.
 
 A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Height | The height. |
 | Image | A svg definition for an image. |
 | ImagePadding | The padding of the image. |
-| MinimalWidth | The minimal width of the button. |
-| Text | The text to display in the button. |
-| Title | The internal name of the button. This is needed to support multilingual canvas apps. |
+| MinimalWidth | The minimal width. |
+| Text | The text. |
+| Title | The internal name. This is needed to support multilingual canvas apps. |
 | Type | Possible values: Primary, Secondary. |
 
 ### cmp_OnSelect
@@ -51,10 +54,9 @@ This custom property is of data type "Table" and a record has the following prop
 | Property | Description |
 | :--- | :--- |
 | Align | The text alignment. |
-| ButtonHeight | The button height. |
-| ID | An unique ID for the title/message. |
+| ID | An unique ID for the record. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
 
-Not all properties are used by all controls.
+Not all properties are needed in all records.
