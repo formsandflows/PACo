@@ -10,7 +10,7 @@ This is a responsive canvas component.
 
 The search box can be used to filter the items shown in a details list.
 
-This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown in the search box reset.
+This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown in the search box is reset.
 
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
