@@ -27,7 +27,7 @@ This custom property is of data type "Record" and has the following properties:
 | Image | A svg definition for the image. Leave it empty if you do not want to show an image. |
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width of the button. |
-| Text | The text to display in the button. |
+| Text | The text in the button. |
 | Type | The button type. Possible values are: Primary, Secondary. |
 
 This first button shown in the screenshot above is of type "Primary" and the second button of type "Secondary".
@@ -44,8 +44,8 @@ This custom property is of data type "Record" and has the following properties:
 ### cmp_Width
 The actual width of the button is determined by several factors:
 - The minimal width as defined in the custom property "cmp_Button".
-- The length of the text to show.
-- If an image must be shown as defined in the custom property "cmp_Button".
+- The length of the text.
+- If there is an image to shown as defined in the custom property "cmp_Button".
 - The image padding as defined in the custom property "cmp_Button".
 
 The image padding is always shown as space to the left and the right in the button.
