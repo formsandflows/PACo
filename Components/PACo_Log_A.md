@@ -11,9 +11,9 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 ## Custom properties
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Add | Action | | Boolean | Add a log item to the collection. | See documentation on coll_Log below. |
+| cmp_Add | Action | | Boolean | Add a log item to the collection. | See documentation on cmp_Log below. |
 | cmp_HasImages | Data | Input | Boolean | If images are shown in the log or not. | |
-| cmp_Log | Data | Output | Table | The log items. | |
+| cmp_Log | Data | Output | Table | The log items. | See documentation on cmp_Log below. |
 | cmp_Reset | Action | | Boolean | Reset the collection with log items. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
@@ -22,14 +22,16 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Log
-A canvas component instance has a collection which is filled with values using the custom property "cmp_Add" and has the following properties:
+A canvas component instance has a collection which is filled with log items using the custom property "cmp_Add" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
 | ID | An unique ID of the log item. |
 | Image | A svg definition for the image. Leave it empty if you do not want to show an image. |
 | ImagePadding | The padding of the image. |
-| Log | The log text. |
+| Text | The text. |
+
+The properies "Image", "ImagePadding" and "Text" can updated with the custom property "cmp_Update" using the ID of a log item.
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
