@@ -53,6 +53,7 @@ This custom property is of data type "Table" and a record has the following prop
 | Property | Description |
 | :--- | :--- |
 | Align | The horizontal alignment. |
+| Color | The color. |
 | ID | An unique ID for the section. |
 | Font | The font. |
 | FontSize | The font size. |
