@@ -27,7 +27,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Title | Data | Input | Text | The title of the dialog. | |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Buttons
@@ -37,7 +37,6 @@ A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Height | The height. |
 | Image | A svg definition for an image. |
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width. |
@@ -54,9 +53,12 @@ This custom property is of data type "Table" and a record has the following prop
 | Property | Description |
 | :--- | :--- |
 | Align | The text alignment. |
+| Color | The color. |
+| ButtonHeight | The height. |
 | ID | An unique ID for the record. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
+| Padding | The padding. |
 
 Not all properties are needed in all records.
