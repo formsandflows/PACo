@@ -16,7 +16,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | See the documention on cmp_OnSelect below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention of canvas component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Nav
@@ -27,7 +27,8 @@ A navigation item has the following properties:
 | AlignWithImage | Used when not having an image and to allign the text with navigation items which do have an image. |
 | Disabled | Used to disable the navigation item. |
 | ID | The unique number of the navigation item used in the custom property "cmp_OnSelect". |
-| Image | A svg definition for the image for a non-selected navigation item. |
+| Image | A svg definition for the image for a non-selected navigation item and when not disabled. |
+| ImageDisabled | A svg definition for the image for a non-selected navigation item and when disabled. |
 | ImagePadding | The padding of the image. |
 | ImageSelected | A svg definition for the image for a selected navigation item. |
 | Order | The order of the item in the navigation. |
@@ -42,6 +43,9 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Color | The color. |
+| ColorDisabled | The color when the navigation item is disabled. |
+| ColorSelected | The color when the navigation item is selected. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
