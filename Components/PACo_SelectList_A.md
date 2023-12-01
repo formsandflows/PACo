@@ -22,7 +22,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_SelectList | Data | Input | Table | The select list items. | See the documention on cmp_SelectList below. |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 | cmp_Width | Data | Input | Number | The width of the panel. | |
 
@@ -52,12 +52,13 @@ This custom property is of data type "Table" and a record has the following prop
 
 | Property | Description |
 | :--- | :--- |
-| Height | The height of the related element. |
+| Align | The horizontal alignment. |
 | ID | An unique ID for the section. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
-
-The height of the search box must include the whitespace at the top and bottom of 10 each.
+| Padding | 5 |
+| TextBlockHeight | The height of the text block. |
+| VerticalAlign | The vertical alignment. |
 
 Not all properties are needed in all records.
