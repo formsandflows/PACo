@@ -21,7 +21,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_OnSelect | Event | | Boolean | When a settings menu item is clicked on. | See the documention on cmp_OnSelect below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 | cmp_Width | Data | Input | Number | The width of the settings menu. | |
 
@@ -44,7 +44,10 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Align | The horizontal alignment. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
+| Padding | 5 |
 | TextBlockHeight | The height of the text block. |
+| VerticalAlign | The vertical alignment. |
