@@ -40,7 +40,6 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Align | The horizontal alignment. |
 | Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
