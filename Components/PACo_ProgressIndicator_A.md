@@ -21,7 +21,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_TemplateSize | Data | Input | Number | The related property of the gallery used. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Items
@@ -37,7 +37,10 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Align | The horizontal alignment. |
 | Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
+| Padding | 5 |
+| VerticalAlign | The vertical alignment. |
