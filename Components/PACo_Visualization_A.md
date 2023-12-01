@@ -6,7 +6,9 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235983311-adbd7a45-ebb0-4f9a-84a9-e2cbb49a9479.png)
 
-Above, the two possible visualizations are shown: An "Elevation" and a "Line".
+Above, two possible visualizations are shown:
+- Elevation (#1)
+- Line (#2)
 
 ## Custom properties
 
