@@ -31,5 +31,5 @@ This custom property is of data type "Table" and a record has the following prop
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
-| Padding | 5 |
+| Padding | The padding. |
 | VerticalAlign | The vertical alignment. |
