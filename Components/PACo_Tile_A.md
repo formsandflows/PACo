@@ -12,6 +12,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_PercentageTextHeight | Data | Input | Number | The percentage of the height for the text section. | |
 | cmp_Text | Data | Input | Text | The text to shown in the upper section of the tile. | |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
