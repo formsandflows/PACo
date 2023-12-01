@@ -25,7 +25,9 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Align | The horizontal alignment. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
 | TextBlockHeight | The height of the text block. |
+| VerticalAlign | The vertical alignment. |
