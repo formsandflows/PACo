@@ -9,7 +9,7 @@ This page is related to version: 3.0
 
 This is a responsive canvas component.
 
-A settings menu is activated using the setting menu icon in the header. Selecting a settings menu item navigates to another screen.
+A settings menu is activated using the setting menu image in the header. Selecting a settings menu item navigates to another screen.
 
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
