@@ -43,7 +43,6 @@ This custom property is of data type "Record" and has the following properties:
 | :--- | :--- |
 | Font | The font. |
 | FontSize | The font size. |
-| FontWeight | The font weight. |
 
 ### cmp_Width
 The actual width of the button is determined by several factors:
