@@ -25,7 +25,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Records | Data | Input | Table | The data in the panel. | See the documention on cmp_Records below. |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 | cmp_Width | Data | Input | Number | The width of the panel. | |
 
@@ -55,8 +55,6 @@ A maximum of 2 command bar items is supported!
 
 When the property "Text" has no value, the related panel command bar item is not shown.
 
-This custom property also has a property "Height" which is used to set the height of the command bar. This must include the whitespace at the top and bottom of 10 each.
-
 ### cmp_OnCommandSelect
 This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the Panel command bar item clicked on.
 
@@ -77,7 +75,13 @@ This custom property is of data type "Table" and a record has the following prop
 
 | Property | Description |
 | :--- | :--- |
+| Align | The horizontal alignment. |
+| Color | The color. |
 | ID | An unique ID for the section. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
+| TextBlockHeight | The height of the text block. |
+| VerticalAlign | The vertical alignment. |
+
+Not all properties are needed in all records.
