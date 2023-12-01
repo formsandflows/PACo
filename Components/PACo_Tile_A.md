@@ -24,7 +24,9 @@ This custom property is of data type "Table" and a record has the following prop
 
 | Property | Description |
 | :--- | :--- |
-| ID | An unique ID for the section. |
+| Align | The horizontal alignment. |
+| ID | An unique ID for the section (Text or Value). |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
+| VerticalAlign | The vertical alignment. |
