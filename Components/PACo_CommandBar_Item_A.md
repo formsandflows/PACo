@@ -22,16 +22,16 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Text | Data | Input | Text | The text. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
-| cmp_Width | Data | Output | Number | The actual width of the command bar item. | See the documention on cmp_Width below. |
+| cmp_Width | Data | Output | Number | The actual width of the command bar item. | See the documention on PACo_Width below. |
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
-| FontWeight | The font weight. |
 
 ### cmp_Width
 The actual width of the command bar item is determined by several factors:
