@@ -27,7 +27,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component cmp_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_DetailsList
@@ -73,7 +73,7 @@ This custom property is of data type "Record" and has the following properties:
 | Font | The font. |
 | TextBlockHeight | The height of the text block of the title and of the subtitle. |
 
-All detail list items have the same height and is defined as 2 times the TextBlockHeight plus the Body Height.
+All detail list items have the same height and is defined as 2 times TextBlockHeight plus BodyHeight.
 
 | Situation | Description |
 | :--- | :--- |
