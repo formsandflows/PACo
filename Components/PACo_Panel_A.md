@@ -51,12 +51,14 @@ A panel command bar item has the following properties:
 | ImagePadding | The padding of the images. |
 | Text | The text. |
 
-A maximum of 2 command bar items is supported!
+A maximum of 2 panel command bar items is supported!
 
 When the property "Text" has no value, the related panel command bar item is not shown.
 
+When the property "Text" has no value for both commands, the panel command bar is not shown.
+
 ### cmp_OnCommandSelect
-This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the Panel command bar item clicked on.
+This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the panel command bar item clicked on.
 
 ### cmp_Records
 A gallery is used to show data in the panel. Data consists of records. A record has the following properties:
