@@ -21,7 +21,8 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Buttons | Data | Input | Table | The buttons to show. | See the documention on cmp_Buttons below. |
-| cmp_Message | Data | Input | Text | The message of the dialog. | |
+| cmp_Message | Data | Input | Text | The message of the dialog in plain text. | |
+| cmp_MessageHTML | Data | Input | Text | The message of the dialog in HTML. | |
 | cmp_OnSelect | Event | | Boolean | When a button is clicked on. | |
 | cmp_Percentage | Data | Input | Number | The percentage of the total width for the "border". | |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
@@ -29,6 +30,8 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Title | Data | Input | Text | The title of the dialog. | |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
+
+When both plain text (cmp_Message) and HTML (cmp_MessageHTML) are provided for the message, HTML is shown.
 
 ### cmp_Buttons
 A dialog can show 0, 1 or 2 buttons depending on its need. A button can contain an image. If only one button is needed, only one table item must be added. One button will have a centered alignment. Two buttons will have a right alignment. If 0 buttons should be shown, only one table item must be added where the properties "Text" and "Title" should be empty.
