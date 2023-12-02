@@ -13,7 +13,9 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Add | Action | | Boolean | Add a log item to the collection. | See documentation on cmp_Log below. |
 | cmp_HasImages | Data | Input | Boolean | If images are shown in the log or not. | |
-| cmp_Log | Data | Output | Table | The log items. | See documentation on cmp_Log below. |
+| cmp_Log | Data | Output | Table | All log items. | See documentation on cmp_Log below. |
+| cmp_LogShown | Data | Output | Table | The log items shown. | See documentation on cmp_Log below. |
+| cmp_OnSelect | Event | | Boolean | When a log item is clicked on. |
 | cmp_Reset | Action | | Boolean | Reset the collection with log items. | See documentation on cmp_Log below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
@@ -22,18 +24,39 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Log
-A canvas component instance has a collection which is filled with log items using the custom property "cmp_Add" and has the following properties:
+There are 2 collections inside the canvas component:
+- coll_Log
+- coll_LogShown
+
+This setup allows for the setup to have a collection with all log item and also a collection which is used to display the log items. In the first collection, records can only be added. In the second collectione, records can also be updated.
+
+The custom properties "cmp_Add" and "cmp_Update" have the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| ID | An unique ID of the log item. |
-| Image | A svg definition for the image. Leave it empty if you do not want to show an image. |
-| ImagePadding | The padding of the image. |
-| Text | The text. |
+| cmp_Param_Account | The account used to run the canvas app. |
+| cmp_Param_clickable | If the log item is clickable or not. |
+| cmp_Param_ID | An unique ID of the log item. |
+| cmp_Param_Image | A svg definition for the image. Leave it empty if you do not want to show an image. |
+| cmp_Param_ImagePadding | The padding of the image. |
+| cmp_Param_Memo | A more extensive description. |
+| cmp_Param_Text | A short description. |
+| cmp_Param_User | The selected user. |
 
-The properies "Image", "ImagePadding" and "Text" can updated with the custom property "cmp_Update" using the ID of a log item.
+All properties except "ID" can be updated with the custom property "cmp_Update" using the ID of a log item.
 
-The collection with log items can be reset with the custom property "cmp_Reset".
+The inclusion of both cmp_Param_Account and cmp_Param_User allow for the situation where the person using the canvas has the option to act on behalf of someone else.
+
+Both collections also contain the following additional property:
+
+| Property | Description |
+| :--- | :--- |
+| DateTime | The date and time when the item was added/updated. |
+
+The collections can be reset with the custom property "cmp_Reset".
+
+### cmp_OnSelect
+This custom property contains a required parameter called "cmp_Param_ID" which contains the ID of the log item clicked on.
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
