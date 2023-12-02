@@ -42,7 +42,7 @@ This component allows for up to 8 possible command bar items.
 When a command bar item shoud not be used:
 - set the property "SelectedItems" to "##"
 
-, for the related command bar item. This property can thus be used for logic when to show the command bar item. Example: Because of RBAC (Role Based Access Control).
+, for the related command bar item. This property can thus be used for logic when to show the related command bar item. Example: Because of RBAC (Role Based Access Control).
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command bar item clicked on. When the menu indicator is clicked on, a 0 (zero) is returned.
