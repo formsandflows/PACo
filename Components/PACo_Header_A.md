@@ -16,6 +16,8 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Images | Data | Input | Table | Properties of the images. | See the documention on cmp_Images below. |
 | cmp_LanguagesMenuImage | Data | Input | Record | A svg definition for the language menu image. | See the documention on cmp_LanguageImage below. |
+| cmp_LanguagesMenuPropertyX | Data | Output | Number | The X value for the languages menu. | |
+| cmp_LanguagesMenuWidth | Data | Input | Number | The width of the language menu. | |
 | cmp_NavSelected |  Data | Input | Boolean | To show the correct image for the navigation. | |
 | cmp_OnBackSelect | Event | | Boolean | When the back image is clicked on. | |
 | cmp_OnHelpSelect | Event | |  Boolean | When the help image is clicked on. | |
