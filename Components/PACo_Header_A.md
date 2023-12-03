@@ -15,7 +15,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Images | Data | Input | Table | Properties of the images. | See the documention on cmp_Images below. |
-| cmp_LanguageImage | Data | Input | Record | A svg definition for the language menu image. | See the documention on cmp_LanguageImage below. |
+| cmp_LanguagesMenuImage | Data | Input | Record | A svg definition for the language menu image. | See the documention on cmp_LanguageImage below. |
 | cmp_NavSelected |  Data | Input | Boolean | To show the correct image for the navigation. | |
 | cmp_OnBackSelect | Event | | Boolean | When the back image is clicked on. | |
 | cmp_OnHelpSelect | Event | |  Boolean | When the help image is clicked on. | |
@@ -43,7 +43,7 @@ This custom property is of data type "Table" and a record has the following prop
 | Image | A svg definition for the image. |
 | ImagePadding | The padding of the image. |
 
-### cmp_LanguageImage
+### cmp_LanguagesMenuImage
 This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
