@@ -33,7 +33,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 
 When both plain text (cmp_Message) and HTML (cmp_MessageHTML) are provided for the message, HTML is shown.
 
-The title of the dialog is not shown when cmp_Title has no value.
+The title of the dialog is not shown when cmp_Title contains no text.
 
 ### cmp_Buttons
 A dialog can show 0, 1 or 2 buttons depending on its need. A button can contain an image. If only one button is needed, only one table item must be added. One button will have a centered alignment. Two buttons will have a right alignment. If 0 buttons should be shown, only one table item must be added where the properties "Text" and "Title" should be empty.
