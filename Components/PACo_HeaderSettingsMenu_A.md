@@ -1,15 +1,12 @@
-# PACo_SettingsMenu_A
+# PACo_HeaderSettingsMenu_A
 
 !! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
 
 This page is related to version: 3.0
 
-
 ![image](https://user-images.githubusercontent.com/35654198/235982163-5c2ef64a-9f0f-4e69-8c3a-5003116f13f3.png)
 
 This is a responsive canvas component.
-
-A settings menu is activated using the setting menu image in the header. Selecting a settings menu item navigates to another screen.
 
 You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
@@ -31,7 +28,7 @@ A settings menu item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | Disabled | If the menu item is disabled or not. |
-| ID | The unique number of the settings menu item used in the behavior property "cmp_OnSelect". |
+| ID | The unique ID (number) of the settings menu item used in the custom property "cmp_OnSelect". |
 | Order | The order of the settings menu item. |
 | Screen | The screen control to navigate to. |
 | Text | The text. |
