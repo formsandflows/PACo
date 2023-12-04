@@ -54,23 +54,23 @@ This custom property is of data type "Record" and has the following properties:
 | ImagePadding | The padding of the image. |
 
 ### cmp_ShowBack
-The idea behind this image is that it is used on setting screens to go back to the screen where the settings screen was called from.
+This image is used on setting screens to go back to the screen where the settings screen was called from when the image is clicked on (cmp_OnBackSelect).
 
 The back image and the navigation image share the same location and thus cannot be used simultaneously.
 
 ### cmp_ShowHelp
-This image is used to redirect an user to a location where (s)he can find more information.
+This image is used to redirect an user to a location where (s)he can find more information when the image is clicked on (cmp_OnHelpSelect).
 
 ### cmp_ShowLanguagesMenu
-This image is used to show a languages menu. A languages menu component like "PACo_LanguagesMenu_A" can be used to display a languages menu.
+This image is used to show a languages menu. A languages menu component like "PACo_LanguagesMenu_A" can be used to display a languages menu when the image is clicked on (cmp_OnLanguagesMenuSelect).
 
 ### cmp_ShowNav
-This image is used to show a navigation. A navigation canvas component like "PACo_Nav_B" can be used to display a navigation.
+This image is used to show a navigation. A navigation canvas component like "PACo_Nav_B" can be used to display a navigation when the image is clicked on (cmp_OnNavSelect).
 
 The navigation image is meant to be used for situations when a navigation cannot be shown by default due to a lack of space. For instance for mobile app development.
 
 ### cmp_ShowSettingsMenu
-This image is used to show a settings menu. A settings menu component like "PACo_SettingsMenu_A" can be used to display a settings menu.
+This image is used to show a settings menu. A settings menu component like "PACo_SettingsMenu_A" can be used to display a settings menu when the image is clicked on (cmp_OnSettingsMenuSelect).
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
