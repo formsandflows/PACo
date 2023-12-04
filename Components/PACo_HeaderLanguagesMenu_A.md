@@ -24,7 +24,7 @@ A languages menu item has the following properties:
 | ID | The unique ID (text) of the languages menu item used in the custom property "cmp_OnSelect". |
 | Image| A svg definition for the image. |
 | ImagePadding | The padding of the image. |
-| Order | The order of the language in the header languages menu. |
+| Order | The order of the languages menu item. |
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_LanguageID" which contains the ID of the languages menu item clicked on.
