@@ -22,7 +22,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Commands | Data | Input | Record | The panel command bar items at the top of the panel. | See the documention on cmp_Commands below. |
 | cmp_OnCommandSelect | Event | | Boolean | When a command bar item is clicked on. | See the documention on cmp_OnCommandSelect below. |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on. |
-| cmp_Records | Data | Input | Table | The data in the panel. | See the documention on cmp_Records below. |
+| cmp_Panel | Data | Input | Table | The data in the panel. | See the documention on cmp_Records below. |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
