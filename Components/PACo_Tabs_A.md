@@ -6,7 +6,7 @@ This page is related to version: 3.0
 
 This PACo canvas component is responsive.
 
-A menu indicator (3 dots) is shown when there are tabs to show which cannot be shown because the width is to small. The idea is that when the menu indicator is clicked on, a tabs menu is shown. This tabs is another PACo canvas component: PACo_TabsMenu_A
+A menu indicator (3 dots) is shown when there are tabs to show which cannot be shown because the width is too small. The idea is that when the menu indicator is clicked on, a tabs menu is shown. This tabs is another PACo canvas component: PACo_TabsMenu_A
 
 ## Custom properties
 
