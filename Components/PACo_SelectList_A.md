@@ -4,25 +4,21 @@
 
 This page is related to version: 3.0
 
-![image](https://github.com/formsandflows/PACo/assets/35654198/8ee22ec2-5d31-4fc2-b996-287d5bc77b28)
+![image](https://github.com/formsandflows/PACo/assets/35654198/67f5c553-d10d-47c1-bea6-0714ab1dc25b)
 
-A select list is used when a selected from one set of values must be made. This component also has a search box which filter the data on values containing the text types in the search box.
-
-This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown in the search box and button is reset.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Button | Data | Input | Record | The button at the bottom of the panel. | See the documention on cmp_Button below. |
+| cmp_Button | Data | Input | Record | The button at the bottom of the panel. | See the documention about cmp_Button below. |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on. | |
-| cmp_OnSelectListItem | Event | | Boolean | When a select list item is clicked on. | See the documention on cmp_OnSelectListItem below. |
-| cmp_SelectList | Data | Input | Table | The select list items. | See the documention on cmp_SelectList below. |
-| cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_OnSelectListItem | Event | | Boolean | When a select list item is clicked on. | See the documention about cmp_OnSelectListItem below. |
+| cmp_SelectList | Data | Input | Table | The select list items. | See the documention about cmp_SelectList below. |
+| cmp_TextStyling | Data | Input | Table | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 | cmp_Width | Data | Input | Number | The width of the panel. | |
 
@@ -46,7 +42,7 @@ A select list item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | Order | The order of the select list item. |
-| Value | The value to show. |
+| Value | The value. |
 
 ### cmp_TextStyling
 This custom property is of data type "Table" and a record has the following properties:
