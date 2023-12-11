@@ -4,7 +4,7 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235983204-0bf827c7-0985-47b4-ab34-31d5e8166edd.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/029ccce4-b9bc-4a6b-9c49-8400549929ac)
 
 ## Custom properties
 
