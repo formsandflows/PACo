@@ -4,36 +4,36 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235980652-ab1d1a83-c6f3-4f66-861f-3911ff817749.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/ef050772-7f67-484c-b6bf-dee0aaae5bdf)
 
-This is a responsive canvas component.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Images | Data | Input | Table | Properties of the images. | See the documention on cmp_Images below. |
-| cmp_LanguagesMenuImage | Data | Input | Record | A svg definition for the languages menu image. | See the documention on cmp_LanguagesMenuImage below. |
+| cmp_Images | Data | Input | Table | Properties of the images. | See the documention about cmp_Images below. |
+| cmp_LanguagesMenuImage | Data | Input | Record | A svg definition for the languages menu image. | See the documention about cmp_LanguagesMenuImage below. |
+| cmp_Logo | Data | Input | Record | The logo. | See the documention about cmp_Logo below. |
 | cmp_LanguagesMenuPropertyX | Data | Output | Number | The X value for the languages menu. | |
-| cmp_LanguagesMenuWidth | Data | Input | Number | The width of the languages menu. | |
 | cmp_NavSelected |  Data | Input | Boolean | To show the correct image for the navigation. | |
 | cmp_OnBackSelect | Event | | Boolean | When the back image is clicked on. | |
 | cmp_OnHelpSelect | Event | |  Boolean | When the help image is clicked on. | |
 | cmp_OnLanguagesMenuSelect | Event | | Boolean | When the languages menu image is clicked on. | |
+| cmp_OnLogoSelect | Event | | Boolean | When the logo image is clicked on. | |
 | cmp_OnNavSelect | Event | | Boolean | When the navigation image is clicked on. | |
 | cmp_OnSettingsMenuSelect | Event | | Boolean | When the settings menu image is clicked on. | |
 | cmp_SettingsMenuSelected | Data | Input | Boolean | The show the correct icon for the settings menu. | |
-| cmp_ShowBack | Data | Input | Boolean | To show the back image or not. | See the documention on cmp_ShowBack below. |
-| cmp_ShowHelp | Data | Input | Boolean | To show the help image or not. | See the documention on cmp_ShowHelp below. |
-| cmp_ShowLanguagesMenu | Data | Input | Boolean | To show the languages menu image or not. | See the documention on cmp_ShowLanguageSelector below. |
-| cmp_ShowNav | Data | Input | Boolean | To show the navigation image or not. | See the documention on cmp_ShowNav below. |
-| cmp_ShowSettingsMenu | Data | Input | Boolean | To show the settings menu image or not. | See the documention on cmp_ShowSettingsMenu below. |
+| cmp_ShowBack | Data | Input | Boolean | To show the back image or not. | See the documention about cmp_ShowBack below. |
+| cmp_ShowHelp | Data | Input | Boolean | To show the help image or not. | See the documention about cmp_ShowHelp below. |
+| cmp_ShowLanguagesMenu | Data | Input | Boolean | To show the languages menu image or not. | See the documention about cmp_ShowLanguagesMenu below. |
+| cmp_ShowLogo | Data | Input | Boolean | To show the logo image or not. | See the documention about cmp_ShowLogo below. |
+| cmp_ShowNav | Data | Input | Boolean | To show the navigation image or not. | See the documention about cmp_ShowNav below. |
+| cmp_ShowSettingsMenu | Data | Input | Boolean | To show the settings menu image or not. | See the documention about cmp_ShowSettingsMenu below. |
 | cmp_Text | Data | Input | Text | The text. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Images
@@ -50,11 +50,24 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| ID | An unique ID of the language. |
 | Image | A svg definition for the image. |
 | ImagePadding | The padding of the image. |
 
+### cmp_Logo
+This custom property is of data type "Record" and has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| Clickable | If the logo is clickable ir not. |
+| Height | The original height of the svg image. |
+| Image | A svg definition for the image. |
+| ImagePaddingHeight | The padding at the top and bottom. |
+| ImagePaddingWidth | The padding at the left and right. |
+| Width | The original width of the svg image. |
+
 ### cmp_ShowBack
-This image is used on setting screens to go back to the screen where the settings screen was called from when the image is clicked on (cmp_OnBackSelect).
+This image is used on setting screens to go back to the screen where the settings screen was called from when the image is clicked on (cmp_OnBackSelect). This is normally the home screen.
 
 The back image and the navigation image share the same location and thus cannot be used simultaneously.
 
@@ -63,6 +76,9 @@ This image is used to redirect an user to a location where (s)he can find more i
 
 ### cmp_ShowLanguagesMenu
 This image is used to show a languages menu. A languages menu component like "PACo_LanguagesMenu_A" can be used to display a languages menu when the image is clicked on (cmp_OnLanguagesMenuSelect).
+
+### cmp_ShowLogo
+This image is used to show the logo. A logo can be clickable or not. When it is clickable and clicked on, the cmp_OnLogoSelect event is triggered.
 
 ### cmp_ShowNav
 This image is used to show a navigation. A navigation canvas component like "PACo_Nav_B" can be used to display a navigation when the image is clicked on (cmp_OnNavSelect).
