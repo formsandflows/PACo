@@ -81,4 +81,4 @@ This custom property is of data type "Table" and a record has the following prop
 | TextBlockHeight | The height of the text block. |
 | VerticalAlign | The vertical alignment. |
 
-Not all properties are needed in all records.
+Not all properties are needed in all table records.
