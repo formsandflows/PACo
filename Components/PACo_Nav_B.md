@@ -4,19 +4,19 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235980799-970ab7a7-b4e5-4b4f-9270-fdead5e0ad97.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/9e2f88a9-1f5b-4e02-b5dd-c584a3e06f77)
 
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Nav | Data | Input | Table | The navigation items. | See the documention on cmp_Nav below. |
-| cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | See the documention on cmp_OnSelect below. |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_Nav | Data | Input | Table | The navigation items. | See the documention about cmp_Nav below. |
+| cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization to use. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Nav
@@ -24,9 +24,9 @@ A navigation item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| AlignWithImage | Used when not having an image and to allign the text with navigation items which do have an image. |
+| AlignWithImage | Used when not having an image in the navigation at all (false) or to allign the text with when having an image in the navigation (true). |
 | Disabled | Used to disable the navigation item. |
-| ID | The unique number of the navigation item used in the custom property "cmp_OnSelect". |
+| ID | An unique number of the navigation item used in the custom property "cmp_OnSelect". |
 | Image | A svg definition for the image for a non-selected navigation item and when not disabled. |
 | ImageDisabled | A svg definition for the image for a non-selected navigation item and when disabled. |
 | ImagePadding | The padding of the image. |
