@@ -4,47 +4,49 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235979572-89783b98-c265-44c7-b2ef-e3f8158662b7.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/f942a4d6-7f2b-4a41-9249-2da47aae3ba3)
 
-This is a responsive canvas component.
+This PACo canvas component is responsive.
 
 Per details list item, up to 3 fields can be shown:
-* Title which is based on a label control.
-* Subtitle which is based on a label control.
-* Body which is based on a html control.
-
-This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the checkbox is reset.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+* Title.
+* Subtitle.
+* Body.
+All fields are based on a label control. The subtitle is displayed in italics. The property "Overflow" of the body is: Scroll
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_DetailsList | Data | Input | Table | The details list items. | See the documention on cmp_DetailsList below. |
-| cmp_OnCheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is unchecked. | See the documention on cmp_OnCheck below. |
-| cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is checked. | See the documention on cmp_OnUncheck below. |
+| cmp_DetailsList | Data | Input | Table | The details list items. | See the documention about cmp_DetailsList below. |
+| cmp_OnCheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is unchecked. | See the documention about cmp_OnCheck below. |
+| cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is checked. | See the documention about cmp_OnUncheck below. |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_DetailsList
-To have a more consistent naming with the other details list components in PACo, several properties contain the text "Column" which can be read a "Field".
+To have a more consistent naming with the other details list components in PACo, several properties contain the text "Column" which can be read as "Field".
 
-The properties have "Small" in their naming so 1 collection for the details list items can be used by an instance of this canvas component as well as an instance of a details list canvas component when the screen has more width (PACo_DetailsList_A or PACo_DetailsList_B). With this setup, the first 3 columns can also differ instead of having to be the same.
+The properties have "Small" in their naming so 1 collection for the details list items can be used by an instance of this canvas component as well as an instance of a details list canvas component when the screen has more width (PACo_DetailsList_A or PACo_DetailsList_B). With this setup, the first 3 columns in this details list can also differ from the first 3 columns when the screen has more width.
 
 For each details list item, the following properties must be available:
 - Column1SmallColor
+- Column1SmallColorSelected
 - Column1SmallFontSize
 - Column1SmallFontWeight
 - Column1SmallText
 - Column2SmallColor
+- Column2SmallColorSelected
 - Column2SmallFontSize
 - Column2SmallFontWeight
 - Column2SmallText
+- Column3SmallColor
+- Column3SmallColorSelected
 - Column3SmallFontSize
+- Column3SmallFontWeight
 - Column3SmallText
 - SmallFill
 - SmallFillSelected
@@ -55,7 +57,7 @@ The collection which contains the details list items must have the additional re
 
 | Property | Description |
 | :--- | :--- |
-| RecordID | The unique ID of the details list item. This property is of type "Text".  |
+| RecordID | An unique ID of the details list item. This property is of type "Text".  |
 | Selected | This property must be set when checking/unchecking a details list item. This property is of type "Boolean". |
 
 ### cmp_OnCheck
