@@ -8,7 +8,7 @@ This page is related to version: 3.0
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Menu | Data | Input | Table | The tabs menu items. | See the documention on cmp_Menu below. |
+| cmp_Menu | Data | Input | Table | The tabs menu items. | See the documention about cmp_Menu below. |
 | cmp_OnSelect | Event | | Boolean | When a tabs menu item is clicked on. | See the documention about cmp_OnSelect below. |
 | cmp_SelectedTab | Data | Input | Number | The ID of the selected tab menu item. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
