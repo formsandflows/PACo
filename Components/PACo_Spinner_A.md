@@ -4,11 +4,9 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235982989-93ea7b0c-33b4-41eb-b52c-40bb8d3124ca.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/dd7dc5a9-6324-458d-819a-1bbb942e33f4)
 
-This is a responsive canvas component.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive.
 
 ## Custom properties
 
@@ -17,7 +15,7 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_Image | Data | Input | Text | A svg definition for the image. | |
 | cmp_SpinnerSize | Data | Input | Number | The size of the spinner. | |
 | cmp_Text | Data | Input | Text | The text. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 
 ### cmp_TextStyling
