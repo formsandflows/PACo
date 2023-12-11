@@ -6,6 +6,8 @@ This page is related to version: 3.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/029ccce4-b9bc-4a6b-9c49-8400549929ac)
 
+This PACo canvas component is responsive.
+
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
