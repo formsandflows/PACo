@@ -12,8 +12,6 @@ Above, the two possible visualizations are shown:
 
 When a PACo canvas component has a custom property called "cmp_Visualization", it must have one of these two values.
 
-You can use the canvas app "PACo Examples" to experiment with, and thus better understand, this PACo canvas component.
-
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
