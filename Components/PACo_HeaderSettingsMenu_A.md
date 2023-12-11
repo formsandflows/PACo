@@ -4,21 +4,19 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235982163-5c2ef64a-9f0f-4e69-8c3a-5003116f13f3.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/e780d19a-5b4d-4b39-acb5-06fc42aacde2)
 
-This is a responsive canvas component.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Menu | Data | Input | Table | The settings menu items. | See the documention on cmp_Menu below. |
-| cmp_OnSelect | Event | | Boolean | When a settings menu item is clicked on. | See the documention on cmp_OnSelect below. |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_Menu | Data | Input | Table | The settings menu items. | See the documention about cmp_Menu below. |
+| cmp_OnSelect | Event | | Boolean | When a settings menu item is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 | cmp_Width | Data | Input | Number | The width of the settings menu. | |
 
@@ -28,9 +26,9 @@ A settings menu item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | Disabled | If the menu item is disabled or not. |
-| ID | The unique ID (number) of the settings menu item used in the custom property "cmp_OnSelect". |
+| ID | An unique ID (number) of the settings menu item used in the custom property "cmp_OnSelect". |
 | Order | The order of the settings menu item. |
-| Screen | The screen control to navigate to. |
+| Screen | The screen to navigate to. |
 | Text | The text. |
 
 ### cmp_OnSelect
