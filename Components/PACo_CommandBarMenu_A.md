@@ -4,34 +4,34 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235977451-6a35b6da-012f-48ba-bbd5-719c261c28c3.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/45b79e8c-b3c2-47bf-883d-1e5f8d0546cc)
 
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Menu | Data | Input | Table | The command bar menu items. | See the documention on cmp_Menu below. |
-| cmp_OnSelect | Event | | Boolean | When a command bar menu item is clicked on. | See the documention on cmp_OnSelect below. |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_Menu | Data | Input | Table | The command bar menu items (commands). | See the documention about cmp_Menu below. |
+| cmp_OnSelect | Event | | Boolean | When a command bar menu item (command) is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_Menu
-A command bar menu item has the following properties:
+A command bar menu item (command) has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| ID | An unique ID (number) of the command bar menu item. |
+| ID | An unique ID (number) of the command bar menu item (command). |
 | Image| A svg definition for the image. |
 | ImagePadding | The padding of the image. |
-| SelectedItems | When to show the command bar menu item. See the documention on cmp_SelectedItems for canvas component PACo_CommandBar_B. |
+| SelectedItems | When to show the command bar menu item (command). See the documention of PACo canvas component PACo_CommandBar_B. |
 | Text | The text. |
 
 ### cmp_OnSelect
-This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command bar menu item clicked on.
+This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command bar menu item (command) clicked on.
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
