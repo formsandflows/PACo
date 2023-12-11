@@ -4,24 +4,20 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235982340-10a1d796-453c-45cd-9c4d-4aacc4de5723.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/f779b9aa-2f32-4306-ac52-3d7d76ab1acb)
 
-This is a responsive canvas component. The width of the canvas component instance must be configured as: `Self.cmp_Width`
-
-This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown is reset.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive. The width of the canvas component instance must be configured as: `Self.cmp_Width`
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Button | Data | Input | Record | Button properties. | See the documention on cmp_Button below. |
+| cmp_Button | Data | Input | Record | Button properties. | See the documention about cmp_Button below. |
 | cmp_Disabled | Data | Input | Boolean | If the button is disabled or not. | |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on and not disabled. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Width | Data | Output | Number | The actual width of the button. | See the documention on cmp_Width below. |
+| cmp_Width | Data | Output | Number | The actual width of the button. | See the documention about cmp_Width below. |
 
 ### cmp_Button
 This custom property is of data type "Record" and has the following properties:
@@ -32,9 +28,9 @@ This custom property is of data type "Record" and has the following properties:
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width. |
 | Text | The text. |
-| Type | The button type. Possible values are: Primary, Secondary. |
+| Type | The button type. Possible values are "Primary" and "Secondary". |
 
-This first button shown in the screenshot above is of type "Primary" and the second button of type "Secondary".
+This first button shown in the screenshot above is of type "Primary" and the second button of type "Secondary". The third is of type "Primary" and is disabled. The fourth is of type "Secondary" and disabled.
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
