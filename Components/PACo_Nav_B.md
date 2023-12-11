@@ -32,7 +32,7 @@ A navigation item has the following properties:
 | ImagePadding | The padding of the image. |
 | ImageSelected | A svg definition for the image for a selected navigation item. |
 | Order | The order of the item in the navigation. |
-| Screen | The screen object to navigate to. |
+| Screen | The screen to navigate to. |
 | Text | The text. |
 
 ### cmp_OnSelect
