@@ -4,33 +4,28 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235981450-7e4a2fd9-d4cc-436b-9847-ea35c39804a2.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/ccde7a33-bbb7-429a-be97-37094da8ea76)
 
-This is a responsive canvas component.
+This PACo canvas component is responsive.
 
-A panel is shown when an item in the details list is clicked on. This must be configured in the details list! With a panel, normally all data is shown meaning more item properties than the ones shown in the details list. A vertical scrollbar appears when there is more data to show than fits on the screen.
-
-This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown in the command bar items and the button is reset.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+The idea is that a panel is shown when an item in a details list is clicked on. This must be configured in the details list. With a panel, normally all data is shown meaning more item properties than the ones shown in the related details list. A vertical scrollbar appears when there is more data to show than fits on the screen.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Button | Data | Input | Record | The button at the bottom of the panel. | See the documention on cmp_Button below. |
-| cmp_Commands | Data | Input | Record | The panel command bar items at the top of the panel. | See the documention on cmp_Commands below. |
+| cmp_Button | Data | Input | Record | The button at the bottom of the panel. | See the documention about cmp_Button below. |
+| cmp_Commands | Data | Input | Record | The panel command bar items at the top of the panel. | See the documention about cmp_Commands below. |
 | cmp_OnCommandSelect | Event | | Boolean | When a command bar item is clicked on. | See the documention on cmp_OnCommandSelect below. |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on. |
-| cmp_Panel | Data | Input | Table | The data in the panel. | See the documention on cmp_Records below. |
-| cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_Panel | Data | Input | Table | The data in the panel. | See the documention about cmp_Panel below. |
+| cmp_TextStyling | Data | Input | Table | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 | cmp_Width | Data | Input | Number | The width of the panel. | |
 
-### cmp_Button
-
+### cmp_Panel
 The panel button has the following properties:
 
 | Property | Description |
@@ -46,9 +41,9 @@ A panel command bar item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| ID | An unique ID (number) of the command bar item. |
+| ID | An unique ID (number) of the panel command bar item. |
 | Image | A svg definition for the image. |
-| ImagePadding | The padding of the images. |
+| ImagePadding | The padding of the image. |
 | Text | The text. |
 
 A maximum of 2 panel command bar items is supported!
@@ -60,7 +55,7 @@ When the property "Text" has no value for both commands, the panel command bar i
 ### cmp_OnCommandSelect
 This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the panel command bar item clicked on.
 
-### cmp_Records
+### cmp_Panel
 A gallery is used to show data in the panel. Data consists of records. A record has the following properties:
 
 | Property | Description |
@@ -79,7 +74,7 @@ This custom property is of data type "Table" and a record has the following prop
 | :--- | :--- |
 | Align | The horizontal alignment. |
 | Color | The color. |
-| ID | An unique ID for the section. |
+| ID | An unique ID for the table record. |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
