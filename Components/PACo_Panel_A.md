@@ -25,7 +25,7 @@ The idea is that a panel is shown when an item in a details list is clicked on. 
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 | cmp_Width | Data | Input | Number | The width of the panel. | |
 
-### cmp_Panel
+### cmp_Button
 The panel button has the following properties:
 
 | Property | Description |
