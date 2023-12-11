@@ -4,6 +4,8 @@ This page is related to version: 3.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/2f72dddb-c030-42cd-b78e-2d1a1779b0dd)
 
+This PACo canvas component is responsive.
+
 The selected tab in the tabs menu has a marker before the text. This is not shown in the image above because there the selected tab is: Form
 
 ## Custom properties
