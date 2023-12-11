@@ -15,8 +15,8 @@ The idea is that a panel is shown when an item in a details list is clicked on. 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Button | Data | Input | Record | The button at the bottom of the panel. | See the documention about cmp_Button below. |
-| cmp_Commands | Data | Input | Record | The panel command bar items at the top of the panel. | See the documention about cmp_Commands below. |
-| cmp_OnCommandSelect | Event | | Boolean | When a command bar item is clicked on. | See the documention on cmp_OnCommandSelect below. |
+| cmp_Commands | Data | Input | Record | The panel commands at the top of the panel. | See the documention about cmp_Commands below. |
+| cmp_OnCommandSelect | Event | | Boolean | When a command is clicked on. | See the documention on cmp_OnCommandSelect below. |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on. |
 | cmp_Panel | Data | Input | Table | The data in the panel. | See the documention about cmp_Panel below. |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention about cmp_TextStyling below. |
@@ -37,7 +37,7 @@ The panel button has the following properties:
 | Text | The text. |
 
 ### cmp_Commands
-A panel command bar item has the following properties:
+A panel command has the following properties:
 
 | Property | Description |
 | :--- | :--- |
@@ -46,14 +46,14 @@ A panel command bar item has the following properties:
 | ImagePadding | The padding of the image. |
 | Text | The text. |
 
-A maximum of 2 panel command bar items is supported!
+A maximum of 2 panel commands is supported!
 
-When the property "Text" has no value, the related panel command bar item is not shown.
+When the property "Text" has no value, the related panel command is not shown.
 
 When the property "Text" has no value for both commands, the panel command bar is not shown.
 
 ### cmp_OnCommandSelect
-This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the panel command bar item clicked on.
+This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the panel command clicked on.
 
 ### cmp_Panel
 A gallery is used to show data in the panel. Data consists of records. A record has the following properties:
