@@ -4,33 +4,31 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235978809-ca5d0c95-df32-4ea2-b304-88520dbdd83f.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/960c6c66-f08d-438e-a103-a01e1d193004)
 
-This is a responsive canvas component. A horizontal scroll appears when the width of the details list is greater than the available width on the screen.
+This PACo canvas component is responsive. A horizontal scroll appears when the width of the details list is greater than the available width on the screen.
 
 This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the checkboxes in the header and of detail list items are reset.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_DetailsList | Data | Input | Table | The details list items. | See the documention on cmp_DetailsList below. |
-| cmp_Header | Data | Input | Record | The details list header. | See the documention on cmp_Header below. |
-| cmp_OnCheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is unchecked. | See the documention on cmp_OnCheck below. |
+| cmp_DetailsList | Data | Input | Table | The details list items. | See the documention about cmp_DetailsList below. |
+| cmp_Header | Data | Input | Record | The details list header. | See the documention about cmp_Header below. |
+| cmp_OnCheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is unchecked. | See the documention about cmp_OnCheck below. |
 | cmp_OnCheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is unchecked. | |
 | cmp_OnHeaderSelect | Event | | Boolean | When a header column is clicked on. | See the documention on cmp_OnHeaderSelect below. |
 | cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | See the documention on cmp_OnSelect below. |
-| cmp_OnUncheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is checked. | See the documention on cmp_OnUncheck below. |
+| cmp_OnUncheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is checked. | See the documention about cmp_OnUncheck below. |
 | cmp_OnUncheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is checked. | |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
 | cmp_ShowCheckboxHeader | Data | Input | Boolean | To show the checkbox in the header or not. | |
 | cmp_SortingColumn | Data | Input | Text | The sorting column. | |
 | cmp_SortingDirection | Data | Input | Text | The sorting direction. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_DetailsList
@@ -70,8 +68,6 @@ Every header column has its own subrecord. A header column has the following pro
 | Width | The width of the related label control. |
 
 The width of a header can thus be configured but is fixed when using the app. It is possible to define the header outside the canvas app so it can be changed without changing the canvas app. This is a recommended approach.
-
-If the total width of all columns together is larger than the width of a details list canvas component instance, a horizontal scrollbar is shown.
 
 This canvas component is configured to have a maximum of 20 columns. When a column should not be used:
 - set the property "Text" to an empty string ("").
