@@ -71,6 +71,8 @@ This image is used on setting screens to go back to the screen where the setting
 
 The back image and the navigation image share the same location and thus cannot be used simultaneously.
 
+The back image is not shown in the image above.
+
 ### cmp_ShowHelp
 This image is used to redirect an user to a location where (s)he can find more information when the image is clicked on (cmp_OnHelpSelect).
 
