@@ -4,20 +4,18 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235981084-9e19c40d-74f4-4f1a-bdb0-fd2b93e4e88a.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/05316c96-4768-4834-94e1-0d0c1407e240)
 
-This is a responsive canvas component. 
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | See the documention on cmp_OnSelect below. |
-| cmp_Nav | Data | Input | Table | The navigation items. | See the documention on cmp_Nav below. |
+| cmp_OnSelect | Event | | Boolean | When a navigation item is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_Nav | Data | Input | Table | The navigation items. | See the documention about cmp_Nav below. |
 | cmp_PercentageTextHeight | Data | Input | Number | The percentage of the height for the text section. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 
 ### cmp_Nav
@@ -26,7 +24,7 @@ A navigation item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | Disabled | Used to disable the navigation item. |
-| ID | The unique number of the navigation item used in the behavior property "cmp_OnSelect". |
+| ID | An unique number of the navigation item used in the behavior property "cmp_OnSelect". |
 | Image | A svg definition for the image for a non-selected navigation item and when not disabled. |
 | ImageDisabled | A svg definition for the image for a non-selected navigation item and when disabled. |
 | ImagePadding | The padding of the image. |
