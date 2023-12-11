@@ -6,6 +6,8 @@ This page is related to version: 3.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/68012bbd-dfe0-4566-b534-aaf063e9ee0f)
 
+This PACo canvas component is responsive.
+
 Above, the two possible visualizations are shown:
 - Elevation (#1)
 - Line (#2)
