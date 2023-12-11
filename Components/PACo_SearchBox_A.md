@@ -4,36 +4,20 @@
 
 This page is related to version: 3.0
 
-![image](https://user-images.githubusercontent.com/35654198/235981615-a3eba4ed-f2b6-4cbc-be71-c3661f3cc59f.png)
+![image](https://github.com/formsandflows/PACo/assets/35654198/98e938bd-45cc-44f2-abdc-7ffcc0ca5aa0)
 
-This is a responsive canvas component.
-
-The search box can be used to filter the items shown in a details list.
-
-This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown in the search box is reset.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_HintText | Data | Input | Text | The hint text. | |
-| cmp_Images | Data | Input | Table | Properties of the images. | See the documention on cmp_Images below. |
 | cmp_Text | Data | Output | Text | Contains the text typed into the search box. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
+| cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
-
-### cmp_Images
-This custom property is of data type "Table" and a record has the following properties:
-
-| Property | Description |
-| :--- | :--- |
-| ID | An unique ID for the image. |
-| Image | A svg definition for the image. |
-| ImagePadding | The padding of the image. |
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
