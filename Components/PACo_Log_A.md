@@ -41,7 +41,9 @@ The custom properties "cmp_Add" and "cmp_Update" have the following parameters:
 | cmp_Param_Memo | A more extensive description. |
 | cmp_Param_User | The selected user. |
 
-All properties except "ID" can be updated with the custom property "cmp_Update" using the ID of a log item.
+All properties except "ID" can be updated with the custom property "cmp_Update" using the ID of a log item. If a value must not be overwriten, it must be set to blank.
+
+If an log item is clickable, a marker is shown before the text.
 
 Having both cmp_Param_Account and cmp_Param_User allows for the situation where the person using the canvas apps has the option to act on behalf of someone else.
 
