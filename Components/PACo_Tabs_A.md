@@ -22,6 +22,9 @@ A menu indicator (3 dots) is shown when there are tabs to show which cannot be s
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
+### cmp_OnSelect
+This custom property contains a required parameter called "cmp_Param_TabID" which contains the ID of the tab clicked on. When the menu indicator is clicked on, a 0 (zero) is returned.
+
 ### cmp_Tabs
 A tab has the following properties:
 
@@ -30,36 +33,7 @@ A tab has the following properties:
 | ID | An unique ID (number) of the tab. |
 | Text | The text. |
 
-This component allows for up to 8 possible command bar items.
-
-When a command bar item shoud not be used:
-- set the property "SelectedItems" to "##"
-
-, for the related command bar item. This property can thus be used for logic when to show the related command bar item. Example: Because of RBAC (Role Based Access Control).
-
-### cmp_OnSelect
-This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command bar item clicked on. When the menu indicator is clicked on, a 0 (zero) is returned.
-
-### cmp_SelectedItems
-A command bar item can be shown for the situations when 0, 1 or more than 1 items are selected in the related details list canvas component. There are 3 details list canvas components (PACo_DetailsList_A, PACo_DetailsList_B, PACo_DetailsList_C) part of PACo.
-
-To make this possible, a fixed setup must be followed for the property "SelectedItems" of a command bar item and for the custom property "cmp_Selecteditems" of the canvas component.
-
-#### Property "SelectedItems" of a command bar item
-This property is used to determine when the command bar item must be shown.
-
-- #0# > The command bar item is shown when no items are selected in the details list.
-- #1# > The command bar item is shown when 1 item is selected in the details list.
-- #2# > The command bar item is shown when more than 1 item is selected in the details list.
-
-Above are example of single situations. The property "SelectedItems" of a command bar item can also be used for multiple situations. Example: A command bar item which has "#0#1#2#" set for its property "SelectedItems" is shown for the situations when 0, 1 or more than 1 item is selected in the details list.
-
-#### Custom property "cmp_SelectedItems" of the component
-This property determines if 0, 1 or more than 1 items are selected in the details list.
-
-- #0# > Command bar items with "#0#" in their property "SelectedItems" are shown.
-- #1# > Command bar items with "#1#" in their property "SelectedItems" are shown.
-- #2# > Command bar items with "#2#" in their property "SelectedItems" are shown.
+This canvas component allows for up to 8 possible tabs. When a tab shoud not be used, its property "Text" should be empty.
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
