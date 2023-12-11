@@ -6,11 +6,7 @@ This page is related to version: 3.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235982444-ff55c19b-41fd-4bba-aa9f-5037f2296c2a.png)
 
-This is a responsive canvas component. The width of the canvas component instance must be configured as: `Self.cmp_Width`
-
-This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text shown is reset.
-
-You can use the canvas app "PACo Examples" for a better understanding of, and to experiment with, this canvas component.
+This PACo canvas component is responsive. The width of the canvas component instance must be configured as: `Self.cmp_Width`
 
 ## Custom properties
 
@@ -20,9 +16,9 @@ You can use the canvas app "PACo Examples" for a better understanding of, and to
 | cmp_ImagePadding | Data | Input | Number | The padding of the image. | |
 | cmp_OnSelect | Event | | Boolean | When the command bar item is clicked on. | |
 | cmp_Text | Data | Input | Text | The text. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
-| cmp_Width | Data | Output | Number | The actual width of the command bar item. | See the documention on PACo_Width below. |
+| cmp_Width | Data | Output | Number | The actual width of the command bar item. | See the documention about PACo_Width below. |
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
