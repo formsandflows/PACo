@@ -12,7 +12,7 @@ The selected tab in the tabs menu has a marker before the text. This is not show
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Menu | Data | Input | Table | The tabs menu items. | See the documention about cmp_Menu below. |
 | cmp_OnSelect | Event | | Boolean | When a tabs menu item is clicked on. | See the documention about cmp_OnSelect below. |
-| cmp_SelectedTab | Data | Input | Number | The ID of the selected tab menu item. | |
+| cmp_SelectedTab | Data | Input | Number | The ID of the selected tab. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
