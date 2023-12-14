@@ -2,11 +2,9 @@
 
 !! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
 
-This page is related to version: 3.0
+This page is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/f779b9aa-2f32-4306-ac52-3d7d76ab1acb)
-
-This PACo canvas component is responsive. The width of the canvas component instance must be configured as: `Self.cmp_Width`
 
 ## Custom properties
 
