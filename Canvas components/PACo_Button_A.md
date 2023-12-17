@@ -46,3 +46,5 @@ The actual width of the button is determined by several factors:
 - The image padding as defined in the custom property "cmp_Button".
 
 The image padding is always shown as space to the left and the right in the button.
+
+**!! The value of this custom property must be set as the width of the canvas component instance.** With this setup, the width of the button is dynamic. See canvas app "PACo Examples" for an implementation.
