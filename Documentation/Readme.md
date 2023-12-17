@@ -1,3 +1,1 @@
-This GitHub repository contains documentation about the PACo canvas components
-
-More general information about PACo is provided here: 
+This GitHub repository only contains documentation about the PACo canvas components. More general information about PACo is provided [here](https://www.formsandflows.nl/redirects/paco-github-documentation). The general information is always related to the latest release.
