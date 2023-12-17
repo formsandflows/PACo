@@ -1,4 +1,4 @@
-Click [here](https://www.formsandflows.nl/paco/known-issues/) for known issues.
+Click [here](https://www.formsandflows.nl/paco/known-issues) for known issues.
 
 ## Release 3.0.0 (2023-12-19)
 
