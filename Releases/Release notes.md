@@ -1,19 +1,21 @@
-Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Known%20issues.md) for known issues.
+Click [here](https://www.formsandflows.nl/paco/known-issues/) for known issues.
+
+## Release 3.0.0 (2023-12-19)
+
 
 ## Release 2.2 (2023-07-02)
-
 Main changes:
-* A new canvas component has been added: [PACo_SelectList_A](./../Components/Extra/PACo_SelectList_A.md)
+* A new canvas component has been added: PACo_SelectList_A
 * PACo canvas components with objects containing with a dynamic text width (due to multi-language scenario's) were internally changed and must be used following a specific setup.
-* The PACo canvas component [PACo_Button_A](./../Components/Extra/PACo_Button_A.md) has a diffrent setup.
-* The help svg icon in the PACo canvas component [PACo_Header_A](./../Components/Core/PACo_Header_A.md) is changed.
+* The PACo canvas component PACo_Button_A has a diffrent setup.
+* The help svg icon in the PACo canvas component PACo_Header_A is changed.
 
 | Canvas app | Version | Description |
 | :--- | :--- | :--- |
-| PACo-Core | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Core%20v2_2.zip) | See [PACo-Core release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Core_Release%20notes_v2.2.md) |
-| PACo-Extra | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACo-Extra%20v2_2.zip) | See [PACo-Extra release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo-Extra_Release%20notes_v2.2.md) |
-| PACoCo | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACoCo%20v2_2.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACoCo_Release%20notes_v2.2.md) |
-| PACo Examples | [1.2](https://github.com/formsandflows/PACo/raw/main/Releases/PACo%20Examples%20v1_2.zip) | See [PACo Examples release notes](https://github.com/formsandflows/PACo/blob/main/Releases/PACo%20Examples_Release%20notes_v1.2.md) |
+| PACo-Core | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v2.2/PACo-Core%20v2_2.zip) | See [PACo-Core release notes](https://github.com/formsandflows/PACo/blob/main/Releases/Archive/v2.2/PACo-Core_Release%20notes_v2.2.md) |
+| PACo-Extra | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v2.2/PACo-Extra%20v2_2.zip) | See [PACo-Extra release notes](https://github.com/formsandflows/PACo/blob/main/Releases/Archive/v2.2/PACo-Extra_Release%20notes_v2.2.md) |
+| PACoCo | [2.2](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v2.2/PACoCo%20v2_2.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/Archive/v2.2/PACoCo_Release%20notes_v2.2.md) |
+| PACo Examples | [1.2](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v2.2/PACo%20Examples%20v1_2.zip) | See [PACo Examples release notes](https://github.com/formsandflows/PACo/blob/main/Releases/Archive/v2.2/PACo%20Examples_Release%20notes_v1.2.md) |
 
 ## Release 2.1 (2023-05-07)
 The only difference between PACo canvas components v2.0 and v2.1 is related to html controls used to show an elevation visualization.
@@ -54,7 +56,7 @@ In all html controls used to show an elevation visualization, the hash is remove
 | PACoCo | [1.1](https://github.com/formsandflows/PACo/raw/main/Releases/v1.1/Archive/PACoCo%20v1_1.zip) | See [PACoCo release notes](https://github.com/formsandflows/PACo/blob/main/Releases/Archive/v1.1/PACoCo_Release%20notes_v1.1.md) |
 
 ## Release 1.0 (2022-10-23)
-
+Initial release
 | Canvas app | Version | Description |
 | :--- | :--- | :--- |
 | PACo | [1.0](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v1.0/PACo%20v1_0.zip) | Initial release |
