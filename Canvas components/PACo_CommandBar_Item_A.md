@@ -4,8 +4,6 @@ This documentation page is related to version: 3.0.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235982444-ff55c19b-41fd-4bba-aa9f-5037f2296c2a.png)
 
-The width of the canvas component instance must be configured as: `Self.cmp_Width`
-
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
@@ -32,3 +30,5 @@ The actual width of the command bar item is determined by several factors:
 - The width of the image.
 - The length of the text to show.
 - The image padding as defined in the custom property "cmp_ImagePadding".
+
+**!! This custom property must be set as the width of the canvas component instance:** `Self.cmp_Width`
