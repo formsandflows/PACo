@@ -1,10 +1,8 @@
 # PACo_Log_A
 
-This page is related to version: 3.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/0542a1cf-bef8-428c-9085-09b8ac95d90f)
-
-This PACo canvas component is responsive.
 
 ## Custom properties
 | Display name | Property type | Property definition | Data type | Description | Memo
