@@ -1,12 +1,10 @@
 # PACo_CommandBar_Item_A
 
-!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
-
-This page is related to version: 3.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235982444-ff55c19b-41fd-4bba-aa9f-5037f2296c2a.png)
 
-This PACo canvas component is responsive. The width of the canvas component instance must be configured as: `Self.cmp_Width`
+The width of the canvas component instance must be configured as: `Self.cmp_Width`
 
 ## Custom properties
 
