@@ -1,6 +1,6 @@
 # PACo_Button_A
 
-This page is related to version: 3.0.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/f779b9aa-2f32-4306-ac52-3d7d76ab1acb)
 
