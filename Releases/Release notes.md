@@ -9,7 +9,7 @@ Main changes:
   * Regular (quarterly) releases.
   * Hotfix releases.
 * Extended documentation.
-* **Support.**
+* Paid support.
 * Almost all canvas components now have a custom property "cmp_TextStyling" to change how the text is displayed.
 * Canvas component PACo_Header_A:
   * The option for a (clickable) logo is added.
