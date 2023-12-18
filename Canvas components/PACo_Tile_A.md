@@ -1,12 +1,8 @@
 # PACo_Tile_A
 
-!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
-
-This page is related to version: 3.0
+This vpage is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/0a09c772-fe16-41e9-a16e-50ad34c73318)
-
-This PACo canvas component is responsive.
 
 ## Custom properties
 
