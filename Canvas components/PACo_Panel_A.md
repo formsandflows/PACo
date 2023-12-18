@@ -1,14 +1,10 @@
 # PACo_Panel_A
 
-!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
-
-This page is related to version: 3.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/ccde7a33-bbb7-429a-be97-37094da8ea76)
 
-This PACo canvas component is responsive.
-
-The idea is that a panel is shown when an item in a details list is clicked on. This must be configured in the details list. With a panel, normally all data is shown meaning more item properties than the ones shown in the related details list. A vertical scrollbar appears when there is more data to show than fits on the screen.
+The idea is that a panel is shown when an item in a details list is clicked on (selected). This must be configured in the details list. With a panel, normally all data is shown meaning more item properties than the ones shown in the related details list. A vertical scrollbar appears when there is more data to show than fits on the screen.
 
 ## Custom properties
 
