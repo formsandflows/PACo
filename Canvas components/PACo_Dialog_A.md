@@ -1,14 +1,10 @@
 # PACo_Dialog_A
 
-!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
-
-This page is related to version: 3.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/ad42c67b-c4c2-4068-ad4d-2b3f88f36088)
 
-This PACo canvas component is responsive.
-
-When using variables for the input properties, one dialog component can be used for multiple situations. This is implemented in the canvas app [PACoCo](https://www.formsandflows.nl/paco/pacoco/).
+When using variables for the input properties, one dialog component can be used for multiple situations. This is implemented in the canvas app "PACoCo".
 
 ## Custom properties
 
