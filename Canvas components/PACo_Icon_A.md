@@ -1,8 +1,6 @@
 # PACo_Icon_A
 
-!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
-
-This page is related to version: 3.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://user-images.githubusercontent.com/35654198/235982529-0462740c-eb45-43df-bdff-ae6ea18e2514.png)
 
