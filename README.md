@@ -1,9 +1,9 @@
 **2023-12-19: [Version 3.0.0](./Releases/Release%20notes.md) has been released!**
 
 # PACo
-PACo is a set of 26 canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed to use PACo.
+PACo is a set of **26** 🤩 canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed to use PACo.
 
-Main features of PACo are:
+Main features of **PACo** are:
 * Regular (quarterly) and hotfix releases.
 * Extended documentation.
 * 2 supporting canvas apps: **PACo Examples** and **PACoCo**
@@ -20,14 +20,14 @@ Main features of PACo are:
 
 Creating quality and meaningful canvas components is one of the goals of PACo.
 
-PACo consists of:
-* the component library **PACo** containing all canvas components.
-* the canvas app **[PACo Examples](https://www.formsandflows.nl/redirects/paco-github-paco-examples)** which contains a screen for each canvas component or set of related canvas components. This canvas app makes it easy to experiment with the canvas components and so better understand them.
-* the canvas app **[PACoCo](https://www.formsandflows.nl/redirects/paco-github-pacoco)** which is a responsive canvas app to demonstrate how several canvas components work together. A screenshot of the home screen is shown above.
+**PACo** is added with a Power Platform solution (managed or unmanaged) which consists of the objects:
+* The component library **PACo** containing all canvas components.
+* The canvas app **[PACo Examples](https://www.formsandflows.nl/redirects/paco-github-paco-examples)** which contains a screen for each canvas component or set of related canvas components. This canvas app makes it easy to experiment with the canvas components and so better understand them.
+* The canvas app **[PACoCo](https://www.formsandflows.nl/redirects/paco-github-pacoco)** which is a responsive canvas app to demonstrate how several canvas components work together. A screenshot of the home screen is shown above.
 
 Each canvas component has a documentation page which can be found in the folder "Canvas components".
 
-General documentation can be found [here](https://www.formsandflows.nl/redirects/paco-github-documentation).
+Links to general documentation can be found [here](https://www.formsandflows.nl/redirects/paco-github-documentation).
 
 ## Feature request
 You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-feature-request) page to submit a feature request for:
@@ -42,4 +42,8 @@ You can use the form on [this](https://www.formsandflows.nl/redirects/paco-githu
 * the canvas app **PACo Examples**.
 * the canvas app **PACoCo**.
 
-Thank you!
+If **PACo** is useful to you, I would very much appreciate it if you bought me a coffee: [https://www.buymeacoffee.com/rickbakker](https://www.buymeacoffee.com/rickbakker) 👍
+
+And with that, I want to wish you a lot of fun creating your business solutions with the Microsoft Power Platform and of course also with PACo 👊
+
+Rick
