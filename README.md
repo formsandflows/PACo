@@ -1,7 +1,7 @@
 **2023-12-19: [Version 3.0.0](./Releases/Release%20notes.md) has been released!**
 
 # PACo
-PACo is a set of **26** 🤩 canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed to use PACo.
+PACo is a set of **26** 🤩 canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed to use **PACo**.
 
 Main features of **PACo** are:
 * Regular (quarterly) and hotfix releases.
