@@ -11,7 +11,7 @@ Main features of PACo are:
 * Forms to:
   * submit a feature request.
   * report an issue.
-* Prooven and very configurable canvas components.
+* Proven and very configurable canvas components.
 * Responsiveness.
 * Designed for a multi-language implementation.
   * Multi-language is optional.
