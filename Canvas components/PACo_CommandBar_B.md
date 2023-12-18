@@ -1,12 +1,10 @@
 # PACo_CommandBar_B
 
-!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
-
-This page is related to version: 3.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/7497f77f-6d04-4010-91e6-335a9fd417d1)
 
-This PACo canvas component is responsive. A menu indicator (3 dots) is shown when there are commands to show which cannot be shown because the width of the command bar is to small. When the menu indicator is clicked on, a command bar menu is shown. This command bar menu is another PACo canvas component: PACo_CommandBarMenu_A
+A menu indicator (3 dots) is shown when there are commands to show which cannot be shown because the width of the command bar is to small. When the menu indicator is clicked on, the idea is that a command bar menu is shown. This command bar menu is another PACo canvas component: PACo_CommandBarMenu_A
 
 ## Custom properties
 
