@@ -1,7 +1,31 @@
 Click [here](https://www.formsandflows.nl/paco/known-issues) for known issues.
 
 ## Release 3.0.0 (2023-12-19)
-
+Main changes:
+* PACo is now offered using a Power Platform solution.
+  * A managed solution and an unmanaged solution are provided.
+* The canvas components are now offered using a component library.
+* Improved release management:
+  * Regular (quarterly) releases.
+  * Hotfix releases.
+* Extended documentation.
+* **Support.**
+* Almost all canvas components now have a custom property "cmp_TextStyling" to change how the text is displayed.
+* Canvas component PACo_Header_A:
+  * The option for a (clickable) logo is added.
+  * The option for a language selector is added.
+* Four new canvas components (26 in total):
+  * PACo_HeaderLanguagesMenu_A
+  * PACo_Log_A
+  * PACo_Tabs_A
+  * PACo_TabsMenu_A
+* PACo examples:
+  * Examples for the new canvas components.
+* PACoCo:
+  * Responsiveness additions/improvements.
+  * A simplefied multi-language implementation.
+  * The new canvas components "PACo_HeaderLanguagesMenu_A", "PACo_Tabs_A" and "PACo_TabsMenu_A" are included.
+* Logic (code) simplefications.
 
 ## Release 2.2 (2023-07-02)
 Main changes:
