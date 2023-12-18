@@ -1,12 +1,8 @@
 # PACo_ProgressIndicator_B
 
-!! The current active version is version 2.2. This file is already here because on version 3.0 (or better: release 3.0) is currently actively worked on.
-
-This page is related to version: 3.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/4d57e4fb-e8da-45da-8a6d-e69941bbef78)
-
-This PACo canvas component is responsive.
 
 ## Custom properties
 
