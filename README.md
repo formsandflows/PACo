@@ -44,6 +44,6 @@ You can use the form on [this](https://www.formsandflows.nl/redirects/paco-githu
 
 If **PACo** is useful to you, I would very much appreciate it if you bought me a coffee: [https://www.buymeacoffee.com/rickbakker](https://www.buymeacoffee.com/rickbakker) 👍
 
-And with that, I want to wish you a lot of fun creating your business solutions with the Microsoft Power Platform and of course also with PACo 😁👊
+And with that, I wish you a lot of fun creating your business solutions with the Microsoft Power Platform and of course also with PACo 😁👊
 
 Rick
