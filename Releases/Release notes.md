@@ -25,7 +25,8 @@ Main changes:
   * Responsiveness additions/improvements.
   * A simplefied multi-language implementation.
   * The new canvas components "PACo_HeaderLanguagesMenu_A", "PACo_Tabs_A" and "PACo_TabsMenu_A" are included.
-* Logic (code) simplefications.
+  * Using App.Formulas and named formulas instead of App.OnStart.
+* Logic (code) simplifications.
 
 ## Release 2.2 (2023-07-02)
 Main changes:
