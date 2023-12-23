@@ -7,7 +7,10 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for cha
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.1.Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.1_Unmanaged.zip) 
 
+Change request(s):
 * CR-2023-1
+
+Issue(s):
 * I-2023-1
 * I-2023-2
 
