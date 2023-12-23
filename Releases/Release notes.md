@@ -1,9 +1,20 @@
 Click [here](https://www.formsandflows.nl/redirects/paco-github-known-issues) for known issues.
 
+Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for change requests (backlog).
+
+## Release 3.0.1 (2023-12-24)
+
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.1.Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.1_Unmanaged.zip) 
+
+* CR-2023-1
+* I-2023-1
+* I-2023-2
+
 ## Release 3.0.0 (2023-12-19)
 
-* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.0.Managed.zip)
-* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.0_Unmanaged.zip) 
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.0.Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.0_Unmanaged.zip) 
 
 Main changes:
 * Improved release management:
