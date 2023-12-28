@@ -1,6 +1,6 @@
 # PACo_SearchBox_A
 
-This documentation page is related to version: 3.0
+This documentation page is related to version: 3.0.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/98e938bd-45cc-44f2-abdc-7ffcc0ca5aa0)
 
