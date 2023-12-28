@@ -16,6 +16,7 @@ All fields are based on a label control. The subtitle is displayed in italics. T
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_DetailsList | Data | Input | Table | The details list items. | See the documention about cmp_DetailsList below. |
 | cmp_OnCheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is unchecked. | See the documention about cmp_OnCheck below. |
+| cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | See the documention on cmp_OnSelect below. |
 | cmp_OnUncheck | Event | | Boolean | When the item checkbox is clicked on and the checkbox is checked. | See the documention about cmp_OnUncheck below. |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on about cmp_TextStyling below. |
@@ -58,6 +59,9 @@ The collection which contains the details list items must have the additional re
 
 ### cmp_OnCheck
 This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the selected item (Record ID).
+
+### cmp_OnSelect
+This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the selected details list item (Record ID).
 
 ### cmp_OnUncheck
 This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the selected item (Record ID).
