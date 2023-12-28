@@ -1,6 +1,6 @@
 # PACo_SelectList_A
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.1
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/67f5c553-d10d-47c1-bea6-0714ab1dc25b)
 
@@ -23,6 +23,7 @@ The button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| BorderRadius | The radius of the border of the button. |
 | Height | The height.|
 | Image | A svg definition for an image. An image is not required. |
 | ImagePadding | The padding of the image. |
