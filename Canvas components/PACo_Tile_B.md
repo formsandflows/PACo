@@ -1,6 +1,6 @@
 # PACo_Tile_B
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.1
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/029ccce4-b9bc-4a6b-9c49-8400549929ac)
 
