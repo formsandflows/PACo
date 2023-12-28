@@ -1,6 +1,6 @@
 # PACo_Panel_A
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.1
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/ccde7a33-bbb7-429a-be97-37094da8ea76)
 
@@ -26,6 +26,7 @@ The panel button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| BorderRadius | The radius of the border of the button. |
 | Height | The height. |
 | Image | A svg definition for an image. An image is not required. |
 | ImagePadding | The padding of the image. |
