@@ -1,4 +1,4 @@
-**2023-12-24: Hotfix release [3.0.1](./Releases/Release%20notes.md) has been released!**
+**2023-12-28: Hotfix release [3.0.2](./Releases/Release%20notes.md) has been released!**
 
 # PACo
 PACo is a set of **26** canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed to use **PACo**.
