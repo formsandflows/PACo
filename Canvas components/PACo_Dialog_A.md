@@ -42,7 +42,7 @@ A button has the following properties:
 | Title | The internal name. This is needed to support multilingual canvas apps. |
 | Type | The button type. Possible values are "Primary" and "Secondary". |
 
-For the height, only the height property of the first button record is used.
+For the height of buttons, only the height property of the first button record is used.
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_Button" which contains the title of the button clicked on.
