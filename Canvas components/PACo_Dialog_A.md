@@ -1,6 +1,6 @@
 # PACo_Dialog_A
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.1
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/ad42c67b-c4c2-4068-ad4d-2b3f88f36088)
 
@@ -32,12 +32,17 @@ A button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Border | If a border must be shown. This only applies to a button of type "Secondary". |
+| BorderRadius | The radius of the border of the button. |
+| Height | The height. |
 | Image | A svg definition for an image. |
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width. |
 | Text | The text. |
 | Title | The internal name. This is needed to support multilingual canvas apps. |
 | Type | The button type. Possible values are "Primary" and "Secondary". |
+
+For the height, only the height property of the first button record is used.
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_Button" which contains the title of the button clicked on.
@@ -48,7 +53,6 @@ This custom property is of data type "Table" and a record has the following prop
 | Property | Description |
 | :--- | :--- |
 | Align | The text alignment. |
-| ButtonHeight | The height. |
 | Color | The color. |
 | ID | An unique ID for the table record. |
 | Font | The font. |
