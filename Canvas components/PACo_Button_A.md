@@ -1,6 +1,6 @@
 # PACo_Button_A
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.1
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/f779b9aa-2f32-4306-ac52-3d7d76ab1acb)
 
@@ -12,6 +12,7 @@ This documentation page is related to version: 3.0.0
 | cmp_Disabled | Data | Input | Boolean | If the button is disabled or not. | |
 | cmp_OnSelect | Event | | Boolean | When the button is clicked on and not disabled. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
+| cmp_Tooltip | Data | Input | Text | The tooltip. | |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Width | Data | Output | Number | The actual width of the button. | See the documention about cmp_Width below. |
 
@@ -20,6 +21,8 @@ This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Border | If a border must be shown. This only applies to a button of type "Secondary". |
+| BorderRadius | The radius of the border of the button. |
 | Image | A svg definition for the image. Leave it empty if you do not want to show an image. |
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width. |
