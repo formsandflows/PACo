@@ -2,7 +2,7 @@
 
 This documentation page is related to version: 3.0.1
 
-![image](https://github.com/formsandflows/PACo/assets/35654198/f779b9aa-2f32-4306-ac52-3d7d76ab1acb)
+![PACo_Button_A](https://github.com/formsandflows/PACo/assets/35654198/00c5b60c-c0e5-4b86-ba9a-526164414d5f)
 
 ## Custom properties
 
