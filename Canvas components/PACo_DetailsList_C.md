@@ -1,6 +1,6 @@
 # PACo_DetailsList_C
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.1
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/f942a4d6-7f2b-4a41-9249-2da47aae3ba3)
 
