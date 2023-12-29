@@ -12,6 +12,8 @@ Issue:
 
 ## Release 3.0.3 (2023-12-28)
 
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.3_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.3_Unmanaged.zip)
 
 Issue:
 * I-2023-5
