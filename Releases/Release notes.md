@@ -7,7 +7,8 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for cha
 
 
 Issue:
-* I-2023-7
+* I-2024-1
+* I-2024-2
 
 ## Release 3.0.4 (2023-12-29)
 
