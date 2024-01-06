@@ -4,7 +4,8 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for cha
 
 ## Release 3.0.4 (2023-01-06)
 
-
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.5_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.5_Unmanaged.zip)
 
 Issue:
 * I-2024-1
@@ -12,8 +13,8 @@ Issue:
 
 ## Release 3.0.4 (2023-12-29)
 
-* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.4_Managed.zip)
-* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.4_Unmanaged.zip)
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.4_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.4_Unmanaged.zip)
 
 Issue:
 * I-2023-6
