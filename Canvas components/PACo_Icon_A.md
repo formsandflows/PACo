@@ -1,6 +1,6 @@
 # PACo_Icon_A
 
-This documentation page is related to version: 3.0.1
+This documentation page is related to version: 3.0.2
 
 ![image](https://user-images.githubusercontent.com/35654198/235982529-0462740c-eb45-43df-bdff-ae6ea18e2514.png)
 
