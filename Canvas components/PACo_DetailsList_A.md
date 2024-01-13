@@ -76,16 +76,16 @@ This canvas component is configured to have a maximum of 20 columns. When a colu
 **!! Attention: All 20 columns must be defined.**
 
 ### cmp_OnCheck
-This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the selected details list item (Record ID).
+This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the checked details list item (Record ID).
 
 ### cmp_OnHeaderSelect
 This custom property contains a required parameter called "cmp_Param_Column" which contains the text of the column clicked on.
 
 ### cmp_OnSelect
-This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the selected details list item (Record ID).
+This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the details list item clicked on (Record ID).
 
 ### cmp_OnUncheck
-This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the selected details list item (Record ID).
+This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the unchecked details list item (Record ID).
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
