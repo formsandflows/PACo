@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_visualization_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/68012bbd-dfe0-4566-b534-aaf063e9ee0f)
 
 This PACo canvas component is responsive.
