@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_b/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/7497f77f-6d04-4010-91e6-335a9fd417d1)
 
 A menu indicator (3 dots) is shown when there are commands to show which cannot be shown because the width of the command bar is to small. When the menu indicator is clicked on, the idea is that a command bar menu is shown. This command bar menu is another PACo canvas component: PACo_CommandBarMenu_A
