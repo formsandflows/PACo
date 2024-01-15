@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_headerlanguagesmenu_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/e1a6926c-91d4-4b27-b6bf-aec8cf89c56f)
 
 ## Custom properties
