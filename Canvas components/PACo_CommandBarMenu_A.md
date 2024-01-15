@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbarmenu_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/45b79e8c-b3c2-47bf-883d-1e5f8d0546cc)
 
 ## Custom properties
