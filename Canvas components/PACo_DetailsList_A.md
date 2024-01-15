@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_detailslist_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/960c6c66-f08d-438e-a103-a01e1d193004)
 
 A horizontal scroll appears when the width of the details list is greater than the available width on the screen.
