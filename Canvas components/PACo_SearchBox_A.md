@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_searchbox_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/98e938bd-45cc-44f2-abdc-7ffcc0ca5aa0)
 
 ## Custom properties
