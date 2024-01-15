@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.1
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_dialog_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/ad42c67b-c4c2-4068-ad4d-2b3f88f36088)
 
 When using variables for the input properties, one dialog component can be used for multiple situations. This is implemented in the canvas app "PACoCo".
