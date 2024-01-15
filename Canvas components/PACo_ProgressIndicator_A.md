@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_progressindicator_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/a9c7b608-6c44-4555-bb0b-284b647931ac)
 
 ## Custom properties
