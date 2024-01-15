@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_tabs_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/2a2b1389-0718-4400-b853-c810ae116892)
 
 A menu indicator (3 dots) is shown when there are tabs to show which cannot be shown because the width is too small. The idea is that when the menu indicator is clicked on, a tabs menu is shown. This tabs menu is another PACo canvas component: PACo_TabsMenu_A
