@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_spinner_a/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/dd7dc5a9-6324-458d-819a-1bbb942e33f4)
 
 ## Custom properties
