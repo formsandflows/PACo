@@ -2,6 +2,8 @@
 
 This documentation page is related to version: 3.0.0
 
+Related video page: https://www.formsandflows.nl/paco/videos/paco_nav_b/
+
 ![image](https://github.com/formsandflows/PACo/assets/35654198/9e2f88a9-1f5b-4e02-b5dd-c584a3e06f77)
 
 ## Custom properties
