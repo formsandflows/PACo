@@ -1,6 +1,6 @@
 # PACo_CommandBar_Item_A
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.1
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_item_a/
 
@@ -14,6 +14,8 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_ite
 | cmp_ImagePadding | Data | Input | Number | The padding of the image. | |
 | cmp_OnSelect | Event | | Boolean | When the command bar item is clicked on. | |
 | cmp_Text | Data | Input | Text | The text. | |
+| cmp_TextPaddingLeft | Data | Input | Number | The padding left of the text. | |
+| cmp_TextPaddingRight | Data | Input | Number | The padding right of the text. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
 | cmp_Width | Data | Output | Number | The actual width of the command bar item. | See the documention about PACo_Width below. |
