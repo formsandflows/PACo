@@ -1,6 +1,6 @@
 # PACo_Panel_A
 
-This documentation page is related to version: 3.0.1
+This documentation page is related to version: 3.0.2
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_panel_a/
 
@@ -44,6 +44,8 @@ A panel command has the following properties:
 | Image | A svg definition for the image. |
 | ImagePadding | The padding of the image. |
 | Text | The text. |
+| TextPaddingLeft | The padding left of the text. |
+| TextPaddingRight | The padding right of the text. |
 
 A maximum of 2 panel commands is supported!
 
