@@ -1,6 +1,6 @@
 # PACo_CommandBar_B
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.1
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_b/
 
@@ -31,6 +31,8 @@ A command has the following properties:
 | ImagePadding | The padding of the image. |
 | SelectedItems | When to show the command. See the documention about cmp_SelectedItems below. |
 | Text | The text. |
+| TextPaddingLeft | The padding left of the text. |
+| TextPaddingRight | The padding right of the text. |
 
 This component allows for up to 8 commands.
 
