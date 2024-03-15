@@ -18,9 +18,9 @@ Main features of **PACo** are:
 
 ![PACoCo-NL](https://github.com/formsandflows/PACo/assets/35654198/ee38ce20-c5e1-4f45-a9e0-db3c502ffb2b)
 
-Creating quality and meaningful canvas components is one of the goals of PACo.
+Creating quality and meaningful canvas components is the main goal of PACo.
 
-**PACo** is added with a Power Platform solution (managed or unmanaged) which consists of the objects:
+**PACo** is added with a Power Platform solution (managed or unmanaged) and consists of the main objects:
 * The component library **PACo** containing all canvas components.
 * The canvas app **[PACo Examples](https://www.formsandflows.nl/redirects/paco-github-paco-examples)** which contains a screen for each canvas component or set of related canvas components. This canvas app makes it easy to experiment with the canvas components and so better understand them.
 * The canvas app **[PACoCo](https://www.formsandflows.nl/redirects/paco-github-pacoco)** which is a responsive canvas app to demonstrate how several canvas components work together. A screenshot of the home screen is shown above.
