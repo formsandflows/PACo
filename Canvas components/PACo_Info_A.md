@@ -5,7 +5,7 @@
 
 This documentation page is related to version: 3.1.0
 
-![image](https://github.com/formsandflows/PACo/assets/35654198/06e31da6-a1d3-40fc-b28d-aa9e413abe01)
+![image](https://github.com/formsandflows/PACo/assets/35654198/d55f0b82-11a5-45c1-928e-28376c84f57b)
 
 ## Custom properties
 
