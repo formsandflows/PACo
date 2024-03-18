@@ -9,6 +9,8 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_ite
 
 ![image](https://user-images.githubusercontent.com/35654198/235982444-ff55c19b-41fd-4bba-aa9f-5037f2296c2a.png)
 
+This canvas component does not contain a visualization (elevation, line). If this is needed, the canvas component PACo_Visualization_A can be used.
+
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
