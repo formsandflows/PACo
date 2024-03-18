@@ -1,25 +1,38 @@
 # PACo_CommandBar_B
 
-This documentation page is related to version: 3.0.1
+> [!CAUTION]
+> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
+
+This documentation page is related to version: 3.1.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_b/
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/7497f77f-6d04-4010-91e6-335a9fd417d1)
 
-A menu indicator (3 dots) is shown when there are commands to show which cannot be shown because the width of the command bar is to small. When the menu indicator is clicked on, the idea is that a command bar menu is shown. This command bar menu is another PACo canvas component: PACo_CommandBarMenu_A
+A menu indicator (3 dots) is shown when there are commands to show which cannot be shown because the width of the command bar is to small. When the menu indicator is clicked on, the idea is that a command bar menu is shown containing only the commands which are not shown in te command bar. This command bar menu is another PACo canvas component: PACo_CommandBarMenu_A
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_Authorization | Data | Input | Record | The authorization table. | See the documention about cmp_Authorization below. |
 | cmp_Commands | Data | Input | Record | The commands. | See the documention about cmp_Commands below. |
-| cmp_LastCommand | Data | Output | Number | The last command shown in the command bar. | |
 | cmp_OnSelect | Event | | Boolean | When a command is clicked on. | See the documention about cmp_OnSelect below. |
 | cmp_SelectedItems | Data | Input | Text | Indicator of the number of selected items (0, 1 or more than 1) in the related details list. | See the documention about cmp_SelectedItems below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
+
+### cmp_Authorization
+An authorization item has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| ID | The ID of the releated command bar menu item (command). |
+| Authorization | The authorization. Possaible value are: Show, Hide, Disable |
+
+The record must contain 8 items.
 
 ### cmp_Commands
 A command has the following properties:
@@ -39,7 +52,7 @@ This component allows for up to 8 commands.
 When a command shoud not be used:
 - set the property "SelectedItems" to "##"
 
-, for the related command. This property can thus be used for logic when to show the related command. Example: Because of RBAC (Role Based Access Control) a certain command is shown for certain users and not for certain other users.
+, for the related command. Use this when a command should never been shown. Use the custom property "cmp_Authorization" for RBAC (Role Based Access Control) scenario's.
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command clicked on. When the menu indicator is clicked on, a 0 (zero) is returned.
