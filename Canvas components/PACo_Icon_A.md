@@ -1,6 +1,9 @@
 # PACo_Icon_A
 
-This documentation page is related to version: 3.0.2
+> [!CAUTION]
+> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
+
+This documentation page is related to version: 3.1.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_icon_a/
 
