@@ -53,7 +53,7 @@ For the height of buttons, only the height property of the first button record i
 This custom property contains a required parameter called "cmp_Param_Button" which contains the title of the button clicked on.
 
 ### cmp_TextStyling
-This custom property is of data type **"Table"** and a record can have the following properties:
+This custom property is of data type "**Table**" and a record can have the following properties:
 
 | Property | Description |
 | :--- | :--- |
