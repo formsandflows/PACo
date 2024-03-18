@@ -57,10 +57,17 @@ There are 4 locations:
 - Bottom
 
 ### cmp_TextStyling
-This custom property has the following properties:
+This custom property is of data type **"Table"** and a record can have the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Align | The text alignment. |
 | Color | The color. |
+| ID | An unique ID for the table record. |
 | Font | The font. |
 | FontSize | The font size. |
+| FontWeight | The font weight. |
+| Padding | The padding. |
+| VerticalAlign | The vertical alignment. |
+
+Not all properties are needed in all table records!
