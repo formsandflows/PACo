@@ -32,7 +32,7 @@ A tabs menu item has the following properties:
 This custom property contains a required parameter called "cmp_Param_TabID" which contains the ID of the tabs menu item clicked on.
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
