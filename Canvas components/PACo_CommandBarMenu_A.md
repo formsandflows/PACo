@@ -31,8 +31,10 @@ An authorization item has the following properties:
 
 The table must contain 8 items.
 
+The authorization table used for the command bar must also be used for the command bar menu.
+
 ### cmp_Menu
-A command bar menu item (command) has the following properties:
+An command bar menu item (command) has the following properties:
 
 | Property | Description |
 | :--- | :--- |
@@ -42,7 +44,7 @@ A command bar menu item (command) has the following properties:
 | SelectedItems | When to show the command bar menu item (command). See the documention of PACo canvas component PACo_CommandBar_B. |
 | Text | The text. |
 
-The table must contain 8 items.
+The items in the table depend on the authorization defined in the custom property "cmp_Authorization". Items defined with the authorizaton "Hide" must not be included.
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command bar menu item (command) clicked on.
