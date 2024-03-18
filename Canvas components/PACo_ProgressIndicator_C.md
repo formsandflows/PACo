@@ -32,7 +32,7 @@ A process step has the following properties:
 | Text | The text to display. |
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
