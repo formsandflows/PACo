@@ -55,3 +55,12 @@ There are 4 locations:
 - Right
 - Top
 - Bottom
+
+### cmp_TextStyling
+This custom property has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| Color | The color. |
+| Font | The font. |
+| FontSize | The font size. |
