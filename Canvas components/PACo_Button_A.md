@@ -1,6 +1,9 @@
 # PACo_Button_A
 
-This documentation page is related to version: 3.0.2
+> [!CAUTION]
+> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
+
+This documentation page is related to version: 3.1.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_button_a/
 
@@ -31,13 +34,14 @@ This custom property is of data type "Record" and has the following properties:
 | Text | The text. |
 | Type | The button type. Possible values are "Primary" and "Secondary". |
 
-This first button shown in the screenshot above is of type "Primary" and the second button of type "Secondary". The third is of type "Primary" and is disabled. The fourth is of type "Secondary" and disabled.
+The first button shown in the screenshot above is of type "Primary". The second button is of type "Secondary". The third is of type "Primary" and is disabled. The fourth is of type "Secondary" and disabled.
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
 
@@ -50,4 +54,4 @@ The actual width of the button is determined by several factors:
 
 The image padding is always shown as space to the left and the right in the button.
 
-**!! This custom property must be set as the width of the canvas component instance:** `Self.cmp_Width`
+**!! This custom property must be set as the width of the canvas component instance by using:** `Self.cmp_Width`
