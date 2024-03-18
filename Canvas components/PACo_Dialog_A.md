@@ -1,6 +1,9 @@
 # PACo_Dialog_A
 
-This documentation page is related to version: 3.0.1
+> [!CAUTION]
+> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
+
+This documentation page is related to version: 3.1.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_dialog_a/
 
@@ -50,12 +53,14 @@ For the height of buttons, only the height property of the first button record i
 This custom property contains a required parameter called "cmp_Param_Button" which contains the title of the button clicked on.
 
 ### cmp_TextStyling
-This custom property is of data type "Table" and a record has the following properties:
+This custom property is of data type **"Table"** and a record can have the following properties:
 
 | Property | Description |
 | :--- | :--- |
 | Align | The text alignment. |
 | Color | The color. |
+| ColorPrimary | The color for button of type "Primary". |
+| ColorSecondary | The color for button of type "Secondary". |
 | ID | An unique ID for the table record. |
 | Font | The font. |
 | FontSize | The font size. |
@@ -63,4 +68,4 @@ This custom property is of data type "Table" and a record has the following prop
 | Padding | The padding. |
 | VerticalAlign | The vertical alignment. |
 
-Not all properties are needed in all table records.
+Not all properties are needed in all table records!
