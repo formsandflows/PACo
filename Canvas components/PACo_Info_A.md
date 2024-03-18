@@ -57,7 +57,7 @@ There are 4 locations:
 - Bottom
 
 ### cmp_TextStyling
-This custom property is of data type **"Table"** and a record can have the following properties:
+This custom property is of data type "**Table**" and a record can have the following properties:
 
 | Property | Description |
 | :--- | :--- |
