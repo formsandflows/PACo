@@ -31,7 +31,7 @@ An authorization item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | ID | The ID of the releated command bar menu item (command). |
-| Authorization | The authorization. Possaible value are: Show, Hide, Disable |
+| Authorization | The authorization. Possible value are: Show, Hide, Disable |
 
 The record must contain 8 items.
 
