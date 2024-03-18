@@ -2,20 +2,75 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-known-issues) fo
 
 Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for change requests (backlog).
 
-## Release 3.0.6 (2023-01-28)
+## Release 3.1.0 (2024-03-18)
 
-* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.6_Managed.zip)
-* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.0.6_Unmanaged.zip)
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.1.0_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.1.0_Unmanaged.zip)
 
-Issue:
+### Feature requests:
+* CR-2023-1
+* CR-2024-1
+* CR-2024-2
+* CR-2024-3
+* CR-2024-4
+* CR-2024-5
+* CR-2024-6
+* CR-2024-7
+* CR-2024-9
+
+### Issues:
+* I-2024-4
+* I-2024-5
+* I-2024-6
+* I-2024-7
+
+The following canvas component updates are part of this release:
+
+* PACo_Button_A
+  * An updated custom property "cmp_TextStyling".
+* PACo_CommandBar_B
+  * A new custom property called "cmp_Authorization".
+* PACo_CommandBarMenu_A
+  * A new custom property called "cmp_Authorization".
+* PACo_DetailsList_A
+  * A new custom property called "cmp_CheckboxStyling".
+  * A new custom property called "cmp_HeaderStyling".
+  * A new custom property called "cmp_ShowHoverFill".
+  * A new custom property called "cmp_SortingIconStyling".
+  * A different way of working for custom property "cmp_ShowCheckbox".
+  * An updated custom property "cmp_TextStyling".
+  * The custom property "cmp_ShowCheckboxHeader" is removed.
+* PACo_DetailsList_B
+  * See canvas component "PACo_DetailsList_A".
+* PACo_Dialog_A
+  * An updated custom property "cmp_TextStyling".
+* PACo_Panel_A
+  * An updated custom property "cmp_TextStyling".
+    * The property "Color" must now also be set for the item related to the button in the custom property "cmp_TextStyling".
+* PACo_ProgressIndicator_A
+  * A new custom property called "cmp_Offset".
+  * A new custom property called "cmp_ShowText".
+  * An updated custom property "cmp_TextStyling".
+* PACo_ProgressIndicator_B
+  * The same as canvas component "PACo_ProgressIndicator_A".
+* PACo_SelectList_A
+  * An updated custom property "cmp_TextStyling".
+    * The property "Color" must now also be set for the item related to the button in the custom property "cmp_TextStyling".
+
+## Release 3.0.6 (2024-01-28)
+
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.6_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.6_Unmanaged.zip)
+
+### Issue:
 * I-2024-3
 
-## Release 3.0.5 (2023-01-06)
+## Release 3.0.5 (2024-01-06)
 
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.5_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.5_Unmanaged.zip)
 
-Issues:
+### Issues:
 * I-2024-1
 * I-2024-2
 
@@ -24,7 +79,7 @@ Issues:
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.4_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.4_Unmanaged.zip)
 
-Issue:
+### Issue:
 * I-2023-6
 
 ## Release 3.0.3 (2023-12-28)
@@ -32,7 +87,7 @@ Issue:
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.3_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.3_Unmanaged.zip)
 
-Issue:
+### Issue:
 * I-2023-5
 
 ## Release 3.0.2 (2023-12-28)
@@ -40,12 +95,12 @@ Issue:
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.2_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.2_Unmanaged.zip)
 
-Feature requests:
+### Feature requests:
 * CR-2023-3
 * CR-2023-4
 * CR-2023-5 
 
-Issues:
+### Issues:
 * I-2023-3
 * I-2023-4
 
@@ -54,10 +109,10 @@ Issues:
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.1_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.1_Unmanaged.zip)
 
-Feature request:
+### Feature request:
 * CR-2023-2
 
-Issues:
+### Issues:
 * I-2023-1
 * I-2023-2
 
@@ -66,7 +121,7 @@ Issues:
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.0.Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.0_Unmanaged.zip) 
 
-Main changes:
+### Main changes
 * Improved release management:
   * Regular (quarterly) releases.
   * Hotfix releases.
@@ -95,7 +150,7 @@ Main changes:
 * The canvas components are now offered using a component library.
 
 ## Release 2.2 (2023-07-02)
-Main changes:
+### Main changes
 * A new canvas component has been added: PACo_SelectList_A
 * PACo canvas components with objects containing with a dynamic text width (due to multi-language scenario's) were internally changed and must be used following a specific setup.
 * The PACo canvas component PACo_Button_A has a diffrent setup.
