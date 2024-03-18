@@ -17,7 +17,7 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_spinner_a/
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
