@@ -1,6 +1,6 @@
 Click [here](https://www.formsandflows.nl/redirects/paco-github-known-issues) for known issues.
 
-Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for change requests (backlog).
+Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for feature requests (backlog).
 
 ## Release 3.1.0 (2024-03-18)
 
