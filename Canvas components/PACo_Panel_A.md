@@ -72,7 +72,7 @@ A gallery is used to show data in the panel. Data consists of records. A record 
 The LabelHeight and TextHeight properties are not required. A value of 40 is used in case the properties are not defined.
 
 ### cmp_TextStyling
-This custom property is of data type **"Table"** and a record can have the following properties:
+This custom property is of data type "**Table**" and a record can have the following properties:
 
 | Property | Description |
 | :--- | :--- |
