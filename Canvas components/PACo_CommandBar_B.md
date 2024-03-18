@@ -79,7 +79,7 @@ This property determines if 0, 1 or more than 1 items are selected in the detail
 - #2# > Commands with "#2#" in their property "SelectedItems" are shown.
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
