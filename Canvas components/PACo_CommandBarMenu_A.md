@@ -50,7 +50,7 @@ The items in the table depend on the authorization defined in the custom propert
 This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command bar menu item (command) clicked on.
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
