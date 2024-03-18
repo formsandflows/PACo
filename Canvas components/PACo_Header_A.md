@@ -1,6 +1,9 @@
 # PACo_Header_A
 
-This documentation page is related to version: 3.0.1
+> [!CAUTION]
+> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
+
+This documentation page is related to version: 3.1.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_header_a/
 
@@ -12,8 +15,8 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_header_a/
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Images | Data | Input | Table | Properties of the images. | See the documention about cmp_Images below. |
 | cmp_LanguagesMenuImage | Data | Input | Record | A svg definition for the languages menu image. | See the documention about cmp_LanguagesMenuImage below. |
-| cmp_Logo | Data | Input | Record | The logo. | See the documention about cmp_Logo below. |
 | cmp_LanguagesMenuPropertyX | Data | Output | Number | The X value for the languages menu. | |
+| cmp_Logo | Data | Input | Record | The logo. | See the documention about cmp_Logo below. |
 | cmp_OnBackSelect | Event | | Boolean | When the back image is clicked on. | |
 | cmp_OnHelpSelect | Event | |  Boolean | When the help image is clicked on. | |
 | cmp_OnLanguagesMenuSelect | Event | | Boolean | When the languages menu image is clicked on. | |
@@ -63,28 +66,28 @@ This custom property is of data type "Record" and has the following properties:
 | Width | The original width of the svg image. |
 
 ### cmp_ShowBack
-This image is used on setting screens to go back to the screen where the settings screen was called from when the image is clicked on (cmp_OnBackSelect). This is normally the home screen.
+This custom property is used to show the back image on setting screens to go back to the screen where the settings screen was called from when the related image is clicked on (cmp_OnBackSelect). This is normally the home screen.
 
-The back image and the navigation image share the same location and thus cannot be used simultaneously.
+The back image and the navigation image share the same location and thus cannot be used simultaneously!
 
 The back image is not shown in the image above.
 
 ### cmp_ShowHelp
-This image is used to redirect an user to a location where (s)he can find more information when the image is clicked on (cmp_OnHelpSelect).
+This custom property is used to show the help image which allows to redirect an user to a location where (s)he can find more information when the image is clicked on (cmp_OnHelpSelect).
 
 ### cmp_ShowLanguagesMenu
-This image is used to show a languages menu. A languages menu component like "PACo_LanguagesMenu_A" can be used to display a languages menu when the image is clicked on (cmp_OnLanguagesMenuSelect).
+This custom property is used to show a languages menu image. A languages menu component like "PACo_LanguagesMenu_A" can be used to display a languages menu when the image is clicked on (cmp_OnLanguagesMenuSelect).
 
 ### cmp_ShowLogo
-This image is used to show the logo. A logo can be clickable or not. When it is clickable and clicked on, the cmp_OnLogoSelect event is triggered.
+This custom property is used to show the logo. A logo can be clickable or not. When it is clickable and clicked on, the cmp_OnLogoSelect event is triggered.
 
 ### cmp_ShowNav
-This image is used to show a navigation. A navigation canvas component like "PACo_Nav_B" can be used to display a navigation when the image is clicked on (cmp_OnNavSelect).
+This custom property is used to show a navigation image. A navigation canvas component like "PACo_Nav_B" can be used to display a navigation when the image is clicked on (cmp_OnNavSelect).
 
-The navigation image is meant to be used for situations when a navigation cannot be shown by default due to a lack of space. For instance for mobile app development.
+The navigation image is meant to be used for situations when a navigation cannot be shown due to a lack of space. For instance for mobile app development.
 
 ### cmp_ShowSettingsMenu
-This image is used to show a settings menu. A settings menu component like "PACo_SettingsMenu_A" can be used to display a settings menu when the image is clicked on (cmp_OnSettingsMenuSelect).
+This custom property is used to show a settings menu image. A settings menu component like "PACo_SettingsMenu_A" can be used to display a settings menu when the image is clicked on (cmp_OnSettingsMenuSelect).
 
 ### cmp_TextStyling
 This custom property is of data type "Record" and has the following properties:
