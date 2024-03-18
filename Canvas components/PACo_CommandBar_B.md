@@ -17,6 +17,7 @@ A menu indicator (3 dots) is shown when there are commands to show which cannot 
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Authorization | Data | Input | Record | The authorization table. | See the documention about cmp_Authorization below. |
 | cmp_Commands | Data | Input | Record | The commands. | See the documention about cmp_Commands below. |
+| cmp_LastCommand | Data | Output | Number | The last command shown in the command bar. | |
 | cmp_OnSelect | Event | | Boolean | When a command is clicked on. | See the documention about cmp_OnSelect below. |
 | cmp_SelectedItems | Data | Input | Text | Indicator of the number of selected items (0, 1 or more than 1) in the related details list. | See the documention about cmp_SelectedItems below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
