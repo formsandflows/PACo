@@ -47,7 +47,7 @@ A select list item has the following properties:
 | Value | The value. |
 
 ### cmp_TextStyling
-This custom property is of data type **"Table"** and a record can have the following properties:
+This custom property is of data type "**Table**" and a record can have the following properties:
 
 | Property | Description |
 | :--- | :--- |
