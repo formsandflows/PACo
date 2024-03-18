@@ -72,7 +72,7 @@ This custom property contains a required parameter called "cmp_Param_RecordID" w
 This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the selected item (Record ID).
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
