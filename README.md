@@ -1,7 +1,7 @@
-**2024-01-28: Hotfix release [3.0.6](./Releases/Release%20notes.md) has been released!**
+**2024-03-18: Regular release [3.1.0](./Releases/Release%20notes.md) has been released!**
 
 # PACo
-PACo is a set of **26** canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed to use **PACo**.
+PACo is a set of **33** canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed.
 
 Main features of **PACo** are:
 * Regular (quarterly) and hotfix releases.
@@ -18,7 +18,7 @@ Main features of **PACo** are:
 
 ![PACoCo-NL](https://github.com/formsandflows/PACo/assets/35654198/ee38ce20-c5e1-4f45-a9e0-db3c502ffb2b)
 
-Creating quality and meaningful canvas components is the main goal of PACo.
+Creating quality and meaningful canvas components is the main goal of **PACo**.
 
 **PACo** is added with a Power Platform solution (managed or unmanaged) and consists of the main objects:
 * The component library **PACo** containing all canvas components.
@@ -33,8 +33,8 @@ Links to general documentation can be found [here](https://www.formsandflows.nl/
 You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-feature-request) page to submit a feature request for:
 * a new canvas component.
 * a change to an existing canvas component.
-* a change to the canvas app PACo Examples.
-* a change to the canvas app PACoCo.
+* a change to the canvas app **PACo Examples**.
+* a change to the canvas app **PACoCo**.
 
 ## Report an issue
 You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-report-issue) page to report an issue with:
@@ -44,6 +44,6 @@ You can use the form on [this](https://www.formsandflows.nl/redirects/paco-githu
 
 If **PACo** is useful to you, I would very much appreciate it if you bought me a coffee: [https://www.buymeacoffee.com/rickbakker](https://www.buymeacoffee.com/rickbakker) 👍
 
-And with that, I wish you a lot of fun creating your business solutions with the Microsoft Power Platform and of course also with PACo 😁👊
+And with that, I wish you a lot of fun creating your business solutions with the Microsoft Power Platform and of course also with **PACo** 😁👊
 
 Rick
