@@ -1,6 +1,9 @@
 # PACo_Tile_B
 
-This documentation page is related to version: 3.0.1
+> [!CAUTION]
+> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
+
+This documentation page is related to version: 3.1.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_tile_b/
 
