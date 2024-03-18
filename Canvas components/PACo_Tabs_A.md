@@ -38,7 +38,7 @@ A tab has the following properties:
 This canvas component allows for up to 8 possible tabs. When a tab shoud not be used, its property "Text" should be empty.
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
