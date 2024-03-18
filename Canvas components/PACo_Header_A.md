@@ -90,7 +90,7 @@ The navigation image is meant to be used for situations when a navigation cannot
 This custom property is used to show a settings menu image. A settings menu component like "PACo_SettingsMenu_A" can be used to display a settings menu when the image is clicked on (cmp_OnSettingsMenuSelect).
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
