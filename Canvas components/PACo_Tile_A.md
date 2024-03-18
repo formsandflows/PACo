@@ -19,7 +19,7 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_tile_a/
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_TextStyling
-This custom property is of data type "Table" and a record has the following properties:
+This custom property is of data type "**Table**" and a record has the following properties:
 
 | Property | Description |
 | :--- | :--- |
