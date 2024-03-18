@@ -26,7 +26,7 @@ This canvas component does not contain a visualization (elevation, line). If thi
 | cmp_Width | Data | Output | Number | The actual width of the command bar item. | See the documention about PACo_Width below. |
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
