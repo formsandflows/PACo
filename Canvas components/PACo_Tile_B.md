@@ -24,7 +24,7 @@ This PACo canvas component is responsive.
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
