@@ -144,6 +144,5 @@ This custom property has the following properties:
 | :--- | :--- |
 | Font | The font. |
 | FontSize | The font size. |
-| HeaderHeight | The height of the header. |
+| Height | The height. |
 | Padding | The padding. |
-| TextBlockHeight | The height of the text block. |
