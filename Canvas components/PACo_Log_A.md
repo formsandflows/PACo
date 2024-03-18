@@ -59,7 +59,7 @@ The collections can be reset with the custom property "cmp_Reset".
 This custom property contains a required parameter called "cmp_Param_ID" which contains the ID of the log item clicked on.
 
 ### cmp_TextStyling
-This custom property is of data type "Record" and has the following properties:
+This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
