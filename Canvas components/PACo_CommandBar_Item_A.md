@@ -1,6 +1,9 @@
 # PACo_CommandBar_Item_A
 
-This documentation page is related to version: 3.0.1
+> [!CAUTION]
+> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
+
+This documentation page is related to version: 3.1.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_item_a/
 
@@ -17,7 +20,7 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_ite
 | cmp_TextPaddingLeft | Data | Input | Number | The padding left of the text. | |
 | cmp_TextPaddingRight | Data | Input | Number | The padding right of the text. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
-| cmp_Theme | Data | Input | Record | The theme to use. | See the documention on theming. |
+| cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Width | Data | Output | Number | The actual width of the command bar item. | See the documention about PACo_Width below. |
 
 ### cmp_TextStyling
@@ -35,4 +38,4 @@ The actual width of the command bar item is determined by several factors:
 - The length of the text to show.
 - The image padding as defined in the custom property "cmp_ImagePadding".
 
-**!! This custom property must be set as the width of the canvas component instance:** `Self.cmp_Width`
+**!! This custom property must be set as the width of the canvas component instance by using:** `Self.cmp_Width`
