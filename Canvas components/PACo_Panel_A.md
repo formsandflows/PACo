@@ -1,6 +1,9 @@
 # PACo_Panel_A
 
-This documentation page is related to version: 3.0.2
+> [!CAUTION]
+> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
+
+This documentation page is related to version: 3.1.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_panel_a/
 
@@ -69,7 +72,7 @@ A gallery is used to show data in the panel. Data consists of records. A record 
 The LabelHeight and TextHeight properties are not required. A value of 40 is used in case the properties are not defined.
 
 ### cmp_TextStyling
-This custom property is of data type "Table" and a record has the following properties:
+This custom property is of data type **"Table"** and a record can have the following properties:
 
 | Property | Description |
 | :--- | :--- |
