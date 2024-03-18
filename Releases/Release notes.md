@@ -40,7 +40,7 @@ Issue:
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.2_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.2_Unmanaged.zip)
 
-Change requests:
+Feature requests:
 * CR-2023-3
 * CR-2023-4
 * CR-2023-5 
@@ -54,7 +54,7 @@ Issues:
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.1_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.0/PACo_3.0.1_Unmanaged.zip)
 
-Change request:
+Feature request:
 * CR-2023-2
 
 Issues:
