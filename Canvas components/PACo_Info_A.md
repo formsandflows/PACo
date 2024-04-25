@@ -1,8 +1,5 @@
 # PACo_Info_A
 
-> [!CAUTION]
-> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
-
 This documentation page is related to version: 3.1.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/d55f0b82-11a5-45c1-928e-28376c84f57b)
