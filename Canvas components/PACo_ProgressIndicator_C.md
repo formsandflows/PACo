@@ -1,8 +1,5 @@
 # PACo_ProgressIndicator_C
 
-> [!CAUTION]
-> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
-
 This documentation page is related to version: 3.1.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/a2db0b45-0dbb-4f15-bda4-f74a67b9da37)
