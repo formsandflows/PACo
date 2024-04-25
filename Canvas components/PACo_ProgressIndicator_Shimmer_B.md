@@ -1,8 +1,5 @@
 # PACo_ProgressIndicator_Shimmer_B
 
-> [!CAUTION]
-> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
-
 This documentation page is related to version: 3.1.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/9e6448bf-99e9-4486-965a-b23487d7212f)
