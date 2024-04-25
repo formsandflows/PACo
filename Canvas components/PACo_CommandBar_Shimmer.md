@@ -1,8 +1,5 @@
 # PACo_CommandBar_Shimmer
 
-> [!CAUTION]
-> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
-
 This documentation page is related to version: 3.1.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/d5664dd8-359a-4067-b304-667291e41a28)
