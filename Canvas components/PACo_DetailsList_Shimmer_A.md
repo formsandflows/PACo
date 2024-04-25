@@ -1,8 +1,5 @@
 # PACo_DetailsList_Shimmer_A
 
-> [!CAUTION]
-> This documentation page is currently in the process of being upgraded to canvas component version 3.1.0 which will be released very soon.
-
 This documentation page is related to version: 3.1.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/8c181365-7f4c-4db9-8399-2925fb713a4f)
