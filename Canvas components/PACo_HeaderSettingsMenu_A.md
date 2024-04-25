@@ -1,6 +1,6 @@
 # PACo_HeaderSettingsMenu_A
 
-This documentation page is related to version: 3.0.0
+This documentation page is related to version: 3.0.0 and later
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_headersettingsmenu_a/
 
