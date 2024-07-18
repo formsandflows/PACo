@@ -1,6 +1,9 @@
 # PACo_Visualization_A
 
-This documentation page is related to version: 3.0.0 and later
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for released versions.
+
+This documentation page is related to version: 3.2.0 and later
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_visualization_a/
 
@@ -9,15 +12,18 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_visualization_
 This PACo canvas component is responsive.
 
 Above, the two possible visualizations are shown:
-- Elevation (#1)
-- Line (#2)
+1. Elevation
+2. Line
 
 When a PACo canvas component has a custom property called "cmp_Visualization", it must have one of these two values.
+
+When a PACo canvas component has a visualization option, it always has a margin of 10px.
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Theme | Data | Input | Record | The theme. | See the documentation on theming. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documentation about cmp_Visualization below. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
