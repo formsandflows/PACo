@@ -19,6 +19,8 @@ When a PACo canvas component has a custom property called "cmp_Visualization", i
 
 When a PACo canvas component has a visualization option, it always has a margin of 10px.
 
+Many PACo canvas components have a custom property called "cmp_BackgroundColor". This determines the color of the area within the visualization. The background is transparent if no color is given (empty).
+
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
