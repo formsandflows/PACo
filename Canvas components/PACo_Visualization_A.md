@@ -3,7 +3,7 @@
 > [!WARNING]
 > This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
 
-This documentation page is related to version: 3.2.0 and later
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_visualization_a/
 
