@@ -1,24 +1,43 @@
 # PACo_TabsMenu_A
 
-This documentation page is related to version: 3.0.0 and later
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_tabsmenu_a/
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/2f72dddb-c030-42cd-b78e-2d1a1779b0dd)
 
-The selected tab in the tabs menu has a marker before the text. This is not shown in the image above because there the selected tab is: Form
+The selected tab in the tabs menu has a bar before the text. This is not shown in the image above because there the selected tab is: Form
 
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_Authorization | Data | Input | Table | The authorization table. | See the documention about cmp_Authorization below. |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
+| cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_Menu | Data | Input | Table | The tabs menu items. | See the documention about cmp_Menu below. |
-| cmp_OnSelect | Event | | Boolean | When a tabs menu item is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_OnSelect | Event | | None | The event fired when a tabs menu item is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_SelectedColor | Data | Input | Text | The color of the bar of the selected tab. | |
 | cmp_SelectedTab | Data | Input | Number | The ID of the selected tab. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
+
+### cmp_Authorization
+An authorization item has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| ID | The ID of the releated tab menu item (command). |
+| Authorization | The authorization. Possible value are: Show, Hide, Disable |
+
+The table must contain 8 items.
+
+The same authorization setup used for the related tabs canvas component must also be used for the tabs menu canvas component.
 
 ### cmp_Menu
 A tabs menu item has the following properties:
