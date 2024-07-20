@@ -20,7 +20,7 @@ The selected tab has a marker below the text. In the image above, the selected t
 | cmp_Authorization | Data | Input | Record | The authorization table. | See the documention about cmp_Authorization below. |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_LastTab | Data | Output | Number | The last tab still visible. | |
-| cmp_OnSelect | Event | | None | The event when a tab is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_OnSelect | Event | | None | The event fired when a tab is clicked on. | See the documention about cmp_OnSelect below. |
 | cmp_SelectedColor | Data | Input | Text | The color of the bar of the selected tab. | |
 | cmp_SelectedTab | Data | Input | Number | The ID of the selected tab. | |
 | cmp_Tabs | Data | Input | Record | The tabs. | See the documention about cmp_Tabs below. |
