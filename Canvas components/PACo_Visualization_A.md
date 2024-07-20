@@ -19,7 +19,7 @@ When a PACo canvas component has a visualization option (has a custom property c
 
 When a PACo canvas component has a visualization option, it always has a margin of 10px.
 
-Many PACo canvas components have a custom property called "cmp_BackgroundColor". This determines the color of the area within the visualization. The background is transparent if no color is given (empty).
+Many PACo canvas components have a custom property called "cmp_BackgroundColor". This determines the color of the area within the visualization. The background is transparent if no color is given (blank value).
 
 ## Custom properties
 
@@ -33,7 +33,7 @@ Many PACo canvas components have a custom property called "cmp_BackgroundColor".
 ### cmp_Visualization
 With visualization, the visualization of the border is meant.
 
-There are two possible visualizations:
+There are two possible values:
 - Elevation
 - Line
 
@@ -41,4 +41,4 @@ A line visualization has a border thickness of 1.
 
 Not all PACo canvas components have a visualization option.
 
-When a PACo canvas component has a custom property called "cmp_Visualization", it also has a custom property called "cmp_VisualizationColor". This allows a maker to set a custom border color. The default color is the color defined in the pallette slot "themePrimary".
+When a PACo canvas component has a visualization option, it also has a custom property called "cmp_VisualizationColor". This allows a maker to set a custom border color. The default color is the color defined in the pallette slot "themePrimary".
