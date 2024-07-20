@@ -11,7 +11,7 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_tabs_a/
 
 A menu indicator (3 dots) is shown at the right when there are tabs to show which cannot be shown because the width is too small. The idea is that when the menu indicator is clicked on, a tabs menu is shown. This tabs menu also shown in the image above and is another PACo canvas component: PACo_TabsMenu_A
 
-The selected tab has a marker below the text. In the image above, the selected tab is: Form
+The selected tab has a bar below the text. In the image above, the selected tab is: Form
 
 ## Custom properties
 
