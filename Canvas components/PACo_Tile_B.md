@@ -17,7 +17,7 @@ This PACo canvas component is responsive.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Clickable | Data | Input | Boolean | If the tile is clickable or not. | |
-| cmp_OnSelect | Event | | None | When the tile is clicked on and is clickable. |
+| cmp_OnSelect | Event | | None | The event fired when the tile is clicked on and is clickable. |
 | cmp_Text | Data | Input | Text | The text. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
