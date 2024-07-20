@@ -15,7 +15,7 @@ Above, the two possible visualizations are shown:
 1. Elevation
 2. Line
 
-When a PACo canvas component has a custom property called "cmp_Visualization", it must have one of these two values.
+When a PACo canvas component has a visualization option (has a custom property called "cmp_Visualization"), it must have one of these two values.
 
 When a PACo canvas component has a visualization option, it always has a margin of 10px.
 
