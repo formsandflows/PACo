@@ -1,6 +1,6 @@
 # PACo_Spinner_A
 
-This documentation page is related to version: 3.0.0 and later
+This documentation page is related to version: 3.0.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_spinner_a/
 
