@@ -15,7 +15,7 @@ The selected tab in the tabs menu has a bar before the text. This is not shown i
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Authorization | Data | Input | Table | The authorization table. | See the documention about cmp_Authorization below. |
+| cmp_Authorization | Data | Input | Table | The authorization. | See the documention about cmp_Authorization below. |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_Menu | Data | Input | Table | The tabs menu items. | See the documention about cmp_Menu below. |
