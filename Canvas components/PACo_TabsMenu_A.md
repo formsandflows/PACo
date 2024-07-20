@@ -32,7 +32,7 @@ An authorization item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| ID | The ID of the releated tab menu item (command). |
+| ID | The ID of the related tab menu item (command). |
 | Authorization | The authorization. Possible value are: Show, Hide, Disable |
 
 The table must contain 8 items.
