@@ -20,8 +20,8 @@ The selected tab in the tabs menu has a bar before the text. This is not shown i
 | cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_Menu | Data | Input | Table | The tabs menu items. | See the documention about cmp_Menu below. |
 | cmp_OnSelect | Event | | None | The event fired when a tabs menu item is clicked on. | See the documention about cmp_OnSelect below. |
-| cmp_SelectedColor | Data | Input | Text | The color of the bar of the selected tab. | |
-| cmp_SelectedTab | Data | Input | Number | The ID of the selected tab. | |
+| cmp_SelectedColor | Data | Input | Text | The color of the bar of the selected tabs menu item (tab). | |
+| cmp_SelectedTab | Data | Input | Number | The ID of the selected tabs menu item (tab). | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
