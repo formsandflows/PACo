@@ -1,6 +1,9 @@
 # PACo_Icon_A
 
-This documentation page is related to version: 3.1.0
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_icon_a/
 
@@ -10,10 +13,11 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_icon_a/
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Disabled | Data | Input | Boolean | If the image is disabled or not. | |
 | cmp_Image | Data | Input | Text | A svg definition for the image. |  |
 | cmp_ImagePadding | Data | Input | Number | The padding of the image. | |
-| cmp_OnSelect | Event | | Boolean | When the icon is clicked on and not disabled. |
+| cmp_OnSelect | Event | | None | The event fired when the icon is clicked on and not disabled. | |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Tooltip | Data | Input | Text | The tooltip. | |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
