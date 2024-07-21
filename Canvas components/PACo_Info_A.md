@@ -1,6 +1,9 @@
 # PACo_Info_A
 
-This documentation page is related to version: 3.1.0
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/d55f0b82-11a5-45c1-928e-28376c84f57b)
 
@@ -8,6 +11,7 @@ This documentation page is related to version: 3.1.0
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Button | Data | Input | Record | The button to show. | See the documention about cmp_Button below. |
 | cmp_Height | Data | Input | Number | The height. | The height of the info-box. This includes 2 times the visualization size. |
 | cmp_Image | Data | Input | Text | A svg definition for the pointer. | See the documention about cmp_Image below. |
@@ -15,7 +19,7 @@ This documentation page is related to version: 3.1.0
 | cmp_Location | Data | Input | Text | The location of the pointer. | See the documention about cmp_Location below. |
 | cmp_Message | Data | Input | Text | The message of the dialog in plain text. |  |
 | cmp_MessageHTML | Data | Input | Text | The message of the dialog in HTML. |  |
-| cmp_OnSelect | Event |  | Boolean | When a button is clicked on. |  |
+| cmp_OnSelect | Event |  | None | The event fired when a button is clicked on. |  |
 | cmp_TextStyling | Data | Input | Table | Text properties. |  |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Title | Data | Input | Text | The title |  |
@@ -54,17 +58,48 @@ There are 4 locations:
 - Bottom
 
 ### cmp_TextStyling
-This custom property is of data type "**Table**" and a record can have the following properties:
+This custom property is of data type "**Table**" and has the following records:
+
+#### Button
+
+| Property | Description |
+| :--- | :--- |
+| Color | The color. |
+| ID | The value: Button |
+| Font | The font. |
+| FontSize | The font size. |
+
+#### Title
 
 | Property | Description |
 | :--- | :--- |
 | Align | The text alignment. |
 | Color | The color. |
-| ID | An unique ID for the table record. |
+| ID | The value: Title |
+| Font | The font. |
+| FontSize | The font size. |
+| FontWeight | The font weight. |
+| Padding | The padding. |
+
+#### Message
+
+| Property | Description |
+| :--- | :--- |
+| Align | The text alignment. |
+| Color | The color. |
+| ID | The value: Message |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
 | Padding | The padding. |
 | VerticalAlign | The vertical alignment. |
 
-Not all properties are needed in all table records!
+#### MessageHTML
+
+| Property | Description |
+| :--- | :--- |
+| Color | The color. |
+| ID | The value: MessageHTML |
+| Font | The font. |
+| FontSize | The font size. |
+| Padding | The padding. |
