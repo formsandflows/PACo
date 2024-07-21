@@ -19,6 +19,20 @@ This documentation page is related to version: 3.2.0
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
+### cmp_InformationBlock
+A gallery is used to show data in the panel. Data consists of records. A record has the following properties:
+
+| Property | Description |
+| :--- | :--- |
+| Clickable | If the record (the data, not the label) is clickable or not. |
+| ID | The unique ID of the record. |
+| Label | The label text. |
+| LabelHeight | The height of the text block of a label. |
+| Text | The gallery item text. |
+| TextHeight | The height of the text block of a gallery item. |
+
+The LabelHeight and TextHeight properties are not required. A value of 40 is used in case the properties are not defined.
+
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_ID" which contains the ID of the record clicked on.
 
