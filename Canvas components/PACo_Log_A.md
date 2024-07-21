@@ -12,17 +12,17 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_log_a/
 ## Custom properties
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Add | Action | | Boolean | Add a log item to the collection. | See documentation about cmp_Log below. |
+| cmp_Add | Action | | None | Add a log item to the collection. | See documentation about cmp_Log below. |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_HasImages | Data | Input | Boolean | If images are shown in the log or not. | |
 | cmp_Log | Data | Output | Table | All log items. | See documentation on cmp_Log below. |
 | cmp_LogShown | Data | Output | Table | The log items shown. | See documentation on cmp_Log below. |
 | cmp_OnSelect | Event | | None | The event fired when a log item is clicked on. | |
-| cmp_Reset | Action | | Boolean | Reset the collection with log items. | See documentation on cmp_Log below. |
+| cmp_Reset | Action | | None | Reset the collection with log items. | See documentation on cmp_Log below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
-| cmp_Update | Action | | Boolean | Update a log item in the collection. | See documentation on cmp_Log below. |
+| cmp_Update | Action | | None | Update a log item in the collection. | See documentation on cmp_Log below. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
