@@ -37,7 +37,7 @@ A process step has the following properties:
 | Text | The text to display. |
 
 ### cmp_OnSelect
-This custom property contains a required parameter called "cmp_Param_ID" which contains the ID of the item clicked on.
+This custom property contains a required parameter called "cmp_Param_ID" which contains the ID of the process step clicked on.
 
 ### cmp_TextStyling
 This custom property has the following properties:
