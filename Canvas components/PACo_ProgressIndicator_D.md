@@ -31,7 +31,7 @@ A process step has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| Clickable | If the item is clickable or not. |
+| Clickable | If the process step is clickable or not. |
 | ID | An unique number of the process step. Numbering must start at 1 and be sequential. |
 | Skip | If the process step must be skipped (inactive) or not. |
 | Text | The text to display. |
