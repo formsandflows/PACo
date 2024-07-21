@@ -15,7 +15,7 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_tile_b/
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Clickable | Data | Input | Boolean | If the tile is clickable or not. | |
-| cmp_OnSelect | Event | | None | The event fired when the tile is clicked on and is clickable. |
+| cmp_OnSelect | Event | | None | The event fired when the tile is clicked on and is clickable. | See the documentation about cmp_OnSelect below. |
 | cmp_Text | Data | Input | Text | The text. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
