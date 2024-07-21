@@ -1,6 +1,9 @@
 # PACo_SearchBox_A
 
-This documentation page is related to version: 3.0.0 and later
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_searchbox_a/
 
@@ -10,7 +13,9 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_searchbox_a/
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_HintText | Data | Input | Text | The hint text. | |
+| cmp_IconColor | Data | Input | Text | The color of the icons. | |
 | cmp_Text | Data | Output | Text | Contains the text typed into the search box. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
