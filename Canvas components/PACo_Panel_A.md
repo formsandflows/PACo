@@ -19,9 +19,9 @@ The idea is that a panel is shown when an item in a details list is clicked on. 
 | cmp_BackgroundColorCommandBar | Data | Input | Text | The color of the command bar background. | |
 | cmp_Button | Data | Input | Record | The button at the bottom of the panel. | See the documention about cmp_Button below. |
 | cmp_Commands | Data | Input | Record | The panel commands at the top of the panel. | See the documention about cmp_Commands below. |
-| cmp_OnCommandSelect | Event | | None | When a command is clicked on. | See the documention on cmp_OnCommandSelect below. |
+| cmp_OnCommandSelect | Event | | None | When a command is clicked on. | See the documention on cmp_OnCommandSelect below. | |
 | cmp_OnSelect | Event | | None | When the button is clicked on. | |
-| cmp_OnSelectNotPanel | Event | | Boolean | When the area next to the panel is clicked on. | |
+| cmp_OnSelectNotPanel | Event | | None | When the area next to the panel is clicked on. | |
 | cmp_OnSelectNotPanelClickable | Data | Input | Boolean | If the area next to the panel is clickable or not.  | |
 | cmp_Panel | Data | Input | Table | The data in the panel. | See the documention about cmp_Panel below. |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention about cmp_TextStyling below. |
