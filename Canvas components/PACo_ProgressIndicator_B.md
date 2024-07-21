@@ -19,7 +19,7 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_progressindica
 | cmp_CurrentStage | Data | Input | Number | The number of the current stage. Numbering starts at 1. | |
 | cmp_Items | Data | Input | Table | The process steps. | See the documention about cmp_Items below. |
 | cmp_Offset | Data | Input | Number | The vertical offset when text is shown. | |
-| cmp_OnSelect | Event | | None | The event fired when a step (circle) is clicked on. |
+| cmp_OnSelect | Event | | None | The event fired when a process step (circle) is clicked on. |
 | cmp_ShowText | Data | Input | Boolean | To show the text (or not). | If no text is shown, the progress indicator is centered vertically and the offset is not used. |
 | cmp_TemplateSize | Data | Input | Number | The related property of the gallery used in this canvas component. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
