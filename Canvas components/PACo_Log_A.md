@@ -1,6 +1,9 @@
 # PACo_Log_A
 
-This documentation page is related to version: 3.0.0 and later
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_log_a/
 
@@ -10,10 +13,12 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_log_a/
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Add | Action | | Boolean | Add a log item to the collection. | See documentation about cmp_Log below. |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
+| cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_HasImages | Data | Input | Boolean | If images are shown in the log or not. | |
 | cmp_Log | Data | Output | Table | All log items. | See documentation on cmp_Log below. |
 | cmp_LogShown | Data | Output | Table | The log items shown. | See documentation on cmp_Log below. |
-| cmp_OnSelect | Event | | Boolean | When a log item is clicked on. | |
+| cmp_OnSelect | Event | | None | The event fired when a log item is clicked on. | |
 | cmp_Reset | Action | | Boolean | Reset the collection with log items. | See documentation on cmp_Log below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
