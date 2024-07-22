@@ -1,6 +1,9 @@
 # PACo_HeaderSettingsMenu_A
 
-This documentation page is related to version: 3.0.0 and later
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_headersettingsmenu_a/
 
@@ -10,8 +13,10 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_headersettings
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
+| cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_Menu | Data | Input | Table | The settings menu items. | See the documention about cmp_Menu below. |
-| cmp_OnSelect | Event | | Boolean | When a settings menu item is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_OnSelect | Event | | None | The event fired when a settings menu item is clicked on. | See the documention about cmp_OnSelect below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
