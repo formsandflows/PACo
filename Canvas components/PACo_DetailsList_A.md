@@ -1,6 +1,9 @@
 # PACo_DetailsList_A
 
-This documentation page is related to version: 3.1.0
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_detailslist_a/
 
@@ -14,16 +17,18 @@ This canvas component has its "OnReset" property configured. When a canvas compo
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_CheckboxStyling | Date | Input | Record | Checkbox properties. | See the documention about cmp_CheckboxStyling below. |
 | cmp_DetailsList | Data | Input | Table | The details list items. | See the documention about cmp_DetailsList below. |
+| cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_Header | Data | Input | Record | The details list header. | See the documention about cmp_Header below. |
 | cmp_HeaderStyling | Data | Input | Record | Header properties. | See the documention about cmp_HeaderStyling below. |
-| cmp_OnCheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is unchecked. | See the documention about cmp_OnCheck below. |
-| cmp_OnCheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is unchecked. | |
-| cmp_OnHeaderSelect | Event | | Boolean | When a header column is clicked on. | See the documention on cmp_OnHeaderSelect below. |
-| cmp_OnSelect | Event | | Boolean | When a details list item is clicked on. | See the documention on cmp_OnSelect below. |
-| cmp_OnUncheck | Event | | Boolean | When the details list item checkbox is clicked on and the checkbox is checked. | See the documention about cmp_OnUncheck below. |
-| cmp_OnUncheckAll | Event | | Boolean | When the checkbox in the header is clicked on and the checkbox is checked. | |
+| cmp_OnCheck | Event | | None | The event fired when the details list item checkbox is clicked on and the checkbox is unchecked. | See the documention about cmp_OnCheck below. |
+| cmp_OnCheckAll | Event | | None | The event fired when the checkbox in the header is clicked on and the checkbox is unchecked. | |
+| cmp_OnHeaderSelect | Event | | None | The event fired when a header column is clicked on. | See the documention on cmp_OnHeaderSelect below. |
+| cmp_OnSelect | Event | | None | The event fired when a details list item is clicked on. | See the documention on cmp_OnSelect below. |
+| cmp_OnUncheck | Event | | None | The event fired when the details list item checkbox is clicked on and the checkbox is checked. | See the documention about cmp_OnUncheck below. |
+| cmp_OnUncheckAll | Event | | None | The event fired when the checkbox in the header is clicked on and the checkbox is checked. | |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkboxes (header and details list items) or not. | |
 | cmp_ShowHoverFill | Data | Input | Boolean | To show an HoverFill effect or not when hovering over the details list items. | |
 | cmp_SortingColumn | Data | Input | Text | The sorting column. | |
@@ -97,6 +102,7 @@ This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| BackgroundColor | The background color. |
 | Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
@@ -106,9 +112,9 @@ This custom property has the following properties:
 | Option | The way to display the header. Possible options are: One, Two |
 | Padding | The padding. |
 
-Option "One" has a fill with the theme primary color and a color as defined in this custom property.
+Option "One" has a fill of the background color as defined in this custom property and a color as defined in this custom property.
 
-Option "Two" has a "white" fill, a line at the bottom and a color as defined in this custom property.
+Option "Two" has a transparant fill, a line at the bottom and a color as defined in this custom property.
 
 ### cmp_OnCheck
 This custom property contains a required parameter called "cmp_Param_RecordID" which contains the unique ID of the checked details list item (Record ID).
