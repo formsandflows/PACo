@@ -1,6 +1,9 @@
 # PACo_CommandBar_B
 
-This documentation page is related to version: 3.1.0
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_b/
 
@@ -13,9 +16,10 @@ A menu indicator (3 dots) is shown when there are commands to show which cannot 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Authorization | Data | Input | Record | The authorization table. | See the documention about cmp_Authorization below. |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Commands | Data | Input | Record | The commands. | See the documention about cmp_Commands below. |
 | cmp_LastCommand | Data | Output | Number | The last command shown in the command bar. | It contains the related ID. |
-| cmp_OnSelect | Event | | Boolean | When a command is clicked on. | See the documention about cmp_OnSelect below. |
+| cmp_OnSelect | Event | | None | The event fired when a command is clicked on. | See the documention about cmp_OnSelect below. |
 | cmp_SelectedItems | Data | Input | Text | Indicator of the number of selected items (0, 1 or more than 1) in the related details list. | See the documention about cmp_SelectedItems below. |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
