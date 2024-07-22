@@ -1,6 +1,9 @@
 # PACo_Button_A
 
-This documentation page is related to version: 3.1.0
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_button_a/
 
@@ -12,7 +15,7 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_button_a/
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | cmp_Button | Data | Input | Record | Button properties. | See the documention about cmp_Button below. |
 | cmp_Disabled | Data | Input | Boolean | If the button is disabled or not. | |
-| cmp_OnSelect | Event | | Boolean | When the button is clicked on and not disabled. | |
+| cmp_OnSelect | Event | | None | The event fired when the button is clicked on and not disabled. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Tooltip | Data | Input | Text | The tooltip. | |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
