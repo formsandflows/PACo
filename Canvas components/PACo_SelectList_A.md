@@ -63,6 +63,19 @@ This custom property is of data type "**Table**" and has the following records:
 | Font | The font. |
 | FontSize | The font size. |
 
+#### Search
+
+| Property | Description |
+| :--- | :--- |
+| Align | The horizontal alignment. |
+| Color | The color. |
+| ID | The value: Search |
+| Font | The font. |
+| FontSize | The font size. |
+| FontWeight | The font weight. |
+| Padding | The padding. |
+| TextBlockHeight | The height of the text block. |
+
 #### SelectListItem
 
 | Property | Description |
@@ -76,16 +89,3 @@ This custom property is of data type "**Table**" and has the following records:
 | Padding | The padding. |
 | TextBlockHeight | The height of the text block. |
 | VerticalAlign | The vertical alignment. |
-
-#### Search
-
-| Property | Description |
-| :--- | :--- |
-| Align | The horizontal alignment. |
-| Color | The color. |
-| ID | The value: Search |
-| Font | The font. |
-| FontSize | The font size. |
-| FontWeight | The font weight. |
-| Padding | The padding. |
-| TextBlockHeight | The height of the text block. |
