@@ -69,18 +69,6 @@ This custom property is of data type "**Table**" and has the following records:
 | Font | The font. |
 | FontSize | The font size. |
 
-#### Title
-
-| Property | Description |
-| :--- | :--- |
-| Align | The text alignment. |
-| Color | The color. |
-| ID | The value: Title |
-| Font | The font. |
-| FontSize | The font size. |
-| FontWeight | The font weight. |
-| Padding | The padding. |
-
 #### Message
 
 | Property | Description |
@@ -102,4 +90,16 @@ This custom property is of data type "**Table**" and has the following records:
 | ID | The value: MessageHTML |
 | Font | The font. |
 | FontSize | The font size. |
+| Padding | The padding. |
+
+#### Title
+
+| Property | Description |
+| :--- | :--- |
+| Align | The text alignment. |
+| Color | The color. |
+| ID | The value: Title |
+| Font | The font. |
+| FontSize | The font size. |
+| FontWeight | The font weight. |
 | Padding | The padding. |
