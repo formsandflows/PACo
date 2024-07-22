@@ -39,7 +39,7 @@ This custom property contains a required parameter called "cmp_Param_ID" which c
 ### cmp_TextStyling
 This custom property is of data type "**Table**" and has the following records:
 
-#### Title
+#### Data
 
 | Property | Description |
 | :--- | :--- |
@@ -65,7 +65,7 @@ This custom property is of data type "**Table**" and has the following records:
 | Padding | The padding. |
 | VerticalAlign | The vertical alignment. |
 
-#### Data
+#### Title
 
 | Property | Description |
 | :--- | :--- |
