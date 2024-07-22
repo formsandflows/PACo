@@ -1,6 +1,9 @@
 # PACo_Header_A
 
-This documentation page is related to version: 3.1.0
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_header_a/
 
@@ -10,16 +13,17 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_header_a/
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Images | Data | Input | Table | Properties of the images. | See the documention about cmp_Images below. |
 | cmp_LanguagesMenuImage | Data | Input | Record | A svg definition for the languages menu image. | See the documention about cmp_LanguagesMenuImage below. |
 | cmp_LanguagesMenuPropertyX | Data | Output | Number | The X value for the languages menu. | |
 | cmp_Logo | Data | Input | Record | The logo. | See the documention about cmp_Logo below. |
-| cmp_OnBackSelect | Event | | Boolean | When the back image is clicked on. | |
-| cmp_OnHelpSelect | Event | |  Boolean | When the help image is clicked on. | |
-| cmp_OnLanguagesMenuSelect | Event | | Boolean | When the languages menu image is clicked on. | |
-| cmp_OnLogoSelect | Event | | Boolean | When the logo image is clicked on. | |
-| cmp_OnNavSelect | Event | | Boolean | When the navigation image is clicked on. | |
-| cmp_OnSettingsMenuSelect | Event | | Boolean | When the settings menu image is clicked on. | |
+| cmp_OnBackSelect | None | | Boolean | When the back image is clicked on. | |
+| cmp_OnHelpSelect | None | |  Boolean | When the help image is clicked on. | |
+| cmp_OnLanguagesMenuSelect | None | | Boolean | When the languages menu image is clicked on. | |
+| cmp_OnLogoSelect | None | | Boolean | When the logo image is clicked on. | |
+| cmp_OnNavSelect | None | | Boolean | When the navigation image is clicked on. | |
+| cmp_OnSettingsMenuSelect | None | | Boolean | When the settings menu image is clicked on. | |
 | cmp_ShowBack | Data | Input | Boolean | To show the back image or not. | See the documention about cmp_ShowBack below. |
 | cmp_ShowHelp | Data | Input | Boolean | To show the help image or not. | See the documention about cmp_ShowHelp below. |
 | cmp_ShowLanguagesMenu | Data | Input | Boolean | To show the languages menu image or not. | See the documention about cmp_ShowLanguagesMenu below. |
