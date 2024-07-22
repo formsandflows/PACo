@@ -1,6 +1,9 @@
 # PACo_Dialog_A
 
-This documentation page is related to version: 3.1.0
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_dialog_a/
 
@@ -12,10 +15,11 @@ When using variables for the input properties, one dialog component can be used 
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Buttons | Data | Input | Table | The buttons to show. | See the documention about cmp_Buttons below. |
 | cmp_Message | Data | Input | Text | The message of the dialog in plain text. | |
 | cmp_MessageHTML | Data | Input | Text | The message of the dialog in HTML. | |
-| cmp_OnSelect | Event | | Boolean | When a button is clicked on. | |
+| cmp_OnSelect | Event | | None | The event fired when a button is clicked on. | |
 | cmp_Percentage | Data | Input | Number | The percentage of the total width for the "border". | |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
@@ -50,19 +54,49 @@ For the height of buttons, only the height property of the first button record i
 This custom property contains a required parameter called "cmp_Param_Button" which contains the title of the button clicked on.
 
 ### cmp_TextStyling
-This custom property is of data type "**Table**" and a record can have the following properties:
+This custom property is of data type "**Table**" and has the following records:
+
+#### Button
+
+| Property | Description |
+| :--- | :--- |
+| ColorPrimary | The color for button of type "Primary". |
+| ColorSecondary | The color for button of type "Secondary". |
+| ID | The value: Button |
+| Font | The font. |
+| FontSize | The font size. |
+
+#### Message
 
 | Property | Description |
 | :--- | :--- |
 | Align | The text alignment. |
 | Color | The color. |
-| ColorPrimary | The color for button of type "Primary". |
-| ColorSecondary | The color for button of type "Secondary". |
-| ID | An unique ID for the table record. |
+| ID | The value: Message |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
 | Padding | The padding. |
 | VerticalAlign | The vertical alignment. |
 
-Not all properties are needed in all table records!
+#### MessageHTML
+
+| Property | Description |
+| :--- | :--- |
+| Color | The color. |
+| ID | The value: MessageHTML |
+| Font | The font. |
+| FontSize | The font size. |
+| Padding | The padding. |
+
+#### Title
+
+| Property | Description |
+| :--- | :--- |
+| Align | The text alignment. |
+| Color | The color. |
+| ID | The value: Title |
+| Font | The font. |
+| FontSize | The font size. |
+| FontWeight | The font weight. |
+| Padding | The padding. |
