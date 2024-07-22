@@ -1,6 +1,9 @@
 # PACo_CommandBar_Item_A
 
-This documentation page is related to version: 3.1.0
+> [!WARNING]
+> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
+
+This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_item_a/
 
@@ -12,9 +15,10 @@ This canvas component does not contain a visualization (elevation, line). If thi
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Image | Data | Input | Text | A svg definition for the image. | |
 | cmp_ImagePadding | Data | Input | Number | The padding of the image. | |
-| cmp_OnSelect | Event | | Boolean | When the command bar item is clicked on. | |
+| cmp_OnSelect | Event | | None | The event fired when the command bar item is clicked on. | |
 | cmp_Text | Data | Input | Text | The text. | |
 | cmp_TextPaddingLeft | Data | Input | Number | The padding left of the text. | |
 | cmp_TextPaddingRight | Data | Input | Number | The padding right of the text. | |
