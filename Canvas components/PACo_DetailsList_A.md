@@ -102,8 +102,9 @@ This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
-| BackgroundColor | The background color. |
+| BackgroundColor | The background color in case of option "One". |
 | Color | The color. |
+| DividerColor | The color of the divider in case of option "Two". |
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
