@@ -7,7 +7,7 @@ This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_tile_b/
 
-![image](https://github.com/formsandflows/PACo/assets/35654198/029ccce4-b9bc-4a6b-9c49-8400549929ac)
+![image](https://github.com/user-attachments/assets/1088e663-cf96-4302-8125-711ba1e5fb97)
 
 ## Custom properties
 
