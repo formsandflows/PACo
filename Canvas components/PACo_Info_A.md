@@ -20,6 +20,7 @@ This documentation page is related to version: 3.2.0
 | cmp_Message | Data | Input | Text | The message of the dialog in plain text. |  |
 | cmp_MessageHTML | Data | Input | Text | The message of the dialog in HTML. |  |
 | cmp_OnSelect | Event |  | None | The event fired when a button is clicked on. |  |
+| cmp_TextBorderColor | Data | Input | Text | The color of the text color. | |
 | cmp_TextStyling | Data | Input | Table | Text properties. |  |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Title | Data | Input | Text | The title |  |
