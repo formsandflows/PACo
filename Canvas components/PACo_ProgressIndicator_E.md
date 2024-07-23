@@ -5,6 +5,10 @@
 
 This documentation page is related to version: 3.2.0
 
+![image](https://github.com/user-attachments/assets/68a9ca8c-28c6-4ed9-940d-faba6fd08551)
+
+The image above shows an example with, and an example without, text.
+
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
