@@ -5,6 +5,8 @@
 
 This documentation page is related to version: 3.2.0
 
+![image](https://github.com/user-attachments/assets/937d6d31-a49c-42b5-874e-d49341689094)
+
 ## Custom properties
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
