@@ -44,6 +44,7 @@ This custom property has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Color | The color of the checkbox. |
 | Height | The checkbox height. |
 | PaddingLeft | The left padding of the checkbox. |
 | PaddingRight | The right padding of the checkbox. |
