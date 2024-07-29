@@ -1,8 +1,5 @@
 # PACo_InformationBlock_A
 
-> [!WARNING]
-> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
-
 This documentation page is related to version: 3.2.0
 
 ![image](https://github.com/user-attachments/assets/937d6d31-a49c-42b5-874e-d49341689094)
