@@ -20,9 +20,9 @@ All fields are based on a label control. The subtitle is displayed in italics. T
 | cmp_CheckboxColor | Data | Input | Text | The color of the checkbox. | |
 | cmp_DetailsList | Data | Input | Table | The details list items. | See the documention about cmp_DetailsList below. |
 | cmp_DividerColor | Data | Input | Text | The color of the divider. | |
-| cmp_OnCheck | Event | | Boolean | The event fired when the item checkbox is clicked on and the checkbox is unchecked. | See the documention about cmp_OnCheck below. |
-| cmp_OnSelect | Event | | Boolean | The event fired when a details list item is clicked on. | See the documention on cmp_OnSelect below. |
-| cmp_OnUncheck | Event | | Boolean | The event fired when the item checkbox is clicked on and the checkbox is checked. | See the documention about cmp_OnUncheck below. |
+| cmp_OnCheck | Event | | None | The event fired when the item checkbox is clicked on and the checkbox is unchecked. | See the documention about cmp_OnCheck below. |
+| cmp_OnSelect | Event | | None | The event fired when a details list item is clicked on. | See the documention on cmp_OnSelect below. |
+| cmp_OnUncheck | Event | | None | The event fired when the item checkbox is clicked on and the checkbox is checked. | See the documention about cmp_OnUncheck below. |
 | cmp_ShowCheckbox | Data | Input | Boolean | To show the checkbox for details list items or not. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on about cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
