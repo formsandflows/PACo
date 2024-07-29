@@ -1,8 +1,8 @@
 # PACo_InformationBlock_A
 
-This documentation page is related to version: 3.2.0
+This documentation page is related to version: 3.2.1
 
-![image](https://github.com/user-attachments/assets/937d6d31-a49c-42b5-874e-d49341689094)
+![image](https://github.com/user-attachments/assets/bdefd525-8cef-4526-8a7e-6bffa552aaf8)
 
 ## Custom properties
 | Display name | Property type | Property definition | Data type | Description | Memo
@@ -46,6 +46,7 @@ This custom property is of data type "**Table**" and has the following records:
 | Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
+| FontStyle | One of the following options: Default, Italic, Strikethrough, Underline |
 | FontWeight | The font weight. |
 | ID | The value: Title |
 | Padding | The padding. |
@@ -59,6 +60,7 @@ This custom property is of data type "**Table**" and has the following records:
 | Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
+| FontStyle | One of the following options: Default, Italic, Strikethrough, Underline |
 | FontWeight | The font weight. |
 | ID | The value: Title |
 | Padding | The padding. |
@@ -72,6 +74,7 @@ This custom property is of data type "**Table**" and has the following records:
 | Color | The color. |
 | Font | The font. |
 | FontSize | The font size. |
+| FontStyle | One of the following options: Default, Italic, Strikethrough, Underline |
 | FontWeight | The font weight. |
 | ID | The value: Title |
 | Padding | The padding. |
