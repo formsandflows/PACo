@@ -1,8 +1,5 @@
 # PACo_ProgressIndicator_Shimmer_B
 
-> [!WARNING]
-> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
-
 This documentation page is related to version: 3.2.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/9e6448bf-99e9-4486-965a-b23487d7212f)
