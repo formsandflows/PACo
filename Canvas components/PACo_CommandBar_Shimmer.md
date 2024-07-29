@@ -1,8 +1,5 @@
 # PACo_CommandBar_Shimmer
 
-> [!WARNING]
-> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
-
 This documentation page is related to version: 3.2.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/d5664dd8-359a-4067-b304-667291e41a28)
