@@ -2,10 +2,72 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-known-issues) fo
 
 Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for feature requests (backlog).
 
+## Release 3.2.0 (2024-07-29)
+
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.2.0_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.2.0_Unmanaged.zip)
+
+### Feature requests:
+* CR-2024-8
+* CR-2024-10
+* CR-2024-11
+* CR-2024-12
+* CR-2024-13
+* CR-2024-14
+* CR-2024-15
+* CR-2024-16
+* CR-2024-18
+
+### Issues:
+* I-2024-8
+* I-2024-9
+* I-2024-10
+
+The following canvas component updates are part of this release:
+* 3 new canvas components:
+  * PACo_InformationBlock_A
+  * PACo_ProgressIndicator_E
+  * PACo_ProgressIndicator_F
+* Almost all canvas components now have the custom property "cmp_BackgroundColor".
+* All canvas components having a divider between items/records, now have the custom property "cmp_DividerColor".
+* All shimmers now have the custom property "cmp_ShimmerColor".
+* For many controls in many canvas components, the property "Fill" is set to transparent instead of the palette slot "white".
+* The alignment of the text controls of commands (PACo_CommandBar_B, PACo_CommandBar_Item_A & PACo_Panel_A) is set to left.
+* The details list canvas components have the option to configure the:
+  * the checkbox color.
+  * the header background color.
+  * the header divider color.
+* The details list canvas components have a new sorting icon. The color of the icon can ce configured.
+* The progress indicator canvas components have a new custom property:
+  * cmp_OnSelect
+* The progress indicator canvas components have a new setting in the custom property "cmp_Items":
+  * Clickable
+* All custom properties of type "Event" and "Action" now have a return data type of: None
+  * As a consequece, the custom properties are not shown anymore in the panel. They can still be selected in the property selector in the top left.
+* PACo_Info_A
+  * A new custom property: cmp_TextBorderColor
+* PACo_Panel_A
+  * A new custom property: cmp_OnSelectNotPanel
+  * A new custom property: cmp_OnSelectNotPanelClickable
+  * A new custom property: cmp_BackgroundColorCommandBar
+* PACo_SearchBox_A
+  *  A new custom property: cmp_IconColor
+* PACo_SelectList_A
+  * A new custom property: cmp_BackgroundColorSearchBox
+  * A new custom property: cmp_BackgroundColorList
+  * A new custom property: cmp_IconColor
+* PACo_Tabs_A
+  * A new custom property: cmp_Authorization
+  * A new custom property: cmp_SelectedColor
+* PACo_TabsMenu_A
+  * A new custom property: cmp_Authorization
+  * A new custom property: cmp_SelectedColor
+* The canvas component documentation pages are updated so that custom properties of type "Table", now have a section for all records in the table, with the options for that record l records instead of one table with all possible options for all records. Example: canvas component "PACo_Panel_A" custom property "cmp_TextStyling".
+
 ## Release 3.1.0 (2024-03-18)
 
-* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.1.0_Managed.zip)
-* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.1.0_Unmanaged.zip)
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.1/PACo_3.1.0_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.1/PACo_3.1.0_Unmanaged.zip)
 
 ### Feature requests:
 * CR-2023-1
