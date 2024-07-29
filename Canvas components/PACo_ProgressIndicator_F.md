@@ -1,8 +1,5 @@
 # PACo_ProgressIndicator_F
 
-> [!WARNING]
-> This page is a pre-release page. It contains documentation for a future release. Please look in de folder "Archive" for documentation on released versions.
-
 This documentation page is related to version: 3.2.0
 
 ![image](https://github.com/user-attachments/assets/3fba2559-954f-45bc-887b-3e15d656ee61)
