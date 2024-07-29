@@ -15,12 +15,12 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_header_a/
 | cmp_LanguagesMenuImage | Data | Input | Record | A svg definition for the languages menu image. | See the documention about cmp_LanguagesMenuImage below. |
 | cmp_LanguagesMenuPropertyX | Data | Output | Number | The X value for the languages menu. | |
 | cmp_Logo | Data | Input | Record | The logo. | See the documention about cmp_Logo below. |
-| cmp_OnBackSelect | None | | Boolean | The event fired when the back image is clicked on. | |
-| cmp_OnHelpSelect | None | |  Boolean | The event fired when the help image is clicked on. | |
+| cmp_OnBackSelect | Event | | None | The event fired when the back image is clicked on. | |
+| cmp_OnHelpSelect | Event | |  None | The event fired when the help image is clicked on. | |
 | cmp_OnLanguagesMenuSelect | None | | Boolean | The event fired when the languages menu image is clicked on. | |
-| cmp_OnLogoSelect | None | | Boolean | The event fired when the logo image is clicked on. | |
-| cmp_OnNavSelect | None | | Boolean | The event fired when the navigation image is clicked on. | |
-| cmp_OnSettingsMenuSelect | None | | Boolean | The event fired when the settings menu image is clicked on. | |
+| cmp_OnLogoSelect | Event | | None | The event fired when the logo image is clicked on. | |
+| cmp_OnNavSelect | Evenet | | None | The event fired when the navigation image is clicked on. | |
+| cmp_OnSettingsMenuSelect | Event | | None | The event fired when the settings menu image is clicked on. | |
 | cmp_ShowBack | Data | Input | Boolean | To show the back image or not. | See the documention about cmp_ShowBack below. |
 | cmp_ShowHelp | Data | Input | Boolean | To show the help image or not. | See the documention about cmp_ShowHelp below. |
 | cmp_ShowLanguagesMenu | Data | Input | Boolean | To show the languages menu image or not. | See the documention about cmp_ShowLanguagesMenu below. |
