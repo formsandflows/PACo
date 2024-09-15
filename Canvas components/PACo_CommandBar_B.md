@@ -1,6 +1,9 @@
 # PACo_CommandBar_B
 
-This documentation page is related to version: 3.2.0
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+
+This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_b/
 
@@ -12,7 +15,6 @@ A menu indicator (3 dots) is shown when there are commands to show which cannot 
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Authorization | Data | Input | Record | The authorization table. | See the documention about cmp_Authorization below. |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_Commands | Data | Input | Record | The commands. | See the documention about cmp_Commands below. |
 | cmp_LastCommand | Data | Output | Number | The last command shown in the command bar. | It contains the related ID. |
@@ -23,21 +25,13 @@ A menu indicator (3 dots) is shown when there are commands to show which cannot 
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
-### cmp_Authorization
-An authorization item has the following properties:
-
-| Property | Description |
-| :--- | :--- |
-| ID | The ID of the releated command bar menu item (command). |
-| Authorization | The authorization. Possible value are: Show, Hide, Disable |
-
-The record must contain 8 items.
-
 ### cmp_Commands
 A command has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Disabled | If the command is disabled or not. |
+| Hidden | If the command is hidden or not. |
 | ID | An unique ID (number) of the command. |
 | Image | A svg definition for the image. |
 | ImagePadding | The padding of the image. |
@@ -47,11 +41,6 @@ A command has the following properties:
 | TextPaddingRight | The padding right of the text. |
 
 This component allows for up to 8 commands.
-
-When a command shoud not be used:
-- set the property "SelectedItems" to "##"
-
-, for the related command. Use this when a command should never been shown. Use the custom property "cmp_Authorization" for RBAC (Role Based Access Control) scenario's.
 
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_CommandID" which contains the ID of the command clicked on. When the menu indicator is clicked on, a 0 (zero) is returned.
