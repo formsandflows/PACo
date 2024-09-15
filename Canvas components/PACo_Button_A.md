@@ -1,6 +1,9 @@
 # PACo_Button_A
 
-This documentation page is related to version: 3.2.0
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+ 
+This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_button_a/
 
@@ -14,8 +17,8 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_button_a/
 | cmp_Disabled | Data | Input | Boolean | If the button is disabled or not. | |
 | cmp_OnSelect | Event | | None | The event fired when the button is clicked on and not disabled. | |
 | cmp_TextStyling | Data | Input | Record | Text properties. | See the documention about cmp_TextStyling below. |
-| cmp_Tooltip | Data | Input | Text | The tooltip. | |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
+| cmp_Tooltip | Data | Input | Text | The tooltip. | |
 | cmp_Width | Data | Output | Number | The actual width of the button. | See the documention about cmp_Width below. |
 
 ### cmp_Button
@@ -46,7 +49,7 @@ This custom property has the following properties:
 The actual width of the button is determined by several factors:
 - The minimal width as defined in the custom property "cmp_Button".
 - The length of the text.
-- If there is an image to shown as defined in the custom property "cmp_Button".
+- If there is an image to show as defined in the custom property "cmp_Button".
 - The image padding as defined in the custom property "cmp_Button".
 
 The image padding is always shown as space to the left and the right in the button.
