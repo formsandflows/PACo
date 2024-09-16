@@ -1,6 +1,9 @@
 # PACo_TabsMenu_A
 
-This documentation page is related to version: 3.2.0
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+
+This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_tabsmenu_a/
 
@@ -12,7 +15,6 @@ The selected tab in the tabs menu has a bar before the text. This is not shown i
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Authorization | Data | Input | Table | The authorization. | See the documention about cmp_Authorization below. |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_Menu | Data | Input | Table | The tabs menu items. | See the documention about cmp_Menu below. |
@@ -24,23 +26,13 @@ The selected tab in the tabs menu has a bar before the text. This is not shown i
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
-### cmp_Authorization
-An authorization item has the following properties:
-
-| Property | Description |
-| :--- | :--- |
-| ID | The ID of the related tab menu item (tab). |
-| Authorization | The authorization. Possible value are: Show, Hide, Disable |
-
-The table must contain 8 items.
-
-The same authorization setup used for the related tabs canvas component must also be used for the tabs menu canvas component.
-
 ### cmp_Menu
 A tabs menu item has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Disabled | If the tabs menu item is disabled or not. |
+| Hidden | If the tabs menu item is hidden or not. |
 | ID | An unique ID (number) of the tabs menu item. |
 | Text | The text. |
 
@@ -56,4 +48,4 @@ This custom property has the following properties:
 | Font | The font. |
 | FontSize | The font size. |
 | FontWeight | The font weight. |
-| TextBlockHeight | The height of the text block. |
+| Padding | The padding of the text. |
