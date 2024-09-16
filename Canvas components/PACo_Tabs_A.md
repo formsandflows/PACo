@@ -1,5 +1,8 @@
 # PACo_Tabs_A
 
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+
 This documentation page is related to version: 3.2.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_tabs_a/
@@ -14,7 +17,6 @@ The selected tab has a bar below the text. In the image above, the selected tab 
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_Authorization | Data | Input | Record | The authorization. | See the documention about cmp_Authorization below. |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_LastTab | Data | Output | Number | The last tab still visible. | |
 | cmp_OnSelect | Event | | None | The event fired when a tab is clicked on. | See the documention about cmp_OnSelect below. |
@@ -27,16 +29,6 @@ The selected tab has a bar below the text. In the image above, the selected tab 
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of PACo canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
-### cmp_Authorization
-An authorization item has the following properties:
-
-| Property | Description |
-| :--- | :--- |
-| ID | The ID of the related tab. |
-| Authorization | The authorization. Possible value are: Show, Hide, Disable |
-
-The record must contain 8 items.
-
 ### cmp_OnSelect
 This custom property contains a required parameter called "cmp_Param_TabID" which contains the ID of the tab clicked on. When the menu indicator is clicked on, a 0 (zero) is returned.
 
@@ -45,6 +37,8 @@ A tab has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Disabled | If the tab is disabled or not. |
+| Hidden | If the tab is hidden or not. |
 | ID | An unique ID (number) of the tab. |
 | Text | The text. |
 
