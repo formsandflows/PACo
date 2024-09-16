@@ -1,6 +1,9 @@
 # PACo_HeaderSettingsMenu_A
 
-This documentation page is related to version: 3.2.0
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+
+This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_headersettingsmenu_a/
 
@@ -26,6 +29,7 @@ A settings menu item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | Disabled | If the menu item is disabled or not. |
+| Hidden | If the menu item is hidden or not. |
 | ID | An unique ID (number) of the settings menu item used in the custom property "cmp_OnSelect". |
 | Order | The order of the settings menu item. |
 | Screen | The screen to navigate to. |
