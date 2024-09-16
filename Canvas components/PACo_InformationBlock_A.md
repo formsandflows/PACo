@@ -12,7 +12,7 @@ This documentation page is related to version: 3.2.1
 | cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_InformationBlock | Data | Input | Table | The data in the information block.. | See documentation on cmp_InformationBlock below. |
 | cmp_OnSelect | Event | | None | The event fired when a log item is clicked on. | |
-| cmp_TextStyling | Data | Input | Record | Text properties. | See the documention on cmp_TextStyling below. |
+| cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Title | Data | Input | Text | The title to show. | |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
