@@ -1,6 +1,9 @@
 # PACo_SelectList_A
 
-This documentation page is related to version: 3.2.0
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+
+This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_selectlist_a/
 
@@ -30,12 +33,14 @@ The button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Border | If a border must be shown. This only applies to a button of type "Secondary". |
 | BorderRadius | The radius of the border of the button. |
 | Height | The height.|
 | Image | A svg definition for an image. An image is not required. |
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width. |
 | Text | The text. |
+| Type | The button type. Possible values are "Primary" and "Secondary". |
 
 ### cmp_OnSelectListItem
 This custom property contains a required parameter called "cmp_Param_Value" which contains the value of the select list item clicked on.
