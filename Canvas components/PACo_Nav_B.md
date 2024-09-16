@@ -1,6 +1,9 @@
 # PACo_Nav_B
 
-This documentation page is related to version: 3.2.0
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+
+This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_nav_b/
 
@@ -25,7 +28,8 @@ A navigation item has the following properties:
 | Property | Description |
 | :--- | :--- |
 | AlignWithImage | Used when not having an image in the navigation at all (false) or to allign the text with when having an image in the navigation (true). |
-| Disabled | Used to disable the navigation item. |
+| Disabled | If the navigation item is disabled or not. |
+| Hidden | If the navigation item is hidden or not. |
 | ID | An unique number of the navigation item used in the custom property "cmp_OnSelect". |
 | Image | A svg definition for the image for a non-selected navigation item and when not disabled. |
 | ImageDisabled | A svg definition for the image for a non-selected navigation item and when disabled. |
