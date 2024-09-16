@@ -1,6 +1,9 @@
 # PACo_DetailsList_Shimmer_A
 
-This documentation page is related to version: 3.2.0
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+
+This documentation page is related to version: 3.3.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/8c181365-7f4c-4db9-8399-2925fb713a4f)
 
