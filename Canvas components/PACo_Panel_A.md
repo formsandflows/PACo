@@ -35,12 +35,14 @@ The panel button has the following properties:
 
 | Property | Description |
 | :--- | :--- |
+| Border | If a border must be shown. This only applies to a button of type "Secondary". |
 | BorderRadius | The radius of the border of the button. |
 | Height | The height. |
 | Image | A svg definition for an image. An image is not required. |
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width. |
 | Text | The text. |
+| Type | The button type. Possible values are "Primary" and "Secondary". |
 
 ### cmp_Commands
 A panel command has the following properties:
