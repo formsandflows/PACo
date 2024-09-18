@@ -1,6 +1,9 @@
 # PACo_Info_A
 
-This documentation page is related to version: 3.2.0
+>  [!WARNING]
+> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
+
+This documentation page is related to version: 3.3.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/d55f0b82-11a5-45c1-928e-28376c84f57b)
 
@@ -39,6 +42,7 @@ The button has the following properties:
 | ImagePadding | The padding of the image. |
 | MinimalWidth | The minimal width. |
 | Text | The text. |
+| Type | The button type. Possible values are "Primary" and "Secondary". |
 
 ### cmp_Image
 The pointer to use will (normally) differ per location.
