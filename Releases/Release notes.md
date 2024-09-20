@@ -4,9 +4,10 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for fea
 
 Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes_Canvas%20components_Versions.md) for an overview of the canvas component version per release (from release 3.3.0).
 
-## Release 3.2.1 (2024-09-22)
+## Release 3.3.0 (2024-09-22)
 
-
+* Managed solution version: 2023.0.0.40
+* Unmanaged solution version: 2023.0.0.39
 
 ## Release 3.2.1 (2024-07-29)
 
