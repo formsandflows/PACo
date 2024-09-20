@@ -15,7 +15,7 @@ A menu indicator (3 dots) is shown when there are commands to show which cannot 
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | This is a required property. If no background color is given, commands which are disabled will not be alighned properly. |
 | cmp_Commands | Data | Input | Record | The commands. | See the documention about cmp_Commands below. |
 | cmp_LastCommand | Data | Output | Number | The last command shown in the command bar. | It contains the related ID. |
 | cmp_OnSelect | Event | | None | The event fired when a command is clicked on. | See the documention about cmp_OnSelect below. |
