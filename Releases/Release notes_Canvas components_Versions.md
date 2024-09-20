@@ -1,6 +1,4 @@
-## Release 3.3.0 (2024-09-22)
-
-| Canvas component | Version |
+| Canvas component | Release 3.3.0 |
 | :--- | :--- |
 | PACo_Button_A | 3.3.0 |
 | PACo_CommandBarMenu_A | 3.3.0 |
