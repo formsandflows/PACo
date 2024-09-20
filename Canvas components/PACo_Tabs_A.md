@@ -17,7 +17,7 @@ The selected tab has a bar below the text. In the image above, the selected tab 
 
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
+| cmp_BackgroundColor | Data | Input | Text | The color of the background. | This is a required property. If no background color is given, tabs which are disabled will not be alighned properly. |
 | cmp_LastTab | Data | Output | Number | The last tab still visible. | |
 | cmp_OnSelect | Event | | None | The event fired when a tab is clicked on. | See the documention about cmp_OnSelect below. |
 | cmp_SelectedColor | Data | Input | Text | The color of the bar of the selected tab. | |
