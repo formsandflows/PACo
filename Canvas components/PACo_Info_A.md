@@ -1,8 +1,5 @@
 # PACo_Info_A
 
->  [!WARNING]
-> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
-
 This documentation page is related to version: 3.3.0
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/d55f0b82-11a5-45c1-928e-28376c84f57b)
