@@ -15,7 +15,7 @@
 | PACo_Header_A | 3.2.0 |
 | PACo_Icon_A | 3.2.0 |
 | PACo_Info_A | 3.3.0 |
-| PACo_InformationBlock_A | 3.2.1 |
+| PACo_InformationBlock_A | 3.3.0 |
 | PACo_Log_A | 3.2.0 |
 | PACo_Nav_B | 3.3.0 |
 | PACo_Nav_C | 3.2.0 |
