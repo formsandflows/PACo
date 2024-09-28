@@ -5,7 +5,9 @@
 
 This documentation page is related to version: 3.3.0
 
-[[ IMAGE ]]
+![image](https://github.com/user-attachments/assets/af7a56d3-fe80-4161-8e8d-81c349403b06)
+
+This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text input control is reset.
 
 ## Custom properties
 
