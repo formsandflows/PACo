@@ -12,6 +12,8 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.3.0_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.3.0_Unmanaged.zip)
 
+... More information follows later today ...
+
 ## Release 3.2.1 (2024-07-29)
 
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.2/PACo_3.2.1_Managed.zip)
