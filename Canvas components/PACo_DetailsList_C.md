@@ -12,6 +12,8 @@ Per details list item, up to 3 fields can be shown:
 * Body.
 All fields are based on a label control. The subtitle is displayed in italics. The property "Overflow" of the body is: Scroll
 
+This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the checkboxes of the detail list items are reset.
+
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
