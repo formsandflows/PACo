@@ -6,6 +6,8 @@ Related video page: https://www.formsandflows.nl/paco/videos/paco_searchbox_a/
 
 ![image](https://github.com/formsandflows/PACo/assets/35654198/98e938bd-45cc-44f2-abdc-7ffcc0ca5aa0)
 
+This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text input control is reset.
+
 ## Custom properties
 
 | Display name | Property type | Property definition | Data type | Description | Memo
