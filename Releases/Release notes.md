@@ -12,7 +12,19 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.3.0_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.3.0_Unmanaged.zip)
 
-... More information follows later today ...
+The following canvas component updates are part of this release:
+* 1 new canvas component:
+  *  PACo_PeoplePicker_A
+* The canvas app "PACo Examples" is extended with a new screen for this new canvas component. The screen for "PACo_InformationBlock_A" has been extended with a second load button to see the difference between using auto height or not.
+* The canvas components "PACo_HeaderSettingsMenu_A" nad "PACo_Nav_B" have a new property in the custom property "cmp_Nav": Hidden
+* The way to hide an item in the canvas components mentioned above is applied to the canvas components "PACo_CommandBar_B" and "PACo_Tabs_A". As a result:
+  * the custom property "cmp_Authorization" is removed on these canvas components.
+  * the canvas components "PACo_CommandBarMenu_A" and "PACo_TabsMenu_A" also have a property "Hidden".
+*  A GitHub page containing the canvas component versions per release (from this release).
+*  All canvas components containing a container have the border radius set to 0 instead of 4. That's why in this release several canvas components have a new version without any functional change.
+*  The canvas component "PACo_InformationBlock_A" has an extra custom property:
+  * cmp_AutoHeight
+* The canvas component "PACo_SelectList_A" has a new default button. It shows "Cancel" and is of type "Secondary" (instead of showing "Ok" and being of type "Primary").
 
 ## Release 3.2.1 (2024-07-29)
 
