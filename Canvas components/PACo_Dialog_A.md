@@ -7,7 +7,7 @@ This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_dialog_a/
 
-![image](https://github.com/formsandflows/PACo/assets/35654198/ad42c67b-c4c2-4068-ad4d-2b3f88f36088)
+![image](https://github.com/user-attachments/assets/3fa2c21b-041a-465e-96f0-8463523b62e3)
 
 When using variables for the input properties, one dialog component can be used for multiple situations.
 
