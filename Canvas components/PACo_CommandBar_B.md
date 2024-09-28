@@ -1,8 +1,5 @@
 # PACo_CommandBar_B
 
->  [!WARNING]
-> This is page contains pre-release information is can be not up-to-date yet. The documention of the latest version is in the archive folder.
-
 This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_commandbar_b/
