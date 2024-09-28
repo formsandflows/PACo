@@ -7,7 +7,7 @@ This documentation page is related to version: 3.3.0
 
 Related video page: https://www.formsandflows.nl/paco/videos/paco_selectlist_a/
 
-![image](https://github.com/formsandflows/PACo/assets/35654198/67f5c553-d10d-47c1-bea6-0714ab1dc25b)
+![image](https://github.com/user-attachments/assets/585c8c33-6c76-4c40-9954-12de5fb07736)
 
 This canvas component has its "OnReset" property configured. When a canvas component instance is reset, the text input control is reset.
 
