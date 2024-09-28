@@ -19,7 +19,7 @@
 | PACo_Log_A | 3.2.0 |
 | PACo_Nav_B | 3.3.0 |
 | PACo_Nav_C | 3.2.0 |
-| PACo_Panel_A | 3.2.0 |
+| PACo_Panel_A | 3.3.0 |
 | PACo_PeoplePicker_A | 3.3.0 |
 | PACo_ProgressIndicator_A | 3.2.0 |
 | PACo_ProgressIndicator_B | 3.2.0 |
