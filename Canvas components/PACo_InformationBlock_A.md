@@ -7,7 +7,7 @@ This documentation page is related to version: 3.2.1
 ## Custom properties
 | Display name | Property type | Property definition | Data type | Description | Memo
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| cmp_AutoHeight | Data | Input | Boolean | To set autoheight or not. | |
+| cmp_AutoHeight | Data | Input | Boolean | To set auto height or not. | Auto height is configured on all "Text label" controls (Title, Label and Text block). |
 | cmp_BackgroundColor | Data | Input | Text | The color of the background. | |
 | cmp_DefaultHeight | Data | Input | Number | The default label and data height. | |
 | cmp_DividerColor | Data | Input | Text | The color of the divider. | |
