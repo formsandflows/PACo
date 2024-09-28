@@ -4,15 +4,18 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for fea
 
 Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes_Canvas%20components_Versions.md) for an overview of the canvas component version per release (from release 3.3.0).
 
-## Release 3.3.0 (2024-09-22)
+## Release 3.3.0 (2024-09-28)
 
-* Managed solution version: 2023.0.0.40
-* Unmanaged solution version: 2023.0.0.39
+* Managed solution version: 2023.0.0.44
+* Unmanaged solution version: 2023.0.0.43
+
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.3.0_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.3.0_Unmanaged.zip)
 
 ## Release 3.2.1 (2024-07-29)
 
-* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.2.1_Managed.zip)
-* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.2.1_Unmanaged.zip)
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.2/PACo_3.2.1_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.2/PACo_3.2.1_Unmanaged.zip)
 
 The canvas component "PACo_InformationBlock_A" now only has a divider between the title and the rest of the information (as intended).
 
