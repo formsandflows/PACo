@@ -15,13 +15,14 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20
 The following updates are part of this release:
 * 1 new canvas component:
   * **PACo_Breadcrumb_A**
-* The canvas app "PACo Examples" is extended with a new screen for this new canvas component.
 * The canvas component "PACo_InformationBlock_A" now has an option (using adjustable images) to open/close the information block. When an information block is closed, the title is still visible.
 * Because of this, the canvas component "PACo_InformationBlock_A" has 4 extra custom properties:
   * cmp_Collapsed
   * cmp_ChevronStyling
   * cmp_OnSelectChevron
   * cmp_TitleHeight
+* The canvas app "PACo Examples" is extended with a new screen for this new canvas component.
+* The controls in the canvas app "PACo Examples" are changed (where needed) to be standardized.
 
 ## Release 3.3.0 (2024-09-28)
 
