@@ -4,6 +4,25 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for fea
 
 Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes_Canvas%20components_Versions.md) for an overview of the canvas component version per release (from release 3.3.0).
 
+## Release 3.4.0 (2024-10-25)
+
+* Managed solution version: 2023.0.0.46
+* Unmanaged solution version: 2023.0.0.45
+
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.4.0_Managed.zip)
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.4.0_Unmanaged.zip)
+
+The following canvas component updates are part of this release:
+* 1 new canvas component:
+  * PACo_Breadcrumb_A
+* The canvas app "PACo Examples" is extended with a new screen for this new canvas component.
+* The canvas component "PACo_InformationBlock_A" now has an option (using adjustable images) to open/close the information block. When an information block is closed, the title is still visible.
+* Because of this, the canvas component "PACo_InformationBlock_A" has 4 extra custom properties:
+  * cmp_Collapsed
+  * cmp_ChevronStyling
+  * cmp_OnSelectChevron
+  * cmp_TitleHeight
+
 ## Release 3.3.0 (2024-09-28)
 
 * Managed solution version: 2023.0.0.44
@@ -16,7 +35,7 @@ The following canvas component updates are part of this release:
 * 1 new canvas component:
   *  PACo_PeoplePicker_A
 * The canvas app "PACo Examples" is extended with a new screen for this new canvas component. The screen for "PACo_InformationBlock_A" has been extended with a second load button to see the difference between using auto height or not.
-* The canvas components "PACo_HeaderSettingsMenu_A" nad "PACo_Nav_B" have a new property in the custom property "cmp_Nav": Hidden
+* The canvas components "PACo_HeaderSettingsMenu_A" and "PACo_Nav_B" have a new property in the custom property "cmp_Nav": Hidden
 * The way to hide an item in the canvas components mentioned above is applied to the canvas components "PACo_CommandBar_B" and "PACo_Tabs_A". As a result:
   * the custom property "cmp_Authorization" is removed on these canvas components.
   * the canvas components "PACo_CommandBarMenu_A" and "PACo_TabsMenu_A" also have a property "Hidden".
