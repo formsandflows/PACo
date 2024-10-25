@@ -1,15 +1,16 @@
-**2024-09-28: Regular (2024-Q3) release [3.3.0](./Releases/Release%20notes.md) has been released!**
+>[!NOTE]
+>**2024-10-25: Version [3.4.0](./Releases/Release%20notes.md) has been released!**
 
 # PACo
-PACo is a set of **37** canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed.
+PACo is a set of **38** canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed and it is offered under the MIT license.
 
 Main features of **PACo** are:
-* Regular (quarterly) and hotfix releases.
+* Regular and hotfix releases.
 * Extended documentation.
-* A supporting canvas app: **PACo Examples**
-* Paid support.
+* A supporting canvas app to demonstrate the canvas components: **PACo Examples**
+* Paid support is available if needed.
 * Forms to:
-  * submit a feature request.
+  * submit a change request.
   * report an issue.
 * Proven and very configurable canvas components.
 * Responsiveness.
@@ -30,8 +31,8 @@ Each canvas component has a documentation page which can be found in this GitHub
 
 Links to general documentation pages can be found [here](https://www.formsandflows.nl/redirects/paco-github-documentation).
 
-## Feature request
-You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-feature-request) page to submit a feature request for:
+## Change request
+You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-feature-request) page to submit a change request for:
 * a new canvas component.
 * a change to an existing canvas component.
 * a change to the canvas app **PACo Examples**.
