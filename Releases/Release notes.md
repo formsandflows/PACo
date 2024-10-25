@@ -12,7 +12,7 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.4.0_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.4.0_Unmanaged.zip)
 
-The following canvas component updates are part of this release:
+The following updates are part of this release:
 * 1 new canvas component:
   * PACo_Breadcrumb_A
 * The canvas app "PACo Examples" is extended with a new screen for this new canvas component.
@@ -31,7 +31,7 @@ The following canvas component updates are part of this release:
 * [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.3.0_Managed.zip)
 * [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.3.0_Unmanaged.zip)
 
-The following canvas component updates are part of this release:
+The following updates are part of this release:
 * 1 new canvas component:
   *  PACo_PeoplePicker_A
 * The canvas app "PACo Examples" is extended with a new screen for this new canvas component. The screen for "PACo_InformationBlock_A" has been extended with a second load button to see the difference between using auto height or not.
@@ -73,7 +73,7 @@ The canvas component "PACo_InformationBlock_A" now only has a divider between th
 * I-2024-9
 * I-2024-10
 
-The following canvas component updates are part of this release:
+The following updates are part of this release:
 * 3 new canvas components:
   * PACo_InformationBlock_A
   * PACo_ProgressIndicator_E
@@ -136,7 +136,7 @@ The following canvas component updates are part of this release:
 * I-2024-6
 * I-2024-7
 
-The following canvas component updates are part of this release:
+The following updates are part of this release:
 
 * PACo_Button_A
   * An updated custom property "cmp_TextStyling".
