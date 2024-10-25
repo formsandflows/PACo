@@ -14,7 +14,7 @@ This documentation page is related to version: 3.4.0
 | cmp_DefaultHeight | Data | Input | Number | The default label and data height. | |
 | cmp_DividerColor | Data | Input | Text | The color of the divider. | |
 | cmp_InformationBlock | Data | Input | Table | The data in the information block.. | See documentation on cmp_InformationBlock below. |
-| cmp_OnSelect | Event | | None | The event fired when a log item is clicked on. | |
+| cmp_OnSelect | Event | | None | The event fired when a value is clicked on. | |
 | cmp_OnSelectChevron | Event | | None | The event fired when the chevron is clicked on. | |
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
