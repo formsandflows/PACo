@@ -19,7 +19,7 @@ This documentation page is related to version: 3.4.0
 | cmp_TextStyling | Data | Input | Table | Text properties. | See the documention on cmp_TextStyling below. |
 | cmp_Theme | Data | Input | Record | The theme. | See the documention on theming. |
 | cmp_Title | Data | Input | Text | The title to show. | |
-| cmp_TitleHeight | Data | Output | Number | | |
+| cmp_TitleHeight | Data | Output | Number | The height of the title. | |
 | cmp_Visualization | Data | Input | Text | The visualization. | See the documention of canvas component PACo_Visualization_A. |
 | cmp_VisualizationColor | Data | Input | Text | The color of the visualization. | |
 
