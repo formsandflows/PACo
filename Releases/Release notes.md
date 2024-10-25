@@ -14,7 +14,7 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20
 
 The following updates are part of this release:
 * 1 new canvas component:
-  * PACo_Breadcrumb_A
+  * **PACo_Breadcrumb_A**
 * The canvas app "PACo Examples" is extended with a new screen for this new canvas component.
 * The canvas component "PACo_InformationBlock_A" now has an option (using adjustable images) to open/close the information block. When an information block is closed, the title is still visible.
 * Because of this, the canvas component "PACo_InformationBlock_A" has 4 extra custom properties:
@@ -33,7 +33,7 @@ The following updates are part of this release:
 
 The following updates are part of this release:
 * 1 new canvas component:
-  *  PACo_PeoplePicker_A
+  *  **PACo_PeoplePicker_A**
 * The canvas app "PACo Examples" is extended with a new screen for this new canvas component. The screen for "PACo_InformationBlock_A" has been extended with a second load button to see the difference between using auto height or not.
 * The canvas components "PACo_HeaderSettingsMenu_A" and "PACo_Nav_B" have a new property in the custom property "cmp_Nav": Hidden
 * The way to hide an item in the canvas components mentioned above is applied to the canvas components "PACo_CommandBar_B" and "PACo_Tabs_A". As a result:
@@ -75,9 +75,9 @@ The canvas component "PACo_InformationBlock_A" now only has a divider between th
 
 The following updates are part of this release:
 * 3 new canvas components:
-  * PACo_InformationBlock_A
-  * PACo_ProgressIndicator_E
-  * PACo_ProgressIndicator_F
+  * **PACo_InformationBlock_A**
+  * **PACo_ProgressIndicator_E**
+  * **PACo_ProgressIndicator_F**
 * Almost all canvas components now have the custom property "cmp_BackgroundColor".
 * All canvas components having a divider between items/records, now have the custom property "cmp_DividerColor".
 * All shimmers now have the custom property "cmp_ShimmerColor".
