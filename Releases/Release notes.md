@@ -2,7 +2,7 @@ Click [here](https://www.formsandflows.nl/redirects/paco-github-known-issues) fo
 
 Click [here](https://www.formsandflows.nl/redirects/paco-github-backlog) for feature requests (backlog).
 
-Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes_Canvas%20components_Versions.md) for an overview of the canvas component version per release (from release 3.3.0).
+Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes_Canvas%20components_Versions.md) for an overview of canvas component versions per release (from release 3.3.0).
 
 ## Release 3.4.0 (2024-10-25)
 
