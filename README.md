@@ -36,7 +36,7 @@ Rick
 ## Documentation
 Each canvas component has a documentation page which can be found in this GitHub repository in the folder "Canvas components".
 
-Links to general documentation pages can be found [here](https://www.formsandflows.nl/redirects/paco-github-documentation).
+Links to documentation pages can be found [here](https://www.formsandflows.nl/redirects/paco-github-documentation).
 
 ## Change requests
 You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-feature-request) page to submit a change request for:
