@@ -27,13 +27,18 @@ Creating quality and meaningful canvas components is the main goal of **PACo**.
 * The component library **PACo** containing all canvas components.
 * The canvas app **[PACo Examples](https://www.formsandflows.nl/redirects/paco-github-paco-examples)** which contains a screen for each canvas component or set of related canvas components. This canvas app makes it easy to experiment with the canvas components and so better understand them.
 
-Each canvas component has a documentation page which can be found in this GitHub repository in the folder "Canvas components".
+If **PACo** is useful to you, I would very much appreciate it if you bought me a coffee: [https://www.buymeacoffee.com/rickbakker](https://www.buymeacoffee.com/rickbakker) 👍
+
+And with that, I wish you a lot of fun creating your business solutions with the Microsoft Power Platform and of course also with **PACo** 😁👊
+
+Rick
 
 ## Documentation
+Each canvas component has a documentation page which can be found in this GitHub repository in the folder "Canvas components".
 
 Links to general documentation pages can be found [here](https://www.formsandflows.nl/redirects/paco-github-documentation).
 
-## Change request
+## Change requests
 You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-feature-request) page to submit a change request for:
 * a new canvas component.
 * a change to an existing canvas component.
@@ -43,9 +48,3 @@ You can use the form on [this](https://www.formsandflows.nl/redirects/paco-githu
 You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-report-issue) page to report an issue with:
 * a canvas component.
 * the canvas app **PACo Examples**.
-
-If **PACo** is useful to you, I would very much appreciate it if you bought me a coffee: [https://www.buymeacoffee.com/rickbakker](https://www.buymeacoffee.com/rickbakker) 👍
-
-And with that, I wish you a lot of fun creating your business solutions with the Microsoft Power Platform and of course also with **PACo** 😁👊
-
-Rick
