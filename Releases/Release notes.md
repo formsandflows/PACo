@@ -6,11 +6,8 @@ Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20
 
 ## Release 3.4.0 (2024-10-25)
 
-* Managed solution version: 2023.0.0.46
-* Unmanaged solution version: 2023.0.0.45
-
-* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.4.0_Managed.zip)
-* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.4.0_Unmanaged.zip)
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.4.0_Managed.zip) version: 2023.0.0.46
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_3.4.0_Unmanaged.zip) version: 2023.0.0.45
 
 The following updates are part of this release:
 * 1 new canvas component:
@@ -26,11 +23,8 @@ The following updates are part of this release:
 
 ## Release 3.3.0 (2024-09-28)
 
-* Managed solution version: 2023.0.0.44
-* Unmanaged solution version: 2023.0.0.43
-
-* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.3/PACo_3.3.0_Managed.zip)
-* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.3/PACo_3.3.0_Unmanaged.zip)
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.3/PACo_3.3.0_Managed.zip) version: 2023.0.0.44
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v3.3/PACo_3.3.0_Unmanaged.zip) version: 2023.0.0.43
 
 The following updates are part of this release:
 * 1 new canvas component:
