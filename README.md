@@ -29,6 +29,8 @@ Creating quality and meaningful canvas components is the main goal of **PACo**.
 
 Each canvas component has a documentation page which can be found in this GitHub repository in the folder "Canvas components".
 
+## Documentation
+
 Links to general documentation pages can be found [here](https://www.formsandflows.nl/redirects/paco-github-documentation).
 
 ## Change request
