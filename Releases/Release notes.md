@@ -7,7 +7,7 @@
 > This is a major release and it is therefor advised to only use this version for testing/investigation activities and wait until the first regular version (4.1.0) for production implementations. That version is scheduled to be released in the second part of April 2025.
 
 The following updates are part of this release:
-* a new canvas app (PACo - Copy from) to simplify using PACo canvas components.
+* A new canvas app (PACo - Copy from) to simplify using PACo canvas components.
 * Much more configuration options.
 * More consistency.
 * Better documentation (though some work is in progress till version 4.1.0).
