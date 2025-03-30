@@ -40,5 +40,4 @@
 | PACo_Tile_A | 3.2.0 | | 4.0.0 |
 | PACo_Tile_B | 3.2.0 | | 4.0.0 |
 | PACo_Visualization_A | 3.2.0 | | 4.0.0 |
-| PACo_Visualization_B | 3.2.0 | | 4.0.0 |
- 4.0.0 |
+| PACo_Visualization_B | | | 4.0.0 |
