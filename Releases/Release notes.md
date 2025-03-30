@@ -16,7 +16,7 @@ The following updates are part of this release:
   * PACo_Dialog_B
   * PACo_Info_B
   * PACo_Visualization_B
-* GitHub issues for reporting issues.
+* GitHub issues for reporting an issue.
 
 ## Release 3.4.0 (2024-10-25)
 
