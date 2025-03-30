@@ -14,7 +14,7 @@ This is a major release and it is therefor advised to only use this version for 
 The following updates are part of this release:
 * a new canvas app (PACo - Copy from) to simplify using PACo canvas components.
 * More configuration options.
-* More consistancy.
+* More consistency.
 * An additional visualization option based on the container property "Drop shadow".
 * 3 new canvas components:
   * PACo_Dialog_B
