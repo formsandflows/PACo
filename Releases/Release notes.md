@@ -1,4 +1,4 @@
-Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes_Canvas%20components_Versions.md) for an overview of canvas component versions per release (from release 3.3.0).
+Click [here](https://github.com/formsandflows/PACo/blob/main/Releases/Release%20notes_Canvas%20components_Versions.md) for an overview of canvas component versions per release (from version 3.3.0).
 
 ## Release 4.0.0 (2025-03-30)
 
