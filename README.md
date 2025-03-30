@@ -7,10 +7,12 @@ PACo is a set of **37** canvas components to create functional and good-looking 
 Main features of **PACo** are:
 * Regular and hotfix releases.
 * Extended documentation.
-* A supporting canvas app to simplify using PACo canvas components:  **PACo - Copy from**
-* A supporting canvas app to demonstrate the canvas components: **PACo - Examples**
-  * This canvas app will be re-added in version 4.1.0.
-* GitHub issues for reporting issues.
+* Two supporting canvas apps:
+  * **PACo - Copy from** to simplify using PACo canvas components.
+    * This is a new canvas app from version 4.0.0.
+  * **PACo - Examples** to demonstrate the canvas components.
+    * TThis app in included in version 3.4.0 but not in version 4.0.0. It will be added again in version 4.1.0.
+* GitHub issues to report an issue.
 * Proven and very configurable canvas components.
 * Responsiveness.
 * Designed for a multi-language implementation.
@@ -24,8 +26,8 @@ Creating quality and meaningful canvas components is the main goal of **PACo**.
 
 **PACo** is added with a Power Platform solution (managed or unmanaged) and consists of the main objects:
 * The component library **PACo** containing all canvas components.
-* The canvas app **PACo – Copy from** which contains a screen for each canvas component. All canvas components have variables/expressions for their custom properties. This simplifies adding PACo canvas components to your canvas apps.
-* The canvas app **[PACo Examples](https://www.formsandflows.nl/redirects/paco-github-paco-examples)** which contains a screen for each canvas component or set of related canvas components. This canvas app makes it easy to experiment with the canvas components and so better understand them.
+* The supporting canvas app **PACo – Copy from** which contains a screen for each canvas component. In this canvas app, all canvas components have global variables/expressions for their custom properties. This greatly simplifies using PACo canvas components when copying PACo canvas components from this supporting canvas app.
+* The supporting canvas app **PACo Examples** which contains a screen for each canvas component or set of related canvas components. This canvas app makes it easy to experiment with the canvas components and so better understand them.
 
 If **PACo** is useful to you, I would very much appreciate it if you bought me a coffee: [https://www.buymeacoffee.com/rickbakker](https://www.buymeacoffee.com/rickbakker) 👍
 
