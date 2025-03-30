@@ -8,7 +8,7 @@
 
 The following updates are part of this release:
 * A new canvas app (PACo - Copy from) to simplify using PACo canvas components.
-* Much more configuration options.
+* Many more configuration options.
 * More consistency.
 * Better documentation (though work is in progress until version 4.1.0).
 * An additional visualization option based on the container property "Drop shadow".
