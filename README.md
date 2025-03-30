@@ -1,17 +1,16 @@
 >[!NOTE]
->**2024-10-25: Version [3.4.0](./Releases/Release%20notes.md) has been released!**
+>**2025-03-30: Version [4.0.0](./Releases/Release%20notes.md) has been released!**
 
 # PACo
-PACo is a set of **38** canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed and it is offered under the MIT license.
+PACo is a set of **37** canvas components to create functional and good-looking canvas apps in less time. No premium Power Apps license is needed and it is offered under the MIT license.
 
 Main features of **PACo** are:
 * Regular and hotfix releases.
 * Extended documentation.
-* A supporting canvas app to demonstrate the canvas components: **PACo Examples**
-* Paid support is available if needed.
-* Forms to:
-  * submit a change request.
-  * report an issue.
+* A supporting canvas app to simplify using PACo canvas components:  **PACo - Examples**
+* A supporting canvas app to demonstrate the canvas components: **PACo - Examples**
+  * This canvas app will be re-added in version 4.1.0.
+* GitHub issues for reporting issues.
 * Proven and very configurable canvas components.
 * Responsiveness.
 * Designed for a multi-language implementation.
