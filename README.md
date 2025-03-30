@@ -7,7 +7,7 @@ PACo is a set of **37** canvas components to create functional and good-looking 
 Main features of **PACo** are:
 * Regular and hotfix releases.
 * Extended documentation.
-* A supporting canvas app to simplify using PACo canvas components:  **PACo - Examples**
+* A supporting canvas app to simplify using PACo canvas components:  **PACo - Copy from**
 * A supporting canvas app to demonstrate the canvas components: **PACo - Examples**
   * This canvas app will be re-added in version 4.1.0.
 * GitHub issues for reporting issues.
