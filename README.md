@@ -34,7 +34,7 @@ And with that, I wish you a lot of fun creating your business solutions with the
 Rick
 
 ## Documentation
-Each canvas component has a documentation page which can be found on the PACo website: [https://www.formsandflows.nl/paco/cc/](https://www.formsandflows.nl/paco/cc/)
+Documentation can be found on the PACo website: [https://www.formsandflows.nl/paco](https://www.formsandflows.nl/paco)
 
 ## Report an issue
 You can use report an issue with PACo here on GitHub.
