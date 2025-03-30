@@ -24,6 +24,7 @@ Creating quality and meaningful canvas components is the main goal of **PACo**.
 
 **PACo** is added with a Power Platform solution (managed or unmanaged) and consists of the main objects:
 * The component library **PACo** containing all canvas components.
+* The canvas app **PACo – Copy from** which contains a screen for each canvas component. All canvas components have variables/expressions for their custom properties. This simplifies adding PACo canvas components to your canvas apps.
 * The canvas app **[PACo Examples](https://www.formsandflows.nl/redirects/paco-github-paco-examples)** which contains a screen for each canvas component or set of related canvas components. This canvas app makes it easy to experiment with the canvas components and so better understand them.
 
 If **PACo** is useful to you, I would very much appreciate it if you bought me a coffee: [https://www.buymeacoffee.com/rickbakker](https://www.buymeacoffee.com/rickbakker) 👍
@@ -33,17 +34,7 @@ And with that, I wish you a lot of fun creating your business solutions with the
 Rick
 
 ## Documentation
-Each canvas component has a documentation page which can be found in this GitHub repository in the folder "Canvas components".
-
-Links to documentation pages can be found [here](https://www.formsandflows.nl/redirects/paco-github-documentation).
-
-## Change requests
-You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-feature-request) page to submit a change request for:
-* a new canvas component.
-* a change to an existing canvas component.
-* a change to the canvas app **PACo Examples**.
+Each canvas component has a documentation page which can be found on the PACo website: [https://www.formsandflows.nl/paco/cc/](https://www.formsandflows.nl/paco/cc/)
 
 ## Report an issue
-You can use the form on [this](https://www.formsandflows.nl/redirects/paco-github-report-issue) page to report an issue with:
-* a canvas component.
-* the canvas app **PACo Examples**.
+You can use report an issue with PACo here on GitHub.
