@@ -1,7 +1,23 @@
 ## Release 4.1.0 (2025-04-23)
 
-* [Managed solution]() version: 2025.0.0.5
-* [Unmanaged solution]() version: 2025.0.0.4
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_4.1.0_Managed.zip) version: 2025.0.0.5
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_4.1.0_Unmanaged.zip) version: 2025.0.0.4
+
+This version is suitable for production with the remark that "Enhanced component properties" is formally still a Power Apps preview feature.
+
+The following updates are part of this release:
+* 2 new canvas apps:
+  * PACo - Demo
+    * A canvas app containing a screen for each canvas component or set of related canvas components. This canvas app makes it easy:
+      * to see how a canvas components looks like.
+      * to experiment with the canvas components and so better understand them.
+  * PACo - Demo app
+    * A responsive canvas app to better understand how PACo canvas components can work together.
+* Comprehensive documentation on the PACo website: [https://www.formsandflows.nl/paco](https://www.formsandflows.nl/paco)
+
+The version of all canvas components (as mentioned in their description) is set to 4.1.0.
+
+Version 4 also includes a new default main color.
 
 ## Release 4.0.0 (2025-03-30)
 
