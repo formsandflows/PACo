@@ -9,10 +9,10 @@ The following updates are part of this release:
 * 2 new canvas apps:
   * PACo - Demo
     * A canvas app containing a screen for each canvas component or set of related canvas components. This canvas app makes it easy:
-      * to see how a canvas components looks like.
-      * to experiment with the canvas components and so better understand them.
+      * to see how a PACo canvas component looks like.
+      * to experiment with the PACo canvas components and so better understand them.
   * PACo - Demo app
-    * A responsive canvas app to better understand how PACo canvas components can work together.
+    * A responsive canvas app (!) to better understand how PACo canvas components can work together.
 * Comprehensive documentation on the PACo website: [https://www.formsandflows.nl/paco](https://www.formsandflows.nl/paco)
 
 The following PACo canvas components are retired because they are replaced by a more flexible version to get the same result:
