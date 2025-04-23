@@ -21,8 +21,8 @@ Version 4 also includes a new default main color.
 
 ## Release 4.0.0 (2025-03-30)
 
-* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_4.0.0_Managed.zip) version: 2025.0.0.3
-* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/PACo_4.0.0_Unmanaged.zip) version: 2025.0.0.2
+* [Managed solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v4.0/PACo_4.0.0_Managed.zip) version: 2025.0.0.3
+* [Unmanaged solution](https://github.com/formsandflows/PACo/raw/main/Releases/Archive/v4.0/PACo_4.0.0_Unmanaged.zip) version: 2025.0.0.2
 
 > [!IMPORTANT]
 > This is a major release and it is therefor advised to only use this version for testing/investigation activities and wait until the first regular version (4.1.0) for production implementations. That version is scheduled to be released in the second part of April 2025.
