@@ -15,13 +15,13 @@ The following updates are part of this release:
     * A responsive canvas app (!) to better understand how PACo canvas components can work together.
 * Comprehensive documentation on the PACo website: [https://www.formsandflows.nl/paco](https://www.formsandflows.nl/paco)
 
-The following PACo canvas components are retired because they are replaced by a more flexible version to get the same result:
-* PACo_ProgressIndicator_A (Replaced by PACo_ProgressIndicator_E)
-* PACo_ProgressIndicator_B (Replaced by PACo_ProgressIndicator_E)
-* PACo_ProgressIndicator_C (Replaced by PACo_ProgressIndicator_F)
-* PACo_ProgressIndicator_D (Replaced by PACo_ProgressIndicator_F)
+The following PACo canvas components are retired because they are replaced by a more flexible PACo canvas component to get the same result:
+* PACo_ProgressIndicator_A is replaced by PACo_ProgressIndicator_E.
+* PACo_ProgressIndicator_B is replaced by PACo_ProgressIndicator_E.
+* PACo_ProgressIndicator_C is replaced by PACo_ProgressIndicator_F.
+* PACo_ProgressIndicator_D is replaced by PACo_ProgressIndicator_F.
 
-The version of all canvas components (as mentioned in their description) is set to 4.1.0.
+The version of all PACo canvas components (as mentioned in their description) is set to 4.1.0.
 
 Version 4 also includes a new default main color.
 
