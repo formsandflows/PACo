@@ -6,7 +6,7 @@
 This version is suitable for production with the remark that "Enhanced component properties" is formally still a Power Apps preview feature.
 
 The following updates are part of this release:
-* 2 new canvas apps:
+* 2 new supporting canvas apps:
   * PACo - Demo
     * A canvas app containing a screen for each canvas component or set of related canvas components. This canvas app makes it easy:
       * to see how a PACo canvas component looks like.
@@ -34,7 +34,7 @@ Version 4 also includes a new default main color.
 > This is a major release and it is therefor advised to only use this version for testing/investigation activities and wait until the first regular version (4.1.0) for production implementations. That version is scheduled to be released in the second part of April 2025.
 
 The following updates are part of this release:
-* A new canvas app (PACo - Copy from) to simplify using PACo canvas components.
+* A new supporting canvas app (PACo - Copy from) to simplify using PACo canvas components.
 * Many more configuration options.
 * More consistency.
 * Better documentation (though work is in progress until version 4.1.0).
