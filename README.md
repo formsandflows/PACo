@@ -1,3 +1,6 @@
+>[!CAUTION]
+>This open-source project has stopped and will be removed by the end of September 2025. You can contact me with a DM on LinkedIn if you have any question about this open-source project until then.
+
 >[!NOTE]
 >**2025-04-23: Version [4.1.0](./Releases/Release%20notes.md) has been released!**
 
